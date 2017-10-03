@@ -15,3 +15,10 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+Vue.material.registerTheme('default', {
+  primary: 'blue',
+  accent: 'red',
+  warn: 'red',
+  background: 'grey'
+})
