@@ -11,13 +11,13 @@ Vue.use(VueMaterial)
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
+  el: '#pokemon-app',
   template: '<App/>',
   components: { App }
 })
 
 Vue.material.registerTheme('default', {
-  primary: 'blue',
+  primary: 'yellow',
   accent: 'red',
   warn: 'red',
   background: 'grey'
