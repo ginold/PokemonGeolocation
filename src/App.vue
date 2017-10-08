@@ -11,20 +11,21 @@
     <main>
       <list></list>
       <not-found></not-found>
-      <map></map>
+      <pokemon-map></pokemon-map>
     </main>
+
   </div>
 </template>
 
 <script>
   import NotFound from './components/NotFound'
-  import Map from './components/Map'
+  import * as PokemonMap from './components/Map'
   import List from './components/List'
 
   export default {
     name: 'app',
     components: {
-      List, Map, NotFound
+      List, PokemonMap, NotFound
     }
   }
 </script>
