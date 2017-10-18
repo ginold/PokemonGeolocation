@@ -1,12 +1,16 @@
 <template>
-  <p>List VUE</p>
+  <div :v-for="p in pokemon">{{p.lat}}</div>
 </template>
 
 <script>
+import importedMarkers from '../assets/dummyPoints'
+
 export default {
   name: 'list',
   data () {
-    return {}
+    return {
+      pokemon: importedMarkers
+    }
   }
 }
 </script>

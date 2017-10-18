@@ -9,9 +9,7 @@
     </header>
 
     <main>
-      <list></list>
-      <not-found></not-found>
-      <pokemon-map></pokemon-map>
+      <router-view></router-view>
     </main>
 
   </div>
