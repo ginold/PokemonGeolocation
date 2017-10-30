@@ -1,7 +1,8 @@
 <template>
   <gmap-map :center="center"
-            :zoom="7" map-type-id="terrain"
+            :zoom="12" map-type-id="terrain"
             style="width:100%; height: 200px;"
+            ref="googleMap"
             :options="options">
 
     <gmap-marker
@@ -26,7 +27,7 @@ export default {
   name: 'google-map',
   data () {
     return {
-      center: {lat: 48.2135769, lng: 15.6315828},
+      center: {lat: 0, lng: 0},
       importedMarkers, // shorthand for xxx: xxx
       options: {
         styles: styles,
@@ -39,6 +40,31 @@ export default {
         fullscreenControl: false
       }
     }
+  },
+  methods: {
+    setPosition () {
+      if (navigator.geolocation) {
+        navigator.geolocation.watchPosition(payload => {
+          const center = {
+            lat: payload.coords.latitude,
+            lng: payload.coords.longitude
+          }
+          this.center = center
+          console.log(center)
+        }, () => {
+          console.log('The Geolocation service failed')
+        }, {
+          enableHighAccuracy: true,
+          maximumAge: 30000,
+          timeout: 27000
+        })
+      } else {
+        console.log('Your browser doesn\'t support geolocation.')
+      }
+    }
+  },
+  created () {
+    this.setPosition()
   }
 }
 
