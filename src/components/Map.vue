@@ -1,8 +1,9 @@
 <template>
   <gmap-map :center="center"
-            :zoom="12" map-type-id="terrain"
+            :zoom="18" map-type-id="terrain"
             style="width:100%; height: 200px;"
             ref="googleMap"
+            @bounds_changed="setBounds"
             :options="options">
 
     <gmap-marker
@@ -19,7 +20,7 @@
 <script>
 import * as VueGoogleMaps from 'vue2-google-maps'
 import Vue from 'vue'
-import importedMarkers from '../assets/dummyPoints'
+import * as http from '../http'
 let styles = require('../assets/mapsStyle.json')
 // export default -> import xxx, export var = {} -> import {xxx}
 
@@ -29,6 +30,12 @@ export default {
     return {
       center: {lat: 0, lng: 0},
       importedMarkers, // shorthand for xxx: xxx
+      bounds: {
+        north: 0,
+        east: 0,
+        south: 0,
+        west: 0
+      },
       options: {
         styles: styles,
         draggable: false,
@@ -61,6 +68,15 @@ export default {
       } else {
         console.log('Your browser doesn\'t support geolocation.')
       }
+    },
+    setBounds (coords) {
+      let bounds = {
+        north: coords.f.f,
+        east: coords.b.f,
+        south: coords.f.b,
+        west: coords.b.b
+      }
+      this.bounds =  bounds
     }
   },
   created () {
@@ -76,5 +92,7 @@ Vue.use(VueGoogleMaps, {
 </script>
 
 <style>
-
+  .vue-map-container {
+    height: 92vh !important;
+  }
 </style>

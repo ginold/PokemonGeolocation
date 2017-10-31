@@ -30,12 +30,8 @@
 
 <style>
   main {
-    height: 100%;
-    padding-top: 20px;
-    padding-left: 20px;
     margin: 0 !important;
     background-color: green;
-
   }
   body {
     color: black;
@@ -52,16 +48,13 @@
     height: 100%;
   }
 
-  main {
-    text-align: center;
-    margin-top: 40px;
-  }
-
   header {
     box-shadow: 0 1px 5px rgba(0,0,0,.2), 0 2px 2px rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12);
     padding: 10px 20px !important;
     display: flex;
     justify-content: space-between;
+    height: 8vh;
+    min-height: auto !important;
   }
 
 
