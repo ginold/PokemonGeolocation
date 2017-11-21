@@ -6,6 +6,7 @@ import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.css'
 import VueRouter from 'vue-router'
 import { router } from './router/'
+import store from './store'
 
 Vue.config.productionTip = false
 
@@ -17,6 +18,7 @@ new Vue({
   el: '#pokemon-app',
   template: '<App/>',
   components: { App },
+  store,
   router
 })
 
