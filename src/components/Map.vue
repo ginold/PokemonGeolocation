@@ -5,9 +5,12 @@
             ref="googleMap"
             @bounds_changed="setBounds"
             :options="options">
-
     <gmap-marker
-            v-for="(pokemon, index) in importedMarkers"
+            :position="center"
+    >
+    </gmap-marker>
+    <gmap-marker
+            v-for="(pokemon, index) in getPokeList"
             :position="pokemon"
             :clickable="false"
             :draggable="false"
@@ -23,19 +26,13 @@ import Vue from 'vue'
 import * as http from '../http'
 let styles = require('../assets/mapsStyle.json')
 // export default -> import xxx, export var = {} -> import {xxx}
+import {mapActions, mapGetters} from 'vuex'
 
 export default {
   name: 'google-map',
   data () {
     return {
       center: {lat: 0, lng: 0},
-      importedMarkers, // shorthand for xxx: xxx
-      bounds: {
-        north: 0,
-        east: 0,
-        south: 0,
-        west: 0
-      },
       options: {
         styles: styles,
         draggable: false,
@@ -48,7 +45,15 @@ export default {
       }
     }
   },
+  computed: {
+    ...mapGetters([
+      'getPokeList'
+    ])
+  },
   methods: {
+    ...mapActions([
+      'setBounds'
+    ]),
     setPosition () {
       if (navigator.geolocation) {
         navigator.geolocation.watchPosition(payload => {
@@ -65,22 +70,30 @@ export default {
           maximumAge: 30000,
           timeout: 27000
         })
+        console.log('asd')
       } else {
         console.log('Your browser doesn\'t support geolocation.')
       }
     },
-    setBounds (coords) {
-      let bounds = {
-        north: coords.f.f,
-        east: coords.b.f,
-        south: coords.f.b,
-        west: coords.b.b
-      }
-      this.bounds =  bounds
+    getPokemons (bounds) {
+      console.log(bounds)
+      http.getPokemonList(bounds).then((data) => {
+        let pokemons = data.data.location.pokemon
+
+        for (let p of pokemons) {
+          console.log(p)
+          this.pokemons.push(p.position)
+        }
+      })
     }
+  },
+  recenter () {
+    this.$refs.googleMap.resizePreserveCenter()
   },
   created () {
     this.setPosition()
+
+    window.addEventListener('resize', this.recenter)
   }
 }
 

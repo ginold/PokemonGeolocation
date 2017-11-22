@@ -1,11 +1,22 @@
 import * as types from './mutation-types'
+import * as http from '../http'
 
 export const setPosition = ({commit}, payload) => {
   commit(types.POSITION, payload)
 }
 
 export const setBounds = ({commit}, payload) => {
-  commit(types.BOUNDS, payload)
+  console.log(payload)
+  const bounds = {
+    north: payload.f.f,
+    east: payload.b.f,
+    south: payload.f.b,
+    west: payload.b.b
+  }
+  if (bounds.north !== bounds.south && bounds.east !== bounds.west) {
+    commit(types.BOUNDS, bounds)
+    setPokeList({commit}, bounds)
+  }
 }
 
 export const setPokeDex = ({commit}, payload) => {
@@ -13,5 +24,8 @@ export const setPokeDex = ({commit}, payload) => {
 }
 
 export const setPokeList = ({commit}, payload) => {
-  commit(types.POKELIST, payload)
+  http.getPokemonList(payload)
+  .then(response => {
+    commit(types.POKELIST, response.data.location.pokemon)
+  })
 }
