@@ -1,12 +1,13 @@
 <template>
-  <gmap-map :center="center"
+  <gmap-map :center="getPosition"
             :zoom="18" map-type-id="terrain"
             style="width:100%; height: 200px;"
             ref="googleMap"
             @bounds_changed="setBounds"
             :options="options">
     <gmap-marker
-            :position="center"
+            :position="getPosition"
+            z-index="999"
     >
     </gmap-marker>
     <gmap-marker
@@ -32,7 +33,6 @@ export default {
   name: 'google-map',
   data () {
     return {
-      center: {lat: 0, lng: 0},
       options: {
         styles: styles,
         draggable: false,
@@ -47,34 +47,15 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'getPokeList'
+      'getPokeList',
+      'getPosition'
     ])
   },
   methods: {
     ...mapActions([
-      'setBounds'
+      'setBounds',
+      'setPosition'
     ]),
-    setPosition () {
-      if (navigator.geolocation) {
-        navigator.geolocation.watchPosition(payload => {
-          const center = {
-            lat: payload.coords.latitude,
-            lng: payload.coords.longitude
-          }
-          this.center = center
-          console.log(center)
-        }, () => {
-          console.log('The Geolocation service failed')
-        }, {
-          enableHighAccuracy: true,
-          maximumAge: 30000,
-          timeout: 27000
-        })
-        console.log('asd')
-      } else {
-        console.log('Your browser doesn\'t support geolocation.')
-      }
-    },
     getPokemons (bounds) {
       console.log(bounds)
       http.getPokemonList(bounds).then((data) => {
