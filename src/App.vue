@@ -2,10 +2,9 @@
   <div id="pokemon-app">
     <header class="md-toolbar md-theme-default">
         <h1>PGMon+ 17</h1>
-        <button class="md-button md-icon-button md-theme-default" type="button">
-          <i class="md-icon md-theme-default material-icons">account_circle</i>
-          <md-ink-ripple />
-      </button>
+        <router-link :to="{name: 'login'}">
+          <md-icon>account_circle</md-icon>
+        </router-link>
     </header>
 
     <main>
@@ -48,11 +47,12 @@
   import * as PokemonMap from './components/Map'
   import List from './components/List'
   import Add from './components/Add'
+  import Login from './components/Login'
 
   export default {
     name: 'app',
     components: {
-      List, PokemonMap, NotFound, Add
+      List, PokemonMap, NotFound, Add, Login
     }
   }
 </script>
