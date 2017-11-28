@@ -9,7 +9,35 @@
     </header>
 
     <main>
-      <router-view></router-view>
+      <transition name="component-fade" mode="out-in">
+      <!-- keep the switched-out components in memory so that you can preserve their state or avoid re-rendering -->
+
+      <!-- to always show a "fresh" Add.vue, exclude it from keep-alive-->
+        <keep-alive exclude="add">
+          <router-view></router-view>
+        </keep-alive>
+      </transition>
+
+      <div class="map-list-switch">
+        <router-link tag="md-button" class="md-icon-button md-raised"
+          v-if="$route.name === 'map'"
+          :to="{name: 'list'}">
+          <md-icon>list</md-icon>
+        </router-link>
+
+        <router-link tag="md-button" class="md-icon-button md-raised"
+          v-if="$route.name === 'list'"
+          :to="{name: 'map'}">
+          <md-icon>map</md-icon>
+        </router-link>
+      </div>
+
+      <router-link tag="md-button" class="add md-fab md-fab-bottom-right"
+        v-if="$route.name === 'map' || $route.name === 'list'"
+        :to="{name: 'add'}">
+        <md-icon>add</md-icon>
+      </router-link>
+
     </main>
 
   </div>
@@ -19,11 +47,12 @@
   import NotFound from './components/NotFound'
   import * as PokemonMap from './components/Map'
   import List from './components/List'
+  import Add from './components/Add'
 
   export default {
     name: 'app',
     components: {
-      List, PokemonMap, NotFound
+      List, PokemonMap, NotFound, Add
     }
   }
 </script>
@@ -31,7 +60,7 @@
 <style>
   main {
     margin: 0 !important;
-    background-color: green;
+    height: 100%;
   }
   body {
     color: black;
@@ -45,7 +74,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
-    height: 100%;
+    height: calc(100% - 8vh); /*header height */
   }
 
   header {
@@ -55,6 +84,7 @@
     justify-content: space-between;
     height: 8vh;
     min-height: auto !important;
+    position: relative !important;
   }
 
 
@@ -68,4 +98,47 @@
     box-sizing: border-box;
     padding-top: 16px;
   }
+
+  .map-list-switch {
+    position: fixed;
+    top: 72px;
+    right: 0px;
+  }
+  .map-list-switch button{
+    right: 20px;
+    background-color: white;
+  }
+  .add {
+    position: fixed;
+  }
+  #app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .md-toolbar {
+    flex: 0 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  main {
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 64px;
+  }
+
+  .component-fade-enter-active,
+  .component-fade-leave-active {
+    transition: opacity .3s ease;
+  }
+  .component-fade-enter,
+  .component-fade-leave-to {
+    opacity: 0;
+  }
+
 </style>
