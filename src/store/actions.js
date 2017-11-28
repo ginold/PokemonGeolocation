@@ -1,6 +1,7 @@
 import * as types from './mutation-types'
 import * as http from '../http'
 import * as pokemonNames from '../../static/pokemon-names.json'
+import * as pokedex from '../../static/pokedex.json'
 
 export const setPosition = ({commit}, payload) => {
   if (navigator.geolocation) {
@@ -9,7 +10,7 @@ export const setPosition = ({commit}, payload) => {
         lat: payload.coords.latitude,
         lng: payload.coords.longitude
       }
-      commit(types.POSITION, position)
+      console.log(position)
     }, () => {
       console.log('The Geolocation service failed')
     }, {
@@ -36,13 +37,32 @@ export const setBounds = ({commit}, payload) => {
 }
 
 export const setPokeDex = ({commit}, payload) => {
-  commit(types.POKEDEX, payload)
+  console.log(pokedex)
+  commit(types.POKEDEX, pokedex)
 }
 
 export const setPokeList = ({commit}, payload) => {
   http.getPokemonList(payload)
   .then(response => {
-    let pokemonsToReturn = []
+    let pokemonsToReturn = [
+      {
+        position: {
+          lat: 50.211100,
+          lng: 18.974942
+        },
+        name: 'blastoise',
+        sighting_id: 2
+
+      },
+      {
+        position: {
+          lat: 50.210619,
+          lng: 18.971005
+        },
+        name: 'pikachu',
+        sighting_id: 2
+      }
+    ]
     let pokemonSight = response.data.location.pokemon
     // we need to get the english name to show the appropriate sprite
     // local language 6 = deutsch, 7 = english

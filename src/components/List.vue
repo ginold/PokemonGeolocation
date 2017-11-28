@@ -1,21 +1,45 @@
 <template>
-  <div :v-for="p in pokemon">{{p.lat}}</div>
+  <div id="list">
+  	<table>
+  		<thead>
+  			<tr>
+  				<th>Sighting</th>
+  				<th>Pokemon</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<tr v-for="(pokemon, index) in getPokeList">
+  				<td>{{pokemon.sighting_id}}</td>
+  				<td>{{pokemon.name}}</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  </div>
 </template>
 
 <script>
-import importedMarkers from '../assets/dummyPoints'
+
+import {mapGetters} from 'vuex'
 
 export default {
   name: 'list',
-  data () {
-    return {
-      pokemon: importedMarkers
-    }
+  computed: {
+    ...mapGetters([
+      'getPokeList'
+    ])
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
-
+<style scoped>
+	#list {
+		background-color: white;
+	}
+	#list table {
+			width: 100%;
+	}
+	#list td {
+			text-align: center;
+	}
 </style>
