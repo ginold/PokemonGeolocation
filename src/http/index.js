@@ -19,3 +19,10 @@ export function getPokeDex () {
 export function getPokeNames () {
   return local.get('/static/pokemon-names.json')
 }
+
+export function postPokemon ({pokedex_id, lat, lng}) { // eslint-disable-line camelcase
+  return t0m.post('/pokemon/list', {
+    pokedex_id,
+    position: { lat, lng }
+  })
+}

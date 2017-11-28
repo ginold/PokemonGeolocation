@@ -2,6 +2,8 @@ import * as types from './mutation-types'
 import * as http from '../http'
 import * as pokemonNames from '../../static/pokemon-names.json'
 import * as pokedex from '../../static/pokedex.json'
+import router from '../router'
+import store from '.'
 
 export const setPosition = ({commit}, payload) => {
   if (navigator.geolocation) {
@@ -41,8 +43,8 @@ export const setPokeDex = ({commit}, payload) => {
   commit(types.POKEDEX, pokedex)
 }
 
-export const setPokeList = ({commit}, payload) => {
-  http.getPokemonList(payload)
+export const setPokeList = ({commit}, bounds) => {
+  http.getPokemonList(bounds)
   .then(response => {
     let pokemonsToReturn = [
       {
@@ -80,4 +82,19 @@ export const setPokeList = ({commit}, payload) => {
     }
     commit(types.POKELIST, pokemonsToReturn)
   })
+}
+
+export const submitSighting = ({commit}, payload) => {
+  const position = store.getters.getPosition
+  http.postPokemon({
+    pokedex_id: payload,
+    lat: position.lat,
+    lng: position.lng
+  })
+  .then(response => {
+    console.log('Sighting stored.')
+    setPokeList({commit}, store.getters.getBounds)
+    router.replace({name: 'Map'})
+  })
+  .catch(error => console.log(error, error.response))
 }
