@@ -98,3 +98,12 @@ export const submitSighting = ({commit}, payload) => {
   })
   .catch(error => console.log(error, error.response))
 }
+
+export const submitLogin = ({commit}, payload) => {
+  http.postLogin({email: payload.email, password: payload.password})
+  .then(response => {
+    console.log('logging in!')
+    router.replace({name: 'Map'})
+  })
+  .catch(error => console.log(error, error.response))
+}

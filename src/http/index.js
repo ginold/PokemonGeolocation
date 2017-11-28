@@ -26,3 +26,9 @@ export function postPokemon ({pokedex_id, lat, lng}) { // eslint-disable-line ca
     position: { lat, lng }
   })
 }
+
+export function postLogin ({email, password}) {
+  return t0m.post('/login', {
+    email, password
+  })
+}
