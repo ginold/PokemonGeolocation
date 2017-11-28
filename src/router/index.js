@@ -1,6 +1,6 @@
-import * as PokemonMap from '../components/map'
-import List from '../components/list'
-import NotFound from '../components/notfound'
+import * as PokemonMap from '../components/Map'
+import List from '../components/List'
+import NotFound from '../components/NotFound'
 
 import VueRouter from 'vue-router'
 
