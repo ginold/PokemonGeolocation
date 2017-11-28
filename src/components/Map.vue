@@ -1,3 +1,5 @@
+
+
 <template>
   <gmap-map :center="getPosition"
             :zoom="18" map-type-id="terrain"
@@ -7,27 +9,36 @@
             :options="options">
     <gmap-marker
             :position="getPosition"
-            z-index="999"
-    >
+            :z-index="999"
+            :icon="{url: require('../assets/img/player.png')}"
+            >
     </gmap-marker>
     <gmap-marker
             v-for="(pokemon, index) in getPokeList"
-            :position="pokemon"
+            :position="pokemon.position"
             :clickable="false"
             :draggable="false"
             :z-index="index"
-            :key="index">
+            :key="index"
+            :icon="{url: require('../assets/img/pokemon-thumbnails/'+ pokemon.name.toLowerCase() + '.png')}"
+            >
     </gmap-marker>
   </gmap-map>
+  </div>
 </template>
 
 <script>
+
 import * as VueGoogleMaps from 'vue2-google-maps'
 import Vue from 'vue'
-import * as http from '../http'
 let styles = require('../assets/mapsStyle.json')
 // export default -> import xxx, export var = {} -> import {xxx}
+
 import {mapActions, mapGetters} from 'vuex'
+
+// the mapActions helper which maps component methods to store.dispatch calls (requires root store injection)
+
+// The mapGetters helper simply maps store getters to local computed properties
 
 export default {
   name: 'google-map',
@@ -55,18 +66,7 @@ export default {
     ...mapActions([
       'setBounds',
       'setPosition'
-    ]),
-    getPokemons (bounds) {
-      console.log(bounds)
-      http.getPokemonList(bounds).then((data) => {
-        let pokemons = data.data.location.pokemon
-
-        for (let p of pokemons) {
-          console.log(p)
-          this.pokemons.push(p.position)
-        }
-      })
-    }
+    ])
   },
   recenter () {
     this.$refs.googleMap.resizePreserveCenter()

@@ -1,5 +1,6 @@
 import * as types from './mutation-types'
 import * as http from '../http'
+import * as pokemonNames from '../../static/pokemon-names.json'
 
 export const setPosition = ({commit}, payload) => {
   if (navigator.geolocation) {
@@ -22,7 +23,6 @@ export const setPosition = ({commit}, payload) => {
 }
 
 export const setBounds = ({commit}, payload) => {
-  console.log(payload)
   const bounds = {
     north: payload.f.f,
     east: payload.b.f,
@@ -42,6 +42,22 @@ export const setPokeDex = ({commit}, payload) => {
 export const setPokeList = ({commit}, payload) => {
   http.getPokemonList(payload)
   .then(response => {
-    commit(types.POKELIST, response.data.location.pokemon)
+    let pokemonsToReturn = []
+    let pokemonSight = response.data.location.pokemon
+    // we need to get the english name to show the appropriate sprite
+    // local language 6 = deutsch, 7 = english
+    for (let p of pokemonSight) {
+      let foundPokemon = pokemonNames.find(function (obj) { return obj.name === p.name })
+
+      if (foundPokemon) {
+        let pokemonId = Object(foundPokemon).pokemon_species_id
+        let englishPokemon = pokemonNames.find(function (obj) {
+          return obj.pokemon_species_id === pokemonId && obj.local_language_id === 7
+        })
+        p.name = Object(englishPokemon).name
+        pokemonsToReturn.push(p)
+      }
+    }
+    commit(types.POKELIST, pokemonsToReturn)
   })
 }

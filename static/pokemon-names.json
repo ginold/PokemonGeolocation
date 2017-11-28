@@ -1,0 +1,8156 @@
+[
+  {
+    "pokemon_species_id": 1,
+    "local_language_id": 1,
+    "name": "フシギダネ",
+    "genus": "たね"
+  },
+  {
+    "pokemon_species_id": 1,
+    "local_language_id": 2,
+    "name": "Fushigidane",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 1,
+    "local_language_id": 3,
+    "name": "이상해씨",
+    "genus": "씨앗"
+  },
+  {
+    "pokemon_species_id": 1,
+    "local_language_id": 4,
+    "name": "妙蛙種子",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 1,
+    "local_language_id": 5,
+    "name": "Bulbizarre",
+    "genus": "Graine"
+  },
+  {
+    "pokemon_species_id": 1,
+    "local_language_id": 6,
+    "name": "Bisasam",
+    "genus": "Samen"
+  },
+  {
+    "pokemon_species_id": 1,
+    "local_language_id": 7,
+    "name": "Bulbasaur",
+    "genus": "Semilla"
+  },
+  {
+    "pokemon_species_id": 1,
+    "local_language_id": 8,
+    "name": "Bulbasaur",
+    "genus": "Seme"
+  },
+  {
+    "pokemon_species_id": 1,
+    "local_language_id": 9,
+    "name": "Bulbasaur",
+    "genus": "Seed"
+  },
+  {
+    "pokemon_species_id": 2,
+    "local_language_id": 1,
+    "name": "フシギソウ",
+    "genus": "たね"
+  },
+  {
+    "pokemon_species_id": 2,
+    "local_language_id": 2,
+    "name": "Fushigisou",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 2,
+    "local_language_id": 3,
+    "name": "이상해풀",
+    "genus": "씨앗"
+  },
+  {
+    "pokemon_species_id": 2,
+    "local_language_id": 4,
+    "name": "妙蛙草",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 2,
+    "local_language_id": 5,
+    "name": "Herbizarre",
+    "genus": "Graine"
+  },
+  {
+    "pokemon_species_id": 2,
+    "local_language_id": 6,
+    "name": "Bisaknosp",
+    "genus": "Samen"
+  },
+  {
+    "pokemon_species_id": 2,
+    "local_language_id": 7,
+    "name": "Ivysaur",
+    "genus": "Semilla"
+  },
+  {
+    "pokemon_species_id": 2,
+    "local_language_id": 8,
+    "name": "Ivysaur",
+    "genus": "Seme"
+  },
+  {
+    "pokemon_species_id": 2,
+    "local_language_id": 9,
+    "name": "Ivysaur",
+    "genus": "Seed"
+  },
+  {
+    "pokemon_species_id": 3,
+    "local_language_id": 1,
+    "name": "フシギバナ",
+    "genus": "たね"
+  },
+  {
+    "pokemon_species_id": 3,
+    "local_language_id": 2,
+    "name": "Fushigibana",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 3,
+    "local_language_id": 3,
+    "name": "이상해꽃",
+    "genus": "씨앗"
+  },
+  {
+    "pokemon_species_id": 3,
+    "local_language_id": 4,
+    "name": "妙蛙花",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 3,
+    "local_language_id": 5,
+    "name": "Florizarre",
+    "genus": "Graine"
+  },
+  {
+    "pokemon_species_id": 3,
+    "local_language_id": 6,
+    "name": "Bisaflor",
+    "genus": "Samen"
+  },
+  {
+    "pokemon_species_id": 3,
+    "local_language_id": 7,
+    "name": "Venusaur",
+    "genus": "Semilla"
+  },
+  {
+    "pokemon_species_id": 3,
+    "local_language_id": 8,
+    "name": "Venusaur",
+    "genus": "Seme"
+  },
+  {
+    "pokemon_species_id": 3,
+    "local_language_id": 9,
+    "name": "Venusaur",
+    "genus": "Seed"
+  },
+  {
+    "pokemon_species_id": 4,
+    "local_language_id": 1,
+    "name": "ヒトカゲ",
+    "genus": "とかげ"
+  },
+  {
+    "pokemon_species_id": 4,
+    "local_language_id": 2,
+    "name": "Hitokage",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 4,
+    "local_language_id": 3,
+    "name": "파이리",
+    "genus": "도롱뇽"
+  },
+  {
+    "pokemon_species_id": 4,
+    "local_language_id": 4,
+    "name": "小火龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 4,
+    "local_language_id": 5,
+    "name": "Salamèche",
+    "genus": "Lézard"
+  },
+  {
+    "pokemon_species_id": 4,
+    "local_language_id": 6,
+    "name": "Glumanda",
+    "genus": "Echse"
+  },
+  {
+    "pokemon_species_id": 4,
+    "local_language_id": 7,
+    "name": "Charmander",
+    "genus": "Lagartija"
+  },
+  {
+    "pokemon_species_id": 4,
+    "local_language_id": 8,
+    "name": "Charmander",
+    "genus": "Lucertola"
+  },
+  {
+    "pokemon_species_id": 4,
+    "local_language_id": 9,
+    "name": "Charmander",
+    "genus": "Lizard"
+  },
+  {
+    "pokemon_species_id": 5,
+    "local_language_id": 1,
+    "name": "リザード",
+    "genus": "かえん"
+  },
+  {
+    "pokemon_species_id": 5,
+    "local_language_id": 2,
+    "name": "Lizardo",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 5,
+    "local_language_id": 3,
+    "name": "리자드",
+    "genus": "화염"
+  },
+  {
+    "pokemon_species_id": 5,
+    "local_language_id": 4,
+    "name": "火恐龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 5,
+    "local_language_id": 5,
+    "name": "Reptincel",
+    "genus": "Flamme"
+  },
+  {
+    "pokemon_species_id": 5,
+    "local_language_id": 6,
+    "name": "Glutexo",
+    "genus": "Flamme"
+  },
+  {
+    "pokemon_species_id": 5,
+    "local_language_id": 7,
+    "name": "Charmeleon",
+    "genus": "Llama"
+  },
+  {
+    "pokemon_species_id": 5,
+    "local_language_id": 8,
+    "name": "Charmeleon",
+    "genus": "Fiamma"
+  },
+  {
+    "pokemon_species_id": 5,
+    "local_language_id": 9,
+    "name": "Charmeleon",
+    "genus": "Flame"
+  },
+  {
+    "pokemon_species_id": 6,
+    "local_language_id": 1,
+    "name": "リザードン",
+    "genus": "かえん"
+  },
+  {
+    "pokemon_species_id": 6,
+    "local_language_id": 2,
+    "name": "Lizardon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 6,
+    "local_language_id": 3,
+    "name": "리자몽",
+    "genus": "화염"
+  },
+  {
+    "pokemon_species_id": 6,
+    "local_language_id": 4,
+    "name": "噴火龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 6,
+    "local_language_id": 5,
+    "name": "Dracaufeu",
+    "genus": "Flamme"
+  },
+  {
+    "pokemon_species_id": 6,
+    "local_language_id": 6,
+    "name": "Glurak",
+    "genus": "Flamme"
+  },
+  {
+    "pokemon_species_id": 6,
+    "local_language_id": 7,
+    "name": "Charizard",
+    "genus": "Llama"
+  },
+  {
+    "pokemon_species_id": 6,
+    "local_language_id": 8,
+    "name": "Charizard",
+    "genus": "Fiamma"
+  },
+  {
+    "pokemon_species_id": 6,
+    "local_language_id": 9,
+    "name": "Charizard",
+    "genus": "Flame"
+  },
+  {
+    "pokemon_species_id": 7,
+    "local_language_id": 1,
+    "name": "ゼニガメ",
+    "genus": "かめのこ"
+  },
+  {
+    "pokemon_species_id": 7,
+    "local_language_id": 2,
+    "name": "Zenigame",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 7,
+    "local_language_id": 3,
+    "name": "꼬부기",
+    "genus": "꼬마거북"
+  },
+  {
+    "pokemon_species_id": 7,
+    "local_language_id": 4,
+    "name": "傑尼龜",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 7,
+    "local_language_id": 5,
+    "name": "Carapuce",
+    "genus": "Minitortue"
+  },
+  {
+    "pokemon_species_id": 7,
+    "local_language_id": 6,
+    "name": "Schiggy",
+    "genus": "Minikröte"
+  },
+  {
+    "pokemon_species_id": 7,
+    "local_language_id": 7,
+    "name": "Squirtle",
+    "genus": "Tortuguita"
+  },
+  {
+    "pokemon_species_id": 7,
+    "local_language_id": 8,
+    "name": "Squirtle",
+    "genus": "Tartaghina"
+  },
+  {
+    "pokemon_species_id": 7,
+    "local_language_id": 9,
+    "name": "Squirtle",
+    "genus": "Tiny Turtle"
+  },
+  {
+    "pokemon_species_id": 8,
+    "local_language_id": 1,
+    "name": "カメール",
+    "genus": "かめ"
+  },
+  {
+    "pokemon_species_id": 8,
+    "local_language_id": 2,
+    "name": "Kameil",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 8,
+    "local_language_id": 3,
+    "name": "어니부기",
+    "genus": "거북"
+  },
+  {
+    "pokemon_species_id": 8,
+    "local_language_id": 4,
+    "name": "卡咪龜",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 8,
+    "local_language_id": 5,
+    "name": "Carabaffe",
+    "genus": "Tortue"
+  },
+  {
+    "pokemon_species_id": 8,
+    "local_language_id": 6,
+    "name": "Schillok",
+    "genus": "Kröte"
+  },
+  {
+    "pokemon_species_id": 8,
+    "local_language_id": 7,
+    "name": "Wartortle",
+    "genus": "Tortuga"
+  },
+  {
+    "pokemon_species_id": 8,
+    "local_language_id": 8,
+    "name": "Wartortle",
+    "genus": "Tartaruga"
+  },
+  {
+    "pokemon_species_id": 8,
+    "local_language_id": 9,
+    "name": "Wartortle",
+    "genus": "Turtle"
+  },
+  {
+    "pokemon_species_id": 9,
+    "local_language_id": 1,
+    "name": "カメックス",
+    "genus": "こうら"
+  },
+  {
+    "pokemon_species_id": 9,
+    "local_language_id": 2,
+    "name": "Kamex",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 9,
+    "local_language_id": 3,
+    "name": "거북왕",
+    "genus": "껍질"
+  },
+  {
+    "pokemon_species_id": 9,
+    "local_language_id": 4,
+    "name": "水箭龜",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 9,
+    "local_language_id": 5,
+    "name": "Tortank",
+    "genus": "Carapace"
+  },
+  {
+    "pokemon_species_id": 9,
+    "local_language_id": 6,
+    "name": "Turtok",
+    "genus": "Panzertier"
+  },
+  {
+    "pokemon_species_id": 9,
+    "local_language_id": 7,
+    "name": "Blastoise",
+    "genus": "Marisco"
+  },
+  {
+    "pokemon_species_id": 9,
+    "local_language_id": 8,
+    "name": "Blastoise",
+    "genus": "Crostaceo"
+  },
+  {
+    "pokemon_species_id": 9,
+    "local_language_id": 9,
+    "name": "Blastoise",
+    "genus": "Shellfish"
+  },
+  {
+    "pokemon_species_id": 10,
+    "local_language_id": 1,
+    "name": "キャタピー",
+    "genus": "いもむし"
+  },
+  {
+    "pokemon_species_id": 10,
+    "local_language_id": 2,
+    "name": "Caterpie",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 10,
+    "local_language_id": 3,
+    "name": "캐터피",
+    "genus": "애벌레"
+  },
+  {
+    "pokemon_species_id": 10,
+    "local_language_id": 4,
+    "name": "綠毛蟲",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 10,
+    "local_language_id": 5,
+    "name": "Chenipan",
+    "genus": "Ver"
+  },
+  {
+    "pokemon_species_id": 10,
+    "local_language_id": 6,
+    "name": "Raupy",
+    "genus": "Wurm"
+  },
+  {
+    "pokemon_species_id": 10,
+    "local_language_id": 7,
+    "name": "Caterpie",
+    "genus": "Gusano"
+  },
+  {
+    "pokemon_species_id": 10,
+    "local_language_id": 8,
+    "name": "Caterpie",
+    "genus": "Baco"
+  },
+  {
+    "pokemon_species_id": 10,
+    "local_language_id": 9,
+    "name": "Caterpie",
+    "genus": "Worm"
+  },
+  {
+    "pokemon_species_id": 11,
+    "local_language_id": 1,
+    "name": "トランセル",
+    "genus": "さなぎ"
+  },
+  {
+    "pokemon_species_id": 11,
+    "local_language_id": 2,
+    "name": "Trancell",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 11,
+    "local_language_id": 3,
+    "name": "단데기",
+    "genus": "번데기"
+  },
+  {
+    "pokemon_species_id": 11,
+    "local_language_id": 4,
+    "name": "鐵甲蛹",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 11,
+    "local_language_id": 5,
+    "name": "Chrysacier",
+    "genus": "Cocon"
+  },
+  {
+    "pokemon_species_id": 11,
+    "local_language_id": 6,
+    "name": "Safcon",
+    "genus": "Kokon"
+  },
+  {
+    "pokemon_species_id": 11,
+    "local_language_id": 7,
+    "name": "Metapod",
+    "genus": "Capullo"
+  },
+  {
+    "pokemon_species_id": 11,
+    "local_language_id": 8,
+    "name": "Metapod",
+    "genus": "Bozzolo"
+  },
+  {
+    "pokemon_species_id": 11,
+    "local_language_id": 9,
+    "name": "Metapod",
+    "genus": "Cocoon"
+  },
+  {
+    "pokemon_species_id": 12,
+    "local_language_id": 1,
+    "name": "バタフリー",
+    "genus": "ちょうちょ"
+  },
+  {
+    "pokemon_species_id": 12,
+    "local_language_id": 2,
+    "name": "Butterfree",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 12,
+    "local_language_id": 3,
+    "name": "버터플",
+    "genus": "나비"
+  },
+  {
+    "pokemon_species_id": 12,
+    "local_language_id": 4,
+    "name": "巴大蝴",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 12,
+    "local_language_id": 5,
+    "name": "Papilusion",
+    "genus": "Papillon"
+  },
+  {
+    "pokemon_species_id": 12,
+    "local_language_id": 6,
+    "name": "Smettbo",
+    "genus": "Falter"
+  },
+  {
+    "pokemon_species_id": 12,
+    "local_language_id": 7,
+    "name": "Butterfree",
+    "genus": "Mariposa"
+  },
+  {
+    "pokemon_species_id": 12,
+    "local_language_id": 8,
+    "name": "Butterfree",
+    "genus": "Farfalla"
+  },
+  {
+    "pokemon_species_id": 12,
+    "local_language_id": 9,
+    "name": "Butterfree",
+    "genus": "Butterfly"
+  },
+  {
+    "pokemon_species_id": 13,
+    "local_language_id": 1,
+    "name": "ビードル",
+    "genus": "けむし"
+  },
+  {
+    "pokemon_species_id": 13,
+    "local_language_id": 2,
+    "name": "Beedle",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 13,
+    "local_language_id": 3,
+    "name": "뿔충이",
+    "genus": "송충이"
+  },
+  {
+    "pokemon_species_id": 13,
+    "local_language_id": 4,
+    "name": "獨角蟲",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 13,
+    "local_language_id": 5,
+    "name": "Aspicot",
+    "genus": "Insectopic"
+  },
+  {
+    "pokemon_species_id": 13,
+    "local_language_id": 6,
+    "name": "Hornliu",
+    "genus": "Raupe"
+  },
+  {
+    "pokemon_species_id": 13,
+    "local_language_id": 7,
+    "name": "Weedle",
+    "genus": "Oruga"
+  },
+  {
+    "pokemon_species_id": 13,
+    "local_language_id": 8,
+    "name": "Weedle",
+    "genus": "Millepiedi"
+  },
+  {
+    "pokemon_species_id": 13,
+    "local_language_id": 9,
+    "name": "Weedle",
+    "genus": "Hairy Bug"
+  },
+  {
+    "pokemon_species_id": 14,
+    "local_language_id": 1,
+    "name": "コクーン",
+    "genus": "さなぎ"
+  },
+  {
+    "pokemon_species_id": 14,
+    "local_language_id": 2,
+    "name": "Cocoon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 14,
+    "local_language_id": 3,
+    "name": "딱충이",
+    "genus": "번데기"
+  },
+  {
+    "pokemon_species_id": 14,
+    "local_language_id": 4,
+    "name": "鐵殼昆",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 14,
+    "local_language_id": 5,
+    "name": "Coconfort",
+    "genus": "Cocon"
+  },
+  {
+    "pokemon_species_id": 14,
+    "local_language_id": 6,
+    "name": "Kokuna",
+    "genus": "Kokon"
+  },
+  {
+    "pokemon_species_id": 14,
+    "local_language_id": 7,
+    "name": "Kakuna",
+    "genus": "Capullo"
+  },
+  {
+    "pokemon_species_id": 14,
+    "local_language_id": 8,
+    "name": "Kakuna",
+    "genus": "Bozzolo"
+  },
+  {
+    "pokemon_species_id": 14,
+    "local_language_id": 9,
+    "name": "Kakuna",
+    "genus": "Cocoon"
+  },
+  {
+    "pokemon_species_id": 15,
+    "local_language_id": 1,
+    "name": "スピアー",
+    "genus": "どくばち"
+  },
+  {
+    "pokemon_species_id": 15,
+    "local_language_id": 2,
+    "name": "Spear",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 15,
+    "local_language_id": 3,
+    "name": "독침붕",
+    "genus": "독벌"
+  },
+  {
+    "pokemon_species_id": 15,
+    "local_language_id": 4,
+    "name": "大針蜂",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 15,
+    "local_language_id": 5,
+    "name": "Dardargnan",
+    "genus": "Guêpoison"
+  },
+  {
+    "pokemon_species_id": 15,
+    "local_language_id": 6,
+    "name": "Bibor",
+    "genus": "Giftbiene"
+  },
+  {
+    "pokemon_species_id": 15,
+    "local_language_id": 7,
+    "name": "Beedrill",
+    "genus": "Abeja Ven."
+  },
+  {
+    "pokemon_species_id": 15,
+    "local_language_id": 8,
+    "name": "Beedrill",
+    "genus": "Velenape"
+  },
+  {
+    "pokemon_species_id": 15,
+    "local_language_id": 9,
+    "name": "Beedrill",
+    "genus": "Poison Bee"
+  },
+  {
+    "pokemon_species_id": 16,
+    "local_language_id": 1,
+    "name": "ポッポ",
+    "genus": "ことり"
+  },
+  {
+    "pokemon_species_id": 16,
+    "local_language_id": 2,
+    "name": "Poppo",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 16,
+    "local_language_id": 3,
+    "name": "구구",
+    "genus": "아기새"
+  },
+  {
+    "pokemon_species_id": 16,
+    "local_language_id": 4,
+    "name": "波波",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 16,
+    "local_language_id": 5,
+    "name": "Roucool",
+    "genus": "Minoiseau"
+  },
+  {
+    "pokemon_species_id": 16,
+    "local_language_id": 6,
+    "name": "Taubsi",
+    "genus": "Kleinvogel"
+  },
+  {
+    "pokemon_species_id": 16,
+    "local_language_id": 7,
+    "name": "Pidgey",
+    "genus": "Pajarito"
+  },
+  {
+    "pokemon_species_id": 16,
+    "local_language_id": 8,
+    "name": "Pidgey",
+    "genus": "Uccellino"
+  },
+  {
+    "pokemon_species_id": 16,
+    "local_language_id": 9,
+    "name": "Pidgey",
+    "genus": "Tiny Bird"
+  },
+  {
+    "pokemon_species_id": 17,
+    "local_language_id": 1,
+    "name": "ピジョン",
+    "genus": "とり"
+  },
+  {
+    "pokemon_species_id": 17,
+    "local_language_id": 2,
+    "name": "Pigeon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 17,
+    "local_language_id": 3,
+    "name": "피죤",
+    "genus": "새"
+  },
+  {
+    "pokemon_species_id": 17,
+    "local_language_id": 4,
+    "name": "比比鳥",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 17,
+    "local_language_id": 5,
+    "name": "Roucoups",
+    "genus": "Oiseau"
+  },
+  {
+    "pokemon_species_id": 17,
+    "local_language_id": 6,
+    "name": "Tauboga",
+    "genus": "Vogel"
+  },
+  {
+    "pokemon_species_id": 17,
+    "local_language_id": 7,
+    "name": "Pidgeotto",
+    "genus": "Pájaro"
+  },
+  {
+    "pokemon_species_id": 17,
+    "local_language_id": 8,
+    "name": "Pidgeotto",
+    "genus": "Uccello"
+  },
+  {
+    "pokemon_species_id": 17,
+    "local_language_id": 9,
+    "name": "Pidgeotto",
+    "genus": "Bird"
+  },
+  {
+    "pokemon_species_id": 18,
+    "local_language_id": 1,
+    "name": "ピジョット",
+    "genus": "とり"
+  },
+  {
+    "pokemon_species_id": 18,
+    "local_language_id": 2,
+    "name": "Pigeot",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 18,
+    "local_language_id": 3,
+    "name": "피죤투",
+    "genus": "새"
+  },
+  {
+    "pokemon_species_id": 18,
+    "local_language_id": 4,
+    "name": "比鵰",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 18,
+    "local_language_id": 5,
+    "name": "Roucarnage",
+    "genus": "Oiseau"
+  },
+  {
+    "pokemon_species_id": 18,
+    "local_language_id": 6,
+    "name": "Tauboss",
+    "genus": "Vogel"
+  },
+  {
+    "pokemon_species_id": 18,
+    "local_language_id": 7,
+    "name": "Pidgeot",
+    "genus": "Pájaro"
+  },
+  {
+    "pokemon_species_id": 18,
+    "local_language_id": 8,
+    "name": "Pidgeot",
+    "genus": "Uccello"
+  },
+  {
+    "pokemon_species_id": 18,
+    "local_language_id": 9,
+    "name": "Pidgeot",
+    "genus": "Bird"
+  },
+  {
+    "pokemon_species_id": 19,
+    "local_language_id": 1,
+    "name": "コラッタ",
+    "genus": "ねずみ"
+  },
+  {
+    "pokemon_species_id": 19,
+    "local_language_id": 2,
+    "name": "Koratta",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 19,
+    "local_language_id": 3,
+    "name": "꼬렛",
+    "genus": "쥐"
+  },
+  {
+    "pokemon_species_id": 19,
+    "local_language_id": 4,
+    "name": "小拉達",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 19,
+    "local_language_id": 5,
+    "name": "Rattata",
+    "genus": "Souris"
+  },
+  {
+    "pokemon_species_id": 19,
+    "local_language_id": 6,
+    "name": "Rattfratz",
+    "genus": "Maus"
+  },
+  {
+    "pokemon_species_id": 19,
+    "local_language_id": 7,
+    "name": "Rattata",
+    "genus": "Ratón"
+  },
+  {
+    "pokemon_species_id": 19,
+    "local_language_id": 8,
+    "name": "Rattata",
+    "genus": "Topo"
+  },
+  {
+    "pokemon_species_id": 19,
+    "local_language_id": 9,
+    "name": "Rattata",
+    "genus": "Mouse"
+  },
+  {
+    "pokemon_species_id": 20,
+    "local_language_id": 1,
+    "name": "ラッタ",
+    "genus": "ねずみ"
+  },
+  {
+    "pokemon_species_id": 20,
+    "local_language_id": 2,
+    "name": "Ratta",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 20,
+    "local_language_id": 3,
+    "name": "레트라",
+    "genus": "쥐"
+  },
+  {
+    "pokemon_species_id": 20,
+    "local_language_id": 4,
+    "name": "拉達",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 20,
+    "local_language_id": 5,
+    "name": "Rattatac",
+    "genus": "Souris"
+  },
+  {
+    "pokemon_species_id": 20,
+    "local_language_id": 6,
+    "name": "Rattikarl",
+    "genus": "Maus"
+  },
+  {
+    "pokemon_species_id": 20,
+    "local_language_id": 7,
+    "name": "Raticate",
+    "genus": "Ratón"
+  },
+  {
+    "pokemon_species_id": 20,
+    "local_language_id": 8,
+    "name": "Raticate",
+    "genus": "Topo"
+  },
+  {
+    "pokemon_species_id": 20,
+    "local_language_id": 9,
+    "name": "Raticate",
+    "genus": "Mouse"
+  },
+  {
+    "pokemon_species_id": 21,
+    "local_language_id": 1,
+    "name": "オニスズメ",
+    "genus": "ことり"
+  },
+  {
+    "pokemon_species_id": 21,
+    "local_language_id": 2,
+    "name": "Onisuzume",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 21,
+    "local_language_id": 3,
+    "name": "깨비참",
+    "genus": "아기새"
+  },
+  {
+    "pokemon_species_id": 21,
+    "local_language_id": 4,
+    "name": "烈雀",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 21,
+    "local_language_id": 5,
+    "name": "Piafabec",
+    "genus": "Minoiseau"
+  },
+  {
+    "pokemon_species_id": 21,
+    "local_language_id": 6,
+    "name": "Habitak",
+    "genus": "Kleinvogel"
+  },
+  {
+    "pokemon_species_id": 21,
+    "local_language_id": 7,
+    "name": "Spearow",
+    "genus": "Pajarito"
+  },
+  {
+    "pokemon_species_id": 21,
+    "local_language_id": 8,
+    "name": "Spearow",
+    "genus": "Uccellino"
+  },
+  {
+    "pokemon_species_id": 21,
+    "local_language_id": 9,
+    "name": "Spearow",
+    "genus": "Tiny Bird"
+  },
+  {
+    "pokemon_species_id": 22,
+    "local_language_id": 1,
+    "name": "オニドリル",
+    "genus": "くちばし"
+  },
+  {
+    "pokemon_species_id": 22,
+    "local_language_id": 2,
+    "name": "Onidrill",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 22,
+    "local_language_id": 3,
+    "name": "깨비드릴조",
+    "genus": "부리"
+  },
+  {
+    "pokemon_species_id": 22,
+    "local_language_id": 4,
+    "name": "大嘴雀",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 22,
+    "local_language_id": 5,
+    "name": "Rapasdepic",
+    "genus": "Bec-Oiseau"
+  },
+  {
+    "pokemon_species_id": 22,
+    "local_language_id": 6,
+    "name": "Ibitak",
+    "genus": "Pickvogel"
+  },
+  {
+    "pokemon_species_id": 22,
+    "local_language_id": 7,
+    "name": "Fearow",
+    "genus": "Pico"
+  },
+  {
+    "pokemon_species_id": 22,
+    "local_language_id": 8,
+    "name": "Fearow",
+    "genus": "Becco"
+  },
+  {
+    "pokemon_species_id": 22,
+    "local_language_id": 9,
+    "name": "Fearow",
+    "genus": "Beak"
+  },
+  {
+    "pokemon_species_id": 23,
+    "local_language_id": 1,
+    "name": "アーボ",
+    "genus": "へび"
+  },
+  {
+    "pokemon_species_id": 23,
+    "local_language_id": 2,
+    "name": "Arbo",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 23,
+    "local_language_id": 3,
+    "name": "아보",
+    "genus": "뱀"
+  },
+  {
+    "pokemon_species_id": 23,
+    "local_language_id": 4,
+    "name": "阿柏蛇",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 23,
+    "local_language_id": 5,
+    "name": "Abo",
+    "genus": "Serpent"
+  },
+  {
+    "pokemon_species_id": 23,
+    "local_language_id": 6,
+    "name": "Rettan",
+    "genus": "Schlange"
+  },
+  {
+    "pokemon_species_id": 23,
+    "local_language_id": 7,
+    "name": "Ekans",
+    "genus": "Serpiente"
+  },
+  {
+    "pokemon_species_id": 23,
+    "local_language_id": 8,
+    "name": "Ekans",
+    "genus": "Serpente"
+  },
+  {
+    "pokemon_species_id": 23,
+    "local_language_id": 9,
+    "name": "Ekans",
+    "genus": "Snake"
+  },
+  {
+    "pokemon_species_id": 24,
+    "local_language_id": 1,
+    "name": "アーボック",
+    "genus": "コブラ"
+  },
+  {
+    "pokemon_species_id": 24,
+    "local_language_id": 2,
+    "name": "Arbok",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 24,
+    "local_language_id": 3,
+    "name": "아보크",
+    "genus": "코브라"
+  },
+  {
+    "pokemon_species_id": 24,
+    "local_language_id": 4,
+    "name": "阿柏怪",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 24,
+    "local_language_id": 5,
+    "name": "Arbok",
+    "genus": "Cobra"
+  },
+  {
+    "pokemon_species_id": 24,
+    "local_language_id": 6,
+    "name": "Arbok",
+    "genus": "Kobra"
+  },
+  {
+    "pokemon_species_id": 24,
+    "local_language_id": 7,
+    "name": "Arbok",
+    "genus": "Cobra"
+  },
+  {
+    "pokemon_species_id": 24,
+    "local_language_id": 8,
+    "name": "Arbok",
+    "genus": "Cobra"
+  },
+  {
+    "pokemon_species_id": 24,
+    "local_language_id": 9,
+    "name": "Arbok",
+    "genus": "Cobra"
+  },
+  {
+    "pokemon_species_id": 25,
+    "local_language_id": 1,
+    "name": "ピカチュウ",
+    "genus": "ねずみ"
+  },
+  {
+    "pokemon_species_id": 25,
+    "local_language_id": 2,
+    "name": "Pikachu",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 25,
+    "local_language_id": 3,
+    "name": "피카츄",
+    "genus": "쥐"
+  },
+  {
+    "pokemon_species_id": 25,
+    "local_language_id": 4,
+    "name": "皮卡丘",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 25,
+    "local_language_id": 5,
+    "name": "Pikachu",
+    "genus": "Souris"
+  },
+  {
+    "pokemon_species_id": 25,
+    "local_language_id": 6,
+    "name": "Pikachu",
+    "genus": "Maus"
+  },
+  {
+    "pokemon_species_id": 25,
+    "local_language_id": 7,
+    "name": "Pikachu",
+    "genus": "Ratón"
+  },
+  {
+    "pokemon_species_id": 25,
+    "local_language_id": 8,
+    "name": "Pikachu",
+    "genus": "Topo"
+  },
+  {
+    "pokemon_species_id": 25,
+    "local_language_id": 9,
+    "name": "Pikachu",
+    "genus": "Mouse"
+  },
+  {
+    "pokemon_species_id": 26,
+    "local_language_id": 1,
+    "name": "ライチュウ",
+    "genus": "ねずみ"
+  },
+  {
+    "pokemon_species_id": 26,
+    "local_language_id": 2,
+    "name": "Raichu",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 26,
+    "local_language_id": 3,
+    "name": "라이츄",
+    "genus": "쥐"
+  },
+  {
+    "pokemon_species_id": 26,
+    "local_language_id": 4,
+    "name": "雷丘",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 26,
+    "local_language_id": 5,
+    "name": "Raichu",
+    "genus": "Souris"
+  },
+  {
+    "pokemon_species_id": 26,
+    "local_language_id": 6,
+    "name": "Raichu",
+    "genus": "Maus"
+  },
+  {
+    "pokemon_species_id": 26,
+    "local_language_id": 7,
+    "name": "Raichu",
+    "genus": "Ratón"
+  },
+  {
+    "pokemon_species_id": 26,
+    "local_language_id": 8,
+    "name": "Raichu",
+    "genus": "Topo"
+  },
+  {
+    "pokemon_species_id": 26,
+    "local_language_id": 9,
+    "name": "Raichu",
+    "genus": "Mouse"
+  },
+  {
+    "pokemon_species_id": 27,
+    "local_language_id": 1,
+    "name": "サンド",
+    "genus": "ねずみ"
+  },
+  {
+    "pokemon_species_id": 27,
+    "local_language_id": 2,
+    "name": "Sand",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 27,
+    "local_language_id": 3,
+    "name": "모래두지",
+    "genus": "쥐"
+  },
+  {
+    "pokemon_species_id": 27,
+    "local_language_id": 4,
+    "name": "穿山鼠",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 27,
+    "local_language_id": 5,
+    "name": "Sabelette",
+    "genus": "Souris"
+  },
+  {
+    "pokemon_species_id": 27,
+    "local_language_id": 6,
+    "name": "Sandan",
+    "genus": "Maus"
+  },
+  {
+    "pokemon_species_id": 27,
+    "local_language_id": 7,
+    "name": "Sandshrew",
+    "genus": "Ratón"
+  },
+  {
+    "pokemon_species_id": 27,
+    "local_language_id": 8,
+    "name": "Sandshrew",
+    "genus": "Topo"
+  },
+  {
+    "pokemon_species_id": 27,
+    "local_language_id": 9,
+    "name": "Sandshrew",
+    "genus": "Mouse"
+  },
+  {
+    "pokemon_species_id": 28,
+    "local_language_id": 1,
+    "name": "サンドパン",
+    "genus": "ねずみ"
+  },
+  {
+    "pokemon_species_id": 28,
+    "local_language_id": 2,
+    "name": "Sandpan",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 28,
+    "local_language_id": 3,
+    "name": "고지",
+    "genus": "쥐"
+  },
+  {
+    "pokemon_species_id": 28,
+    "local_language_id": 4,
+    "name": "穿山王",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 28,
+    "local_language_id": 5,
+    "name": "Sablaireau",
+    "genus": "Souris"
+  },
+  {
+    "pokemon_species_id": 28,
+    "local_language_id": 6,
+    "name": "Sandamer",
+    "genus": "Maus"
+  },
+  {
+    "pokemon_species_id": 28,
+    "local_language_id": 7,
+    "name": "Sandslash",
+    "genus": "Ratón"
+  },
+  {
+    "pokemon_species_id": 28,
+    "local_language_id": 8,
+    "name": "Sandslash",
+    "genus": "Topo"
+  },
+  {
+    "pokemon_species_id": 28,
+    "local_language_id": 9,
+    "name": "Sandslash",
+    "genus": "Mouse"
+  },
+  {
+    "pokemon_species_id": 29,
+    "local_language_id": 1,
+    "name": "ニドラン♀",
+    "genus": "どくばり"
+  },
+  {
+    "pokemon_species_id": 29,
+    "local_language_id": 2,
+    "name": "Nidoran♀",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 29,
+    "local_language_id": 3,
+    "name": "니드런♀",
+    "genus": "독침"
+  },
+  {
+    "pokemon_species_id": 29,
+    "local_language_id": 4,
+    "name": "尼多蘭",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 29,
+    "local_language_id": 5,
+    "name": "Nidoran♀",
+    "genus": "Vénépic"
+  },
+  {
+    "pokemon_species_id": 29,
+    "local_language_id": 6,
+    "name": "Nidoran♀",
+    "genus": "Giftdorn"
+  },
+  {
+    "pokemon_species_id": 29,
+    "local_language_id": 7,
+    "name": "Nidoran♀",
+    "genus": "Pin Veneno"
+  },
+  {
+    "pokemon_species_id": 29,
+    "local_language_id": 8,
+    "name": "Nidoran♀",
+    "genus": "Velenago"
+  },
+  {
+    "pokemon_species_id": 29,
+    "local_language_id": 9,
+    "name": "Nidoran♀",
+    "genus": "Poison Pin"
+  },
+  {
+    "pokemon_species_id": 30,
+    "local_language_id": 1,
+    "name": "ニドリーナ",
+    "genus": "どくばり"
+  },
+  {
+    "pokemon_species_id": 30,
+    "local_language_id": 2,
+    "name": "Nidorina",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 30,
+    "local_language_id": 3,
+    "name": "니드리나",
+    "genus": "독침"
+  },
+  {
+    "pokemon_species_id": 30,
+    "local_language_id": 4,
+    "name": "尼多娜",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 30,
+    "local_language_id": 5,
+    "name": "Nidorina",
+    "genus": "Vénépic"
+  },
+  {
+    "pokemon_species_id": 30,
+    "local_language_id": 6,
+    "name": "Nidorina",
+    "genus": "Giftdorn"
+  },
+  {
+    "pokemon_species_id": 30,
+    "local_language_id": 7,
+    "name": "Nidorina",
+    "genus": "Pin Veneno"
+  },
+  {
+    "pokemon_species_id": 30,
+    "local_language_id": 8,
+    "name": "Nidorina",
+    "genus": "Velenago"
+  },
+  {
+    "pokemon_species_id": 30,
+    "local_language_id": 9,
+    "name": "Nidorina",
+    "genus": "Poison Pin"
+  },
+  {
+    "pokemon_species_id": 31,
+    "local_language_id": 1,
+    "name": "ニドクイン",
+    "genus": "ドリル"
+  },
+  {
+    "pokemon_species_id": 31,
+    "local_language_id": 2,
+    "name": "Nidoqueen",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 31,
+    "local_language_id": 3,
+    "name": "니드퀸",
+    "genus": "드릴"
+  },
+  {
+    "pokemon_species_id": 31,
+    "local_language_id": 4,
+    "name": "尼多后",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 31,
+    "local_language_id": 5,
+    "name": "Nidoqueen",
+    "genus": "Perceur"
+  },
+  {
+    "pokemon_species_id": 31,
+    "local_language_id": 6,
+    "name": "Nidoqueen",
+    "genus": "Bohrer"
+  },
+  {
+    "pokemon_species_id": 31,
+    "local_language_id": 7,
+    "name": "Nidoqueen",
+    "genus": "Taladro"
+  },
+  {
+    "pokemon_species_id": 31,
+    "local_language_id": 8,
+    "name": "Nidoqueen",
+    "genus": "Trapano"
+  },
+  {
+    "pokemon_species_id": 31,
+    "local_language_id": 9,
+    "name": "Nidoqueen",
+    "genus": "Drill"
+  },
+  {
+    "pokemon_species_id": 32,
+    "local_language_id": 1,
+    "name": "ニドラン♂",
+    "genus": "どくばり"
+  },
+  {
+    "pokemon_species_id": 32,
+    "local_language_id": 2,
+    "name": "Nidoran♂",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 32,
+    "local_language_id": 3,
+    "name": "니드런♂",
+    "genus": "독침"
+  },
+  {
+    "pokemon_species_id": 32,
+    "local_language_id": 4,
+    "name": "尼多朗",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 32,
+    "local_language_id": 5,
+    "name": "Nidoran♂",
+    "genus": "Vénépic"
+  },
+  {
+    "pokemon_species_id": 32,
+    "local_language_id": 6,
+    "name": "Nidoran♂",
+    "genus": "Giftdorn"
+  },
+  {
+    "pokemon_species_id": 32,
+    "local_language_id": 7,
+    "name": "Nidoran♂",
+    "genus": "Pin Veneno"
+  },
+  {
+    "pokemon_species_id": 32,
+    "local_language_id": 8,
+    "name": "Nidoran♂",
+    "genus": "Velenago"
+  },
+  {
+    "pokemon_species_id": 32,
+    "local_language_id": 9,
+    "name": "Nidoran♂",
+    "genus": "Poison Pin"
+  },
+  {
+    "pokemon_species_id": 33,
+    "local_language_id": 1,
+    "name": "ニドリーノ",
+    "genus": "どくばり"
+  },
+  {
+    "pokemon_species_id": 33,
+    "local_language_id": 2,
+    "name": "Nidorino",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 33,
+    "local_language_id": 3,
+    "name": "니드리노",
+    "genus": "독침"
+  },
+  {
+    "pokemon_species_id": 33,
+    "local_language_id": 4,
+    "name": "尼多力諾",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 33,
+    "local_language_id": 5,
+    "name": "Nidorino",
+    "genus": "Vénépic"
+  },
+  {
+    "pokemon_species_id": 33,
+    "local_language_id": 6,
+    "name": "Nidorino",
+    "genus": "Giftdorn"
+  },
+  {
+    "pokemon_species_id": 33,
+    "local_language_id": 7,
+    "name": "Nidorino",
+    "genus": "Pin Veneno"
+  },
+  {
+    "pokemon_species_id": 33,
+    "local_language_id": 8,
+    "name": "Nidorino",
+    "genus": "Velenago"
+  },
+  {
+    "pokemon_species_id": 33,
+    "local_language_id": 9,
+    "name": "Nidorino",
+    "genus": "Poison Pin"
+  },
+  {
+    "pokemon_species_id": 34,
+    "local_language_id": 1,
+    "name": "ニドキング",
+    "genus": "ドリル"
+  },
+  {
+    "pokemon_species_id": 34,
+    "local_language_id": 2,
+    "name": "Nidoking",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 34,
+    "local_language_id": 3,
+    "name": "니드킹",
+    "genus": "드릴"
+  },
+  {
+    "pokemon_species_id": 34,
+    "local_language_id": 4,
+    "name": "尼多王",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 34,
+    "local_language_id": 5,
+    "name": "Nidoking",
+    "genus": "Perceur"
+  },
+  {
+    "pokemon_species_id": 34,
+    "local_language_id": 6,
+    "name": "Nidoking",
+    "genus": "Bohrer"
+  },
+  {
+    "pokemon_species_id": 34,
+    "local_language_id": 7,
+    "name": "Nidoking",
+    "genus": "Taladro"
+  },
+  {
+    "pokemon_species_id": 34,
+    "local_language_id": 8,
+    "name": "Nidoking",
+    "genus": "Trapano"
+  },
+  {
+    "pokemon_species_id": 34,
+    "local_language_id": 9,
+    "name": "Nidoking",
+    "genus": "Drill"
+  },
+  {
+    "pokemon_species_id": 35,
+    "local_language_id": 1,
+    "name": "ピッピ",
+    "genus": "ようせい"
+  },
+  {
+    "pokemon_species_id": 35,
+    "local_language_id": 2,
+    "name": "Pippi",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 35,
+    "local_language_id": 3,
+    "name": "삐삐",
+    "genus": "요정"
+  },
+  {
+    "pokemon_species_id": 35,
+    "local_language_id": 4,
+    "name": "皮皮",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 35,
+    "local_language_id": 5,
+    "name": "Mélofée",
+    "genus": "Fée"
+  },
+  {
+    "pokemon_species_id": 35,
+    "local_language_id": 6,
+    "name": "Piepi",
+    "genus": "Fee"
+  },
+  {
+    "pokemon_species_id": 35,
+    "local_language_id": 7,
+    "name": "Clefairy",
+    "genus": "Hada"
+  },
+  {
+    "pokemon_species_id": 35,
+    "local_language_id": 8,
+    "name": "Clefairy",
+    "genus": "Fata"
+  },
+  {
+    "pokemon_species_id": 35,
+    "local_language_id": 9,
+    "name": "Clefairy",
+    "genus": "Fairy"
+  },
+  {
+    "pokemon_species_id": 36,
+    "local_language_id": 1,
+    "name": "ピクシー",
+    "genus": "ようせい"
+  },
+  {
+    "pokemon_species_id": 36,
+    "local_language_id": 2,
+    "name": "Pixy",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 36,
+    "local_language_id": 3,
+    "name": "픽시",
+    "genus": "요정"
+  },
+  {
+    "pokemon_species_id": 36,
+    "local_language_id": 4,
+    "name": "皮可西",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 36,
+    "local_language_id": 5,
+    "name": "Mélodelfe",
+    "genus": "Fée"
+  },
+  {
+    "pokemon_species_id": 36,
+    "local_language_id": 6,
+    "name": "Pixi",
+    "genus": "Fee"
+  },
+  {
+    "pokemon_species_id": 36,
+    "local_language_id": 7,
+    "name": "Clefable",
+    "genus": "Hada"
+  },
+  {
+    "pokemon_species_id": 36,
+    "local_language_id": 8,
+    "name": "Clefable",
+    "genus": "Fata"
+  },
+  {
+    "pokemon_species_id": 36,
+    "local_language_id": 9,
+    "name": "Clefable",
+    "genus": "Fairy"
+  },
+  {
+    "pokemon_species_id": 37,
+    "local_language_id": 1,
+    "name": "ロコン",
+    "genus": "きつね"
+  },
+  {
+    "pokemon_species_id": 37,
+    "local_language_id": 2,
+    "name": "Rokon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 37,
+    "local_language_id": 3,
+    "name": "식스테일",
+    "genus": "여우"
+  },
+  {
+    "pokemon_species_id": 37,
+    "local_language_id": 4,
+    "name": "六尾",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 37,
+    "local_language_id": 5,
+    "name": "Goupix",
+    "genus": "Renard"
+  },
+  {
+    "pokemon_species_id": 37,
+    "local_language_id": 6,
+    "name": "Vulpix",
+    "genus": "Fuchs"
+  },
+  {
+    "pokemon_species_id": 37,
+    "local_language_id": 7,
+    "name": "Vulpix",
+    "genus": "Zorro"
+  },
+  {
+    "pokemon_species_id": 37,
+    "local_language_id": 8,
+    "name": "Vulpix",
+    "genus": "Volpe"
+  },
+  {
+    "pokemon_species_id": 37,
+    "local_language_id": 9,
+    "name": "Vulpix",
+    "genus": "Fox"
+  },
+  {
+    "pokemon_species_id": 38,
+    "local_language_id": 1,
+    "name": "キュウコン",
+    "genus": "きつね"
+  },
+  {
+    "pokemon_species_id": 38,
+    "local_language_id": 2,
+    "name": "Kyukon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 38,
+    "local_language_id": 3,
+    "name": "나인테일",
+    "genus": "여우"
+  },
+  {
+    "pokemon_species_id": 38,
+    "local_language_id": 4,
+    "name": "九尾",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 38,
+    "local_language_id": 5,
+    "name": "Feunard",
+    "genus": "Renard"
+  },
+  {
+    "pokemon_species_id": 38,
+    "local_language_id": 6,
+    "name": "Vulnona",
+    "genus": "Fuchs"
+  },
+  {
+    "pokemon_species_id": 38,
+    "local_language_id": 7,
+    "name": "Ninetales",
+    "genus": "Zorro"
+  },
+  {
+    "pokemon_species_id": 38,
+    "local_language_id": 8,
+    "name": "Ninetales",
+    "genus": "Volpe"
+  },
+  {
+    "pokemon_species_id": 38,
+    "local_language_id": 9,
+    "name": "Ninetales",
+    "genus": "Fox"
+  },
+  {
+    "pokemon_species_id": 39,
+    "local_language_id": 1,
+    "name": "プリン",
+    "genus": "ふうせん"
+  },
+  {
+    "pokemon_species_id": 39,
+    "local_language_id": 2,
+    "name": "Purin",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 39,
+    "local_language_id": 3,
+    "name": "푸린",
+    "genus": "풍선"
+  },
+  {
+    "pokemon_species_id": 39,
+    "local_language_id": 4,
+    "name": "胖丁",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 39,
+    "local_language_id": 5,
+    "name": "Rondoudou",
+    "genus": "Bouboule"
+  },
+  {
+    "pokemon_species_id": 39,
+    "local_language_id": 6,
+    "name": "Pummeluff",
+    "genus": "Ballon"
+  },
+  {
+    "pokemon_species_id": 39,
+    "local_language_id": 7,
+    "name": "Jigglypuff",
+    "genus": "Globo"
+  },
+  {
+    "pokemon_species_id": 39,
+    "local_language_id": 8,
+    "name": "Jigglypuff",
+    "genus": "Pallone"
+  },
+  {
+    "pokemon_species_id": 39,
+    "local_language_id": 9,
+    "name": "Jigglypuff",
+    "genus": "Balloon"
+  },
+  {
+    "pokemon_species_id": 40,
+    "local_language_id": 1,
+    "name": "プクリン",
+    "genus": "ふうせん"
+  },
+  {
+    "pokemon_species_id": 40,
+    "local_language_id": 2,
+    "name": "Pukurin",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 40,
+    "local_language_id": 3,
+    "name": "푸크린",
+    "genus": "풍선"
+  },
+  {
+    "pokemon_species_id": 40,
+    "local_language_id": 4,
+    "name": "胖可丁",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 40,
+    "local_language_id": 5,
+    "name": "Grodoudou",
+    "genus": "Bouboule"
+  },
+  {
+    "pokemon_species_id": 40,
+    "local_language_id": 6,
+    "name": "Knuddeluff",
+    "genus": "Ballon"
+  },
+  {
+    "pokemon_species_id": 40,
+    "local_language_id": 7,
+    "name": "Wigglytuff",
+    "genus": "Globo"
+  },
+  {
+    "pokemon_species_id": 40,
+    "local_language_id": 8,
+    "name": "Wigglytuff",
+    "genus": "Pallone"
+  },
+  {
+    "pokemon_species_id": 40,
+    "local_language_id": 9,
+    "name": "Wigglytuff",
+    "genus": "Balloon"
+  },
+  {
+    "pokemon_species_id": 41,
+    "local_language_id": 1,
+    "name": "ズバット",
+    "genus": "こうもり"
+  },
+  {
+    "pokemon_species_id": 41,
+    "local_language_id": 2,
+    "name": "Zubat",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 41,
+    "local_language_id": 3,
+    "name": "주뱃",
+    "genus": "박쥐"
+  },
+  {
+    "pokemon_species_id": 41,
+    "local_language_id": 4,
+    "name": "超音蝠",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 41,
+    "local_language_id": 5,
+    "name": "Nosferapti",
+    "genus": "Chovsouris"
+  },
+  {
+    "pokemon_species_id": 41,
+    "local_language_id": 6,
+    "name": "Zubat",
+    "genus": "Fledermaus"
+  },
+  {
+    "pokemon_species_id": 41,
+    "local_language_id": 7,
+    "name": "Zubat",
+    "genus": "Murciélago"
+  },
+  {
+    "pokemon_species_id": 41,
+    "local_language_id": 8,
+    "name": "Zubat",
+    "genus": "Pipistrello"
+  },
+  {
+    "pokemon_species_id": 41,
+    "local_language_id": 9,
+    "name": "Zubat",
+    "genus": "Bat"
+  },
+  {
+    "pokemon_species_id": 42,
+    "local_language_id": 1,
+    "name": "ゴルバット",
+    "genus": "こうもり"
+  },
+  {
+    "pokemon_species_id": 42,
+    "local_language_id": 2,
+    "name": "Golbat",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 42,
+    "local_language_id": 3,
+    "name": "골뱃",
+    "genus": "박쥐"
+  },
+  {
+    "pokemon_species_id": 42,
+    "local_language_id": 4,
+    "name": "大嘴蝠",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 42,
+    "local_language_id": 5,
+    "name": "Nosferalto",
+    "genus": "Chovsouris"
+  },
+  {
+    "pokemon_species_id": 42,
+    "local_language_id": 6,
+    "name": "Golbat",
+    "genus": "Fledermaus"
+  },
+  {
+    "pokemon_species_id": 42,
+    "local_language_id": 7,
+    "name": "Golbat",
+    "genus": "Murciélago"
+  },
+  {
+    "pokemon_species_id": 42,
+    "local_language_id": 8,
+    "name": "Golbat",
+    "genus": "Pipistrello"
+  },
+  {
+    "pokemon_species_id": 42,
+    "local_language_id": 9,
+    "name": "Golbat",
+    "genus": "Bat"
+  },
+  {
+    "pokemon_species_id": 43,
+    "local_language_id": 1,
+    "name": "ナゾノクサ",
+    "genus": "ざっそう"
+  },
+  {
+    "pokemon_species_id": 43,
+    "local_language_id": 2,
+    "name": "Nazonokusa",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 43,
+    "local_language_id": 3,
+    "name": "뚜벅쵸",
+    "genus": "잡초"
+  },
+  {
+    "pokemon_species_id": 43,
+    "local_language_id": 4,
+    "name": "走路草",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 43,
+    "local_language_id": 5,
+    "name": "Mystherbe",
+    "genus": "Racine"
+  },
+  {
+    "pokemon_species_id": 43,
+    "local_language_id": 6,
+    "name": "Myrapla",
+    "genus": "Unkraut"
+  },
+  {
+    "pokemon_species_id": 43,
+    "local_language_id": 7,
+    "name": "Oddish",
+    "genus": "Hierbajo"
+  },
+  {
+    "pokemon_species_id": 43,
+    "local_language_id": 8,
+    "name": "Oddish",
+    "genus": "Malerba"
+  },
+  {
+    "pokemon_species_id": 43,
+    "local_language_id": 9,
+    "name": "Oddish",
+    "genus": "Weed"
+  },
+  {
+    "pokemon_species_id": 44,
+    "local_language_id": 1,
+    "name": "クサイハナ",
+    "genus": "ざっそう"
+  },
+  {
+    "pokemon_species_id": 44,
+    "local_language_id": 2,
+    "name": "Kusaihana",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 44,
+    "local_language_id": 3,
+    "name": "냄새꼬",
+    "genus": "잡초"
+  },
+  {
+    "pokemon_species_id": 44,
+    "local_language_id": 4,
+    "name": "臭臭花",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 44,
+    "local_language_id": 5,
+    "name": "Ortide",
+    "genus": "Racine"
+  },
+  {
+    "pokemon_species_id": 44,
+    "local_language_id": 6,
+    "name": "Duflor",
+    "genus": "Unkraut"
+  },
+  {
+    "pokemon_species_id": 44,
+    "local_language_id": 7,
+    "name": "Gloom",
+    "genus": "Hierbajo"
+  },
+  {
+    "pokemon_species_id": 44,
+    "local_language_id": 8,
+    "name": "Gloom",
+    "genus": "Malerba"
+  },
+  {
+    "pokemon_species_id": 44,
+    "local_language_id": 9,
+    "name": "Gloom",
+    "genus": "Weed"
+  },
+  {
+    "pokemon_species_id": 45,
+    "local_language_id": 1,
+    "name": "ラフレシア",
+    "genus": "フラワー"
+  },
+  {
+    "pokemon_species_id": 45,
+    "local_language_id": 2,
+    "name": "Ruffresia",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 45,
+    "local_language_id": 3,
+    "name": "라플레시아",
+    "genus": "꽃"
+  },
+  {
+    "pokemon_species_id": 45,
+    "local_language_id": 4,
+    "name": "霸王花",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 45,
+    "local_language_id": 5,
+    "name": "Rafflesia",
+    "genus": "Fleur"
+  },
+  {
+    "pokemon_species_id": 45,
+    "local_language_id": 6,
+    "name": "Giflor",
+    "genus": "Blume"
+  },
+  {
+    "pokemon_species_id": 45,
+    "local_language_id": 7,
+    "name": "Vileplume",
+    "genus": "Flor"
+  },
+  {
+    "pokemon_species_id": 45,
+    "local_language_id": 8,
+    "name": "Vileplume",
+    "genus": "Fiore"
+  },
+  {
+    "pokemon_species_id": 45,
+    "local_language_id": 9,
+    "name": "Vileplume",
+    "genus": "Flower"
+  },
+  {
+    "pokemon_species_id": 46,
+    "local_language_id": 1,
+    "name": "パラス",
+    "genus": "きのこ"
+  },
+  {
+    "pokemon_species_id": 46,
+    "local_language_id": 2,
+    "name": "Paras",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 46,
+    "local_language_id": 3,
+    "name": "파라스",
+    "genus": "버섯"
+  },
+  {
+    "pokemon_species_id": 46,
+    "local_language_id": 4,
+    "name": "派拉斯",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 46,
+    "local_language_id": 5,
+    "name": "Paras",
+    "genus": "Champignon"
+  },
+  {
+    "pokemon_species_id": 46,
+    "local_language_id": 6,
+    "name": "Paras",
+    "genus": "Pilz"
+  },
+  {
+    "pokemon_species_id": 46,
+    "local_language_id": 7,
+    "name": "Paras",
+    "genus": "Hongo"
+  },
+  {
+    "pokemon_species_id": 46,
+    "local_language_id": 8,
+    "name": "Paras",
+    "genus": "Fungo"
+  },
+  {
+    "pokemon_species_id": 46,
+    "local_language_id": 9,
+    "name": "Paras",
+    "genus": "Mushroom"
+  },
+  {
+    "pokemon_species_id": 47,
+    "local_language_id": 1,
+    "name": "パラセクト",
+    "genus": "きのこ"
+  },
+  {
+    "pokemon_species_id": 47,
+    "local_language_id": 2,
+    "name": "Parasect",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 47,
+    "local_language_id": 3,
+    "name": "파라섹트",
+    "genus": "버섯"
+  },
+  {
+    "pokemon_species_id": 47,
+    "local_language_id": 4,
+    "name": "派拉斯特",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 47,
+    "local_language_id": 5,
+    "name": "Parasect",
+    "genus": "Champignon"
+  },
+  {
+    "pokemon_species_id": 47,
+    "local_language_id": 6,
+    "name": "Parasek",
+    "genus": "Pilz"
+  },
+  {
+    "pokemon_species_id": 47,
+    "local_language_id": 7,
+    "name": "Parasect",
+    "genus": "Hongo"
+  },
+  {
+    "pokemon_species_id": 47,
+    "local_language_id": 8,
+    "name": "Parasect",
+    "genus": "Fungo"
+  },
+  {
+    "pokemon_species_id": 47,
+    "local_language_id": 9,
+    "name": "Parasect",
+    "genus": "Mushroom"
+  },
+  {
+    "pokemon_species_id": 48,
+    "local_language_id": 1,
+    "name": "コンパン",
+    "genus": "こんちゅう"
+  },
+  {
+    "pokemon_species_id": 48,
+    "local_language_id": 2,
+    "name": "Kongpang",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 48,
+    "local_language_id": 3,
+    "name": "콘팡",
+    "genus": "곤충"
+  },
+  {
+    "pokemon_species_id": 48,
+    "local_language_id": 4,
+    "name": "毛球",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 48,
+    "local_language_id": 5,
+    "name": "Mimitoss",
+    "genus": "Vermine"
+  },
+  {
+    "pokemon_species_id": 48,
+    "local_language_id": 6,
+    "name": "Bluzuk",
+    "genus": "Insekt"
+  },
+  {
+    "pokemon_species_id": 48,
+    "local_language_id": 7,
+    "name": "Venonat",
+    "genus": "Insecto"
+  },
+  {
+    "pokemon_species_id": 48,
+    "local_language_id": 8,
+    "name": "Venonat",
+    "genus": "Insetto"
+  },
+  {
+    "pokemon_species_id": 48,
+    "local_language_id": 9,
+    "name": "Venonat",
+    "genus": "Insect"
+  },
+  {
+    "pokemon_species_id": 49,
+    "local_language_id": 1,
+    "name": "モルフォン",
+    "genus": "どくが"
+  },
+  {
+    "pokemon_species_id": 49,
+    "local_language_id": 2,
+    "name": "Morphon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 49,
+    "local_language_id": 3,
+    "name": "도나리",
+    "genus": "독나방"
+  },
+  {
+    "pokemon_species_id": 49,
+    "local_language_id": 4,
+    "name": "末入蛾",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 49,
+    "local_language_id": 5,
+    "name": "Aéromite",
+    "genus": "Papipoison"
+  },
+  {
+    "pokemon_species_id": 49,
+    "local_language_id": 6,
+    "name": "Omot",
+    "genus": "Giftmotte"
+  },
+  {
+    "pokemon_species_id": 49,
+    "local_language_id": 7,
+    "name": "Venomoth",
+    "genus": "Polilla Ven."
+  },
+  {
+    "pokemon_species_id": 49,
+    "local_language_id": 8,
+    "name": "Venomoth",
+    "genus": "Velentarma"
+  },
+  {
+    "pokemon_species_id": 49,
+    "local_language_id": 9,
+    "name": "Venomoth",
+    "genus": "Poison Moth"
+  },
+  {
+    "pokemon_species_id": 50,
+    "local_language_id": 1,
+    "name": "ディグダ",
+    "genus": "もぐら"
+  },
+  {
+    "pokemon_species_id": 50,
+    "local_language_id": 2,
+    "name": "Digda",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 50,
+    "local_language_id": 3,
+    "name": "디그다",
+    "genus": "두더지"
+  },
+  {
+    "pokemon_species_id": 50,
+    "local_language_id": 4,
+    "name": "地鼠",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 50,
+    "local_language_id": 5,
+    "name": "Taupiqueur",
+    "genus": "Taupe"
+  },
+  {
+    "pokemon_species_id": 50,
+    "local_language_id": 6,
+    "name": "Digda",
+    "genus": "Maulwurf"
+  },
+  {
+    "pokemon_species_id": 50,
+    "local_language_id": 7,
+    "name": "Diglett",
+    "genus": "Topo"
+  },
+  {
+    "pokemon_species_id": 50,
+    "local_language_id": 8,
+    "name": "Diglett",
+    "genus": "Talpa"
+  },
+  {
+    "pokemon_species_id": 50,
+    "local_language_id": 9,
+    "name": "Diglett",
+    "genus": "Mole"
+  },
+  {
+    "pokemon_species_id": 51,
+    "local_language_id": 1,
+    "name": "ダグトリオ",
+    "genus": "もぐら"
+  },
+  {
+    "pokemon_species_id": 51,
+    "local_language_id": 2,
+    "name": "Dugtrio",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 51,
+    "local_language_id": 3,
+    "name": "닥트리오",
+    "genus": "두더지"
+  },
+  {
+    "pokemon_species_id": 51,
+    "local_language_id": 4,
+    "name": "三地鼠",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 51,
+    "local_language_id": 5,
+    "name": "Triopikeur",
+    "genus": "Taupe"
+  },
+  {
+    "pokemon_species_id": 51,
+    "local_language_id": 6,
+    "name": "Digdri",
+    "genus": "Maulwurf"
+  },
+  {
+    "pokemon_species_id": 51,
+    "local_language_id": 7,
+    "name": "Dugtrio",
+    "genus": "Topo"
+  },
+  {
+    "pokemon_species_id": 51,
+    "local_language_id": 8,
+    "name": "Dugtrio",
+    "genus": "Talpa"
+  },
+  {
+    "pokemon_species_id": 51,
+    "local_language_id": 9,
+    "name": "Dugtrio",
+    "genus": "Mole"
+  },
+  {
+    "pokemon_species_id": 52,
+    "local_language_id": 1,
+    "name": "ニャース",
+    "genus": "ばけねこ"
+  },
+  {
+    "pokemon_species_id": 52,
+    "local_language_id": 2,
+    "name": "Nyarth",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 52,
+    "local_language_id": 3,
+    "name": "나옹",
+    "genus": "요괴고양이"
+  },
+  {
+    "pokemon_species_id": 52,
+    "local_language_id": 4,
+    "name": "喵喵",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 52,
+    "local_language_id": 5,
+    "name": "Miaouss",
+    "genus": "Chadégout"
+  },
+  {
+    "pokemon_species_id": 52,
+    "local_language_id": 6,
+    "name": "Mauzi",
+    "genus": "Katze"
+  },
+  {
+    "pokemon_species_id": 52,
+    "local_language_id": 7,
+    "name": "Meowth",
+    "genus": "Gato Araña"
+  },
+  {
+    "pokemon_species_id": 52,
+    "local_language_id": 8,
+    "name": "Meowth",
+    "genus": "Graffimiao"
+  },
+  {
+    "pokemon_species_id": 52,
+    "local_language_id": 9,
+    "name": "Meowth",
+    "genus": "Scratch Cat"
+  },
+  {
+    "pokemon_species_id": 53,
+    "local_language_id": 1,
+    "name": "ペルシアン",
+    "genus": "シャムネコ"
+  },
+  {
+    "pokemon_species_id": 53,
+    "local_language_id": 2,
+    "name": "Persian",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 53,
+    "local_language_id": 3,
+    "name": "페르시온",
+    "genus": "샴고양이"
+  },
+  {
+    "pokemon_species_id": 53,
+    "local_language_id": 4,
+    "name": "貓老大",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 53,
+    "local_language_id": 5,
+    "name": "Persian",
+    "genus": "Chadeville"
+  },
+  {
+    "pokemon_species_id": 53,
+    "local_language_id": 6,
+    "name": "Snobilikat",
+    "genus": "Rassekatze"
+  },
+  {
+    "pokemon_species_id": 53,
+    "local_language_id": 7,
+    "name": "Persian",
+    "genus": "Gato Fino"
+  },
+  {
+    "pokemon_species_id": 53,
+    "local_language_id": 8,
+    "name": "Persian",
+    "genus": "Nobilgatto"
+  },
+  {
+    "pokemon_species_id": 53,
+    "local_language_id": 9,
+    "name": "Persian",
+    "genus": "Classy Cat"
+  },
+  {
+    "pokemon_species_id": 54,
+    "local_language_id": 1,
+    "name": "コダック",
+    "genus": "あひる"
+  },
+  {
+    "pokemon_species_id": 54,
+    "local_language_id": 2,
+    "name": "Koduck",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 54,
+    "local_language_id": 3,
+    "name": "고라파덕",
+    "genus": "오리"
+  },
+  {
+    "pokemon_species_id": 54,
+    "local_language_id": 4,
+    "name": "可達鴨",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 54,
+    "local_language_id": 5,
+    "name": "Psykokwak",
+    "genus": "Canard"
+  },
+  {
+    "pokemon_species_id": 54,
+    "local_language_id": 6,
+    "name": "Enton",
+    "genus": "Ente"
+  },
+  {
+    "pokemon_species_id": 54,
+    "local_language_id": 7,
+    "name": "Psyduck",
+    "genus": "Pato"
+  },
+  {
+    "pokemon_species_id": 54,
+    "local_language_id": 8,
+    "name": "Psyduck",
+    "genus": "Papero"
+  },
+  {
+    "pokemon_species_id": 54,
+    "local_language_id": 9,
+    "name": "Psyduck",
+    "genus": "Duck"
+  },
+  {
+    "pokemon_species_id": 55,
+    "local_language_id": 1,
+    "name": "ゴルダック",
+    "genus": "あひる"
+  },
+  {
+    "pokemon_species_id": 55,
+    "local_language_id": 2,
+    "name": "Golduck",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 55,
+    "local_language_id": 3,
+    "name": "골덕",
+    "genus": "오리"
+  },
+  {
+    "pokemon_species_id": 55,
+    "local_language_id": 4,
+    "name": "哥達鴨",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 55,
+    "local_language_id": 5,
+    "name": "Akwakwak",
+    "genus": "Canard"
+  },
+  {
+    "pokemon_species_id": 55,
+    "local_language_id": 6,
+    "name": "Entoron",
+    "genus": "Ente"
+  },
+  {
+    "pokemon_species_id": 55,
+    "local_language_id": 7,
+    "name": "Golduck",
+    "genus": "Pato"
+  },
+  {
+    "pokemon_species_id": 55,
+    "local_language_id": 8,
+    "name": "Golduck",
+    "genus": "Papero"
+  },
+  {
+    "pokemon_species_id": 55,
+    "local_language_id": 9,
+    "name": "Golduck",
+    "genus": "Duck"
+  },
+  {
+    "pokemon_species_id": 56,
+    "local_language_id": 1,
+    "name": "マンキー",
+    "genus": "ぶたざる"
+  },
+  {
+    "pokemon_species_id": 56,
+    "local_language_id": 2,
+    "name": "Mankey",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 56,
+    "local_language_id": 3,
+    "name": "망키",
+    "genus": "돈숭이"
+  },
+  {
+    "pokemon_species_id": 56,
+    "local_language_id": 4,
+    "name": "猴怪",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 56,
+    "local_language_id": 5,
+    "name": "Férosinge",
+    "genus": "Porsinge"
+  },
+  {
+    "pokemon_species_id": 56,
+    "local_language_id": 6,
+    "name": "Menki",
+    "genus": "Schw./ Affe"
+  },
+  {
+    "pokemon_species_id": 56,
+    "local_language_id": 7,
+    "name": "Mankey",
+    "genus": "Mono Cerdo"
+  },
+  {
+    "pokemon_species_id": 56,
+    "local_language_id": 8,
+    "name": "Mankey",
+    "genus": "Suinpanzé"
+  },
+  {
+    "pokemon_species_id": 56,
+    "local_language_id": 9,
+    "name": "Mankey",
+    "genus": "Pig Monkey"
+  },
+  {
+    "pokemon_species_id": 57,
+    "local_language_id": 1,
+    "name": "オコリザル",
+    "genus": "ぶたざる"
+  },
+  {
+    "pokemon_species_id": 57,
+    "local_language_id": 2,
+    "name": "Okorizaru",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 57,
+    "local_language_id": 3,
+    "name": "성원숭",
+    "genus": "돈숭이"
+  },
+  {
+    "pokemon_species_id": 57,
+    "local_language_id": 4,
+    "name": "火爆猴",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 57,
+    "local_language_id": 5,
+    "name": "Colossinge",
+    "genus": "Porsinge"
+  },
+  {
+    "pokemon_species_id": 57,
+    "local_language_id": 6,
+    "name": "Rasaff",
+    "genus": "Schw./ Affe"
+  },
+  {
+    "pokemon_species_id": 57,
+    "local_language_id": 7,
+    "name": "Primeape",
+    "genus": "Mono Cerdo"
+  },
+  {
+    "pokemon_species_id": 57,
+    "local_language_id": 8,
+    "name": "Primeape",
+    "genus": "Suinpanzé"
+  },
+  {
+    "pokemon_species_id": 57,
+    "local_language_id": 9,
+    "name": "Primeape",
+    "genus": "Pig Monkey"
+  },
+  {
+    "pokemon_species_id": 58,
+    "local_language_id": 1,
+    "name": "ガーディ",
+    "genus": "こいぬ"
+  },
+  {
+    "pokemon_species_id": 58,
+    "local_language_id": 2,
+    "name": "Gardie",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 58,
+    "local_language_id": 3,
+    "name": "가디",
+    "genus": "강아지"
+  },
+  {
+    "pokemon_species_id": 58,
+    "local_language_id": 4,
+    "name": "卡蒂狗",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 58,
+    "local_language_id": 5,
+    "name": "Caninos",
+    "genus": "Chiot"
+  },
+  {
+    "pokemon_species_id": 58,
+    "local_language_id": 6,
+    "name": "Fukano",
+    "genus": "Hund"
+  },
+  {
+    "pokemon_species_id": 58,
+    "local_language_id": 7,
+    "name": "Growlithe",
+    "genus": "Perrito"
+  },
+  {
+    "pokemon_species_id": 58,
+    "local_language_id": 8,
+    "name": "Growlithe",
+    "genus": "Cagnolino"
+  },
+  {
+    "pokemon_species_id": 58,
+    "local_language_id": 9,
+    "name": "Growlithe",
+    "genus": "Puppy"
+  },
+  {
+    "pokemon_species_id": 59,
+    "local_language_id": 1,
+    "name": "ウインディ",
+    "genus": "でんせつ"
+  },
+  {
+    "pokemon_species_id": 59,
+    "local_language_id": 2,
+    "name": "Windie",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 59,
+    "local_language_id": 3,
+    "name": "윈디",
+    "genus": "전설"
+  },
+  {
+    "pokemon_species_id": 59,
+    "local_language_id": 4,
+    "name": "風速狗",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 59,
+    "local_language_id": 5,
+    "name": "Arcanin",
+    "genus": "Légendaire"
+  },
+  {
+    "pokemon_species_id": 59,
+    "local_language_id": 6,
+    "name": "Arkani",
+    "genus": "Legendär"
+  },
+  {
+    "pokemon_species_id": 59,
+    "local_language_id": 7,
+    "name": "Arcanine",
+    "genus": "Legendario"
+  },
+  {
+    "pokemon_species_id": 59,
+    "local_language_id": 8,
+    "name": "Arcanine",
+    "genus": "Leggenda"
+  },
+  {
+    "pokemon_species_id": 59,
+    "local_language_id": 9,
+    "name": "Arcanine",
+    "genus": "Legendary"
+  },
+  {
+    "pokemon_species_id": 60,
+    "local_language_id": 1,
+    "name": "ニョロモ",
+    "genus": "おたま"
+  },
+  {
+    "pokemon_species_id": 60,
+    "local_language_id": 2,
+    "name": "Nyoromo",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 60,
+    "local_language_id": 3,
+    "name": "발챙이",
+    "genus": "올챙이"
+  },
+  {
+    "pokemon_species_id": 60,
+    "local_language_id": 4,
+    "name": "蚊香蝌蚪",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 60,
+    "local_language_id": 5,
+    "name": "Ptitard",
+    "genus": "Têtard"
+  },
+  {
+    "pokemon_species_id": 60,
+    "local_language_id": 6,
+    "name": "Quapsel",
+    "genus": "Kaulquappe"
+  },
+  {
+    "pokemon_species_id": 60,
+    "local_language_id": 7,
+    "name": "Poliwag",
+    "genus": "Renacuajo"
+  },
+  {
+    "pokemon_species_id": 60,
+    "local_language_id": 8,
+    "name": "Poliwag",
+    "genus": "Girino"
+  },
+  {
+    "pokemon_species_id": 60,
+    "local_language_id": 9,
+    "name": "Poliwag",
+    "genus": "Tadpole"
+  },
+  {
+    "pokemon_species_id": 61,
+    "local_language_id": 1,
+    "name": "ニョロゾ",
+    "genus": "おたま"
+  },
+  {
+    "pokemon_species_id": 61,
+    "local_language_id": 2,
+    "name": "Nyorozo",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 61,
+    "local_language_id": 3,
+    "name": "슈륙챙이",
+    "genus": "올챙이"
+  },
+  {
+    "pokemon_species_id": 61,
+    "local_language_id": 4,
+    "name": "蚊香蛙",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 61,
+    "local_language_id": 5,
+    "name": "Têtarte",
+    "genus": "Têtard"
+  },
+  {
+    "pokemon_species_id": 61,
+    "local_language_id": 6,
+    "name": "Quaputzi",
+    "genus": "Kaulquappe"
+  },
+  {
+    "pokemon_species_id": 61,
+    "local_language_id": 7,
+    "name": "Poliwhirl",
+    "genus": "Renacuajo"
+  },
+  {
+    "pokemon_species_id": 61,
+    "local_language_id": 8,
+    "name": "Poliwhirl",
+    "genus": "Girino"
+  },
+  {
+    "pokemon_species_id": 61,
+    "local_language_id": 9,
+    "name": "Poliwhirl",
+    "genus": "Tadpole"
+  },
+  {
+    "pokemon_species_id": 62,
+    "local_language_id": 1,
+    "name": "ニョロボン",
+    "genus": "おたま"
+  },
+  {
+    "pokemon_species_id": 62,
+    "local_language_id": 2,
+    "name": "Nyorobon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 62,
+    "local_language_id": 3,
+    "name": "강챙이",
+    "genus": "올챙이"
+  },
+  {
+    "pokemon_species_id": 62,
+    "local_language_id": 4,
+    "name": "快泳蛙",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 62,
+    "local_language_id": 5,
+    "name": "Tartard",
+    "genus": "Têtard"
+  },
+  {
+    "pokemon_species_id": 62,
+    "local_language_id": 6,
+    "name": "Quappo",
+    "genus": "Kaulquappe"
+  },
+  {
+    "pokemon_species_id": 62,
+    "local_language_id": 7,
+    "name": "Poliwrath",
+    "genus": "Renacuajo"
+  },
+  {
+    "pokemon_species_id": 62,
+    "local_language_id": 8,
+    "name": "Poliwrath",
+    "genus": "Girino"
+  },
+  {
+    "pokemon_species_id": 62,
+    "local_language_id": 9,
+    "name": "Poliwrath",
+    "genus": "Tadpole"
+  },
+  {
+    "pokemon_species_id": 63,
+    "local_language_id": 1,
+    "name": "ケーシィ",
+    "genus": "ねんりき"
+  },
+  {
+    "pokemon_species_id": 63,
+    "local_language_id": 2,
+    "name": "Casey",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 63,
+    "local_language_id": 3,
+    "name": "캐이시",
+    "genus": "초능력"
+  },
+  {
+    "pokemon_species_id": 63,
+    "local_language_id": 4,
+    "name": "凱西",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 63,
+    "local_language_id": 5,
+    "name": "Abra",
+    "genus": "Psy"
+  },
+  {
+    "pokemon_species_id": 63,
+    "local_language_id": 6,
+    "name": "Abra",
+    "genus": "Psi"
+  },
+  {
+    "pokemon_species_id": 63,
+    "local_language_id": 7,
+    "name": "Abra",
+    "genus": "Psi"
+  },
+  {
+    "pokemon_species_id": 63,
+    "local_language_id": 8,
+    "name": "Abra",
+    "genus": "Psico"
+  },
+  {
+    "pokemon_species_id": 63,
+    "local_language_id": 9,
+    "name": "Abra",
+    "genus": "Psi"
+  },
+  {
+    "pokemon_species_id": 64,
+    "local_language_id": 1,
+    "name": "ユンゲラー",
+    "genus": "ねんりき"
+  },
+  {
+    "pokemon_species_id": 64,
+    "local_language_id": 2,
+    "name": "Yungerer",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 64,
+    "local_language_id": 3,
+    "name": "윤겔라",
+    "genus": "초능력"
+  },
+  {
+    "pokemon_species_id": 64,
+    "local_language_id": 4,
+    "name": "勇吉拉",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 64,
+    "local_language_id": 5,
+    "name": "Kadabra",
+    "genus": "Psy"
+  },
+  {
+    "pokemon_species_id": 64,
+    "local_language_id": 6,
+    "name": "Kadabra",
+    "genus": "Psi"
+  },
+  {
+    "pokemon_species_id": 64,
+    "local_language_id": 7,
+    "name": "Kadabra",
+    "genus": "Psi"
+  },
+  {
+    "pokemon_species_id": 64,
+    "local_language_id": 8,
+    "name": "Kadabra",
+    "genus": "Psico"
+  },
+  {
+    "pokemon_species_id": 64,
+    "local_language_id": 9,
+    "name": "Kadabra",
+    "genus": "Psi"
+  },
+  {
+    "pokemon_species_id": 65,
+    "local_language_id": 1,
+    "name": "フーディン",
+    "genus": "ねんりき"
+  },
+  {
+    "pokemon_species_id": 65,
+    "local_language_id": 2,
+    "name": "Foodin",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 65,
+    "local_language_id": 3,
+    "name": "후딘",
+    "genus": "초능력"
+  },
+  {
+    "pokemon_species_id": 65,
+    "local_language_id": 4,
+    "name": "胡地",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 65,
+    "local_language_id": 5,
+    "name": "Alakazam",
+    "genus": "Psy"
+  },
+  {
+    "pokemon_species_id": 65,
+    "local_language_id": 6,
+    "name": "Simsala",
+    "genus": "Psi"
+  },
+  {
+    "pokemon_species_id": 65,
+    "local_language_id": 7,
+    "name": "Alakazam",
+    "genus": "Psi"
+  },
+  {
+    "pokemon_species_id": 65,
+    "local_language_id": 8,
+    "name": "Alakazam",
+    "genus": "Psico"
+  },
+  {
+    "pokemon_species_id": 65,
+    "local_language_id": 9,
+    "name": "Alakazam",
+    "genus": "Psi"
+  },
+  {
+    "pokemon_species_id": 66,
+    "local_language_id": 1,
+    "name": "ワンリキー",
+    "genus": "かいりき"
+  },
+  {
+    "pokemon_species_id": 66,
+    "local_language_id": 2,
+    "name": "Wanriky",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 66,
+    "local_language_id": 3,
+    "name": "알통몬",
+    "genus": "괴력"
+  },
+  {
+    "pokemon_species_id": 66,
+    "local_language_id": 4,
+    "name": "腕力",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 66,
+    "local_language_id": 5,
+    "name": "Machoc",
+    "genus": "Colosse"
+  },
+  {
+    "pokemon_species_id": 66,
+    "local_language_id": 6,
+    "name": "Machollo",
+    "genus": "Kraftprotz"
+  },
+  {
+    "pokemon_species_id": 66,
+    "local_language_id": 7,
+    "name": "Machop",
+    "genus": "Superpoder"
+  },
+  {
+    "pokemon_species_id": 66,
+    "local_language_id": 8,
+    "name": "Machop",
+    "genus": "Megaforza"
+  },
+  {
+    "pokemon_species_id": 66,
+    "local_language_id": 9,
+    "name": "Machop",
+    "genus": "Superpower"
+  },
+  {
+    "pokemon_species_id": 67,
+    "local_language_id": 1,
+    "name": "ゴーリキー",
+    "genus": "かいりき"
+  },
+  {
+    "pokemon_species_id": 67,
+    "local_language_id": 2,
+    "name": "Goriky",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 67,
+    "local_language_id": 3,
+    "name": "근육몬",
+    "genus": "괴력"
+  },
+  {
+    "pokemon_species_id": 67,
+    "local_language_id": 4,
+    "name": "豪力",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 67,
+    "local_language_id": 5,
+    "name": "Machopeur",
+    "genus": "Colosse"
+  },
+  {
+    "pokemon_species_id": 67,
+    "local_language_id": 6,
+    "name": "Maschock",
+    "genus": "Kraftprotz"
+  },
+  {
+    "pokemon_species_id": 67,
+    "local_language_id": 7,
+    "name": "Machoke",
+    "genus": "Superpoder"
+  },
+  {
+    "pokemon_species_id": 67,
+    "local_language_id": 8,
+    "name": "Machoke",
+    "genus": "Megaforza"
+  },
+  {
+    "pokemon_species_id": 67,
+    "local_language_id": 9,
+    "name": "Machoke",
+    "genus": "Superpower"
+  },
+  {
+    "pokemon_species_id": 68,
+    "local_language_id": 1,
+    "name": "カイリキー",
+    "genus": "かいりき"
+  },
+  {
+    "pokemon_species_id": 68,
+    "local_language_id": 2,
+    "name": "Kairiky",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 68,
+    "local_language_id": 3,
+    "name": "괴력몬",
+    "genus": "괴력"
+  },
+  {
+    "pokemon_species_id": 68,
+    "local_language_id": 4,
+    "name": "怪力",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 68,
+    "local_language_id": 5,
+    "name": "Mackogneur",
+    "genus": "Colosse"
+  },
+  {
+    "pokemon_species_id": 68,
+    "local_language_id": 6,
+    "name": "Machomei",
+    "genus": "Kraftprotz"
+  },
+  {
+    "pokemon_species_id": 68,
+    "local_language_id": 7,
+    "name": "Machamp",
+    "genus": "Superpoder"
+  },
+  {
+    "pokemon_species_id": 68,
+    "local_language_id": 8,
+    "name": "Machamp",
+    "genus": "Megaforza"
+  },
+  {
+    "pokemon_species_id": 68,
+    "local_language_id": 9,
+    "name": "Machamp",
+    "genus": "Superpower"
+  },
+  {
+    "pokemon_species_id": 69,
+    "local_language_id": 1,
+    "name": "マダツボミ",
+    "genus": "フラワー"
+  },
+  {
+    "pokemon_species_id": 69,
+    "local_language_id": 2,
+    "name": "Madatsubomi",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 69,
+    "local_language_id": 3,
+    "name": "모다피",
+    "genus": "꽃"
+  },
+  {
+    "pokemon_species_id": 69,
+    "local_language_id": 4,
+    "name": "喇叭芽",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 69,
+    "local_language_id": 5,
+    "name": "Chétiflor",
+    "genus": "Fleur"
+  },
+  {
+    "pokemon_species_id": 69,
+    "local_language_id": 6,
+    "name": "Knofensa",
+    "genus": "Blume"
+  },
+  {
+    "pokemon_species_id": 69,
+    "local_language_id": 7,
+    "name": "Bellsprout",
+    "genus": "Flor"
+  },
+  {
+    "pokemon_species_id": 69,
+    "local_language_id": 8,
+    "name": "Bellsprout",
+    "genus": "Fiore"
+  },
+  {
+    "pokemon_species_id": 69,
+    "local_language_id": 9,
+    "name": "Bellsprout",
+    "genus": "Flower"
+  },
+  {
+    "pokemon_species_id": 70,
+    "local_language_id": 1,
+    "name": "ウツドン",
+    "genus": "ハエとり"
+  },
+  {
+    "pokemon_species_id": 70,
+    "local_language_id": 2,
+    "name": "Utsudon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 70,
+    "local_language_id": 3,
+    "name": "우츠동",
+    "genus": "파리잡이"
+  },
+  {
+    "pokemon_species_id": 70,
+    "local_language_id": 4,
+    "name": "口呆花",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 70,
+    "local_language_id": 5,
+    "name": "Boustiflor",
+    "genus": "Carnivore"
+  },
+  {
+    "pokemon_species_id": 70,
+    "local_language_id": 6,
+    "name": "Ultrigaria",
+    "genus": "Fliegentod"
+  },
+  {
+    "pokemon_species_id": 70,
+    "local_language_id": 7,
+    "name": "Weepinbell",
+    "genus": "Matamoscas"
+  },
+  {
+    "pokemon_species_id": 70,
+    "local_language_id": 8,
+    "name": "Weepinbell",
+    "genus": "Moschivoro"
+  },
+  {
+    "pokemon_species_id": 70,
+    "local_language_id": 9,
+    "name": "Weepinbell",
+    "genus": "Flycatcher"
+  },
+  {
+    "pokemon_species_id": 71,
+    "local_language_id": 1,
+    "name": "ウツボット",
+    "genus": "ハエとり"
+  },
+  {
+    "pokemon_species_id": 71,
+    "local_language_id": 2,
+    "name": "Utsubot",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 71,
+    "local_language_id": 3,
+    "name": "우츠보트",
+    "genus": "파리잡이"
+  },
+  {
+    "pokemon_species_id": 71,
+    "local_language_id": 4,
+    "name": "大食花",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 71,
+    "local_language_id": 5,
+    "name": "Empiflor",
+    "genus": "Carnivore"
+  },
+  {
+    "pokemon_species_id": 71,
+    "local_language_id": 6,
+    "name": "Sarzenia",
+    "genus": "Fliegentod"
+  },
+  {
+    "pokemon_species_id": 71,
+    "local_language_id": 7,
+    "name": "Victreebel",
+    "genus": "Matamoscas"
+  },
+  {
+    "pokemon_species_id": 71,
+    "local_language_id": 8,
+    "name": "Victreebel",
+    "genus": "Moschivoro"
+  },
+  {
+    "pokemon_species_id": 71,
+    "local_language_id": 9,
+    "name": "Victreebel",
+    "genus": "Flycatcher"
+  },
+  {
+    "pokemon_species_id": 72,
+    "local_language_id": 1,
+    "name": "メノクラゲ",
+    "genus": "くらげ"
+  },
+  {
+    "pokemon_species_id": 72,
+    "local_language_id": 2,
+    "name": "Menokurage",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 72,
+    "local_language_id": 3,
+    "name": "왕눈해",
+    "genus": "해파리"
+  },
+  {
+    "pokemon_species_id": 72,
+    "local_language_id": 4,
+    "name": "瑪瑙水母",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 72,
+    "local_language_id": 5,
+    "name": "Tentacool",
+    "genus": "Mollusque"
+  },
+  {
+    "pokemon_species_id": 72,
+    "local_language_id": 6,
+    "name": "Tentacha",
+    "genus": "Qualle"
+  },
+  {
+    "pokemon_species_id": 72,
+    "local_language_id": 7,
+    "name": "Tentacool",
+    "genus": "Medusa"
+  },
+  {
+    "pokemon_species_id": 72,
+    "local_language_id": 8,
+    "name": "Tentacool",
+    "genus": "Medusa"
+  },
+  {
+    "pokemon_species_id": 72,
+    "local_language_id": 9,
+    "name": "Tentacool",
+    "genus": "Jellyfish"
+  },
+  {
+    "pokemon_species_id": 73,
+    "local_language_id": 1,
+    "name": "ドククラゲ",
+    "genus": "くらげ"
+  },
+  {
+    "pokemon_species_id": 73,
+    "local_language_id": 2,
+    "name": "Dokukurage",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 73,
+    "local_language_id": 3,
+    "name": "독파리",
+    "genus": "해파리"
+  },
+  {
+    "pokemon_species_id": 73,
+    "local_language_id": 4,
+    "name": "毒刺水母",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 73,
+    "local_language_id": 5,
+    "name": "Tentacruel",
+    "genus": "Mollusque"
+  },
+  {
+    "pokemon_species_id": 73,
+    "local_language_id": 6,
+    "name": "Tentoxa",
+    "genus": "Qualle"
+  },
+  {
+    "pokemon_species_id": 73,
+    "local_language_id": 7,
+    "name": "Tentacruel",
+    "genus": "Medusa"
+  },
+  {
+    "pokemon_species_id": 73,
+    "local_language_id": 8,
+    "name": "Tentacruel",
+    "genus": "Medusa"
+  },
+  {
+    "pokemon_species_id": 73,
+    "local_language_id": 9,
+    "name": "Tentacruel",
+    "genus": "Jellyfish"
+  },
+  {
+    "pokemon_species_id": 74,
+    "local_language_id": 1,
+    "name": "イシツブテ",
+    "genus": "がんせき"
+  },
+  {
+    "pokemon_species_id": 74,
+    "local_language_id": 2,
+    "name": "Isitsubute",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 74,
+    "local_language_id": 3,
+    "name": "꼬마돌",
+    "genus": "암석"
+  },
+  {
+    "pokemon_species_id": 74,
+    "local_language_id": 4,
+    "name": "小拳石",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 74,
+    "local_language_id": 5,
+    "name": "Racaillou",
+    "genus": "Roche"
+  },
+  {
+    "pokemon_species_id": 74,
+    "local_language_id": 6,
+    "name": "Kleinstein",
+    "genus": "Gestein"
+  },
+  {
+    "pokemon_species_id": 74,
+    "local_language_id": 7,
+    "name": "Geodude",
+    "genus": "Roca"
+  },
+  {
+    "pokemon_species_id": 74,
+    "local_language_id": 8,
+    "name": "Geodude",
+    "genus": "Roccia"
+  },
+  {
+    "pokemon_species_id": 74,
+    "local_language_id": 9,
+    "name": "Geodude",
+    "genus": "Rock"
+  },
+  {
+    "pokemon_species_id": 75,
+    "local_language_id": 1,
+    "name": "ゴローン",
+    "genus": "がんせき"
+  },
+  {
+    "pokemon_species_id": 75,
+    "local_language_id": 2,
+    "name": "Golone",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 75,
+    "local_language_id": 3,
+    "name": "데구리",
+    "genus": "암석"
+  },
+  {
+    "pokemon_species_id": 75,
+    "local_language_id": 4,
+    "name": "隆隆石",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 75,
+    "local_language_id": 5,
+    "name": "Gravalanch",
+    "genus": "Roche"
+  },
+  {
+    "pokemon_species_id": 75,
+    "local_language_id": 6,
+    "name": "Georok",
+    "genus": "Gestein"
+  },
+  {
+    "pokemon_species_id": 75,
+    "local_language_id": 7,
+    "name": "Graveler",
+    "genus": "Roca"
+  },
+  {
+    "pokemon_species_id": 75,
+    "local_language_id": 8,
+    "name": "Graveler",
+    "genus": "Roccia"
+  },
+  {
+    "pokemon_species_id": 75,
+    "local_language_id": 9,
+    "name": "Graveler",
+    "genus": "Rock"
+  },
+  {
+    "pokemon_species_id": 76,
+    "local_language_id": 1,
+    "name": "ゴローニャ",
+    "genus": "メガトン"
+  },
+  {
+    "pokemon_species_id": 76,
+    "local_language_id": 2,
+    "name": "Golonya",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 76,
+    "local_language_id": 3,
+    "name": "딱구리",
+    "genus": "메가톤"
+  },
+  {
+    "pokemon_species_id": 76,
+    "local_language_id": 4,
+    "name": "隆隆岩",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 76,
+    "local_language_id": 5,
+    "name": "Grolem",
+    "genus": "Titanesque"
+  },
+  {
+    "pokemon_species_id": 76,
+    "local_language_id": 6,
+    "name": "Geowaz",
+    "genus": "Urgestein"
+  },
+  {
+    "pokemon_species_id": 76,
+    "local_language_id": 7,
+    "name": "Golem",
+    "genus": "Megatón"
+  },
+  {
+    "pokemon_species_id": 76,
+    "local_language_id": 8,
+    "name": "Golem",
+    "genus": "Megatone"
+  },
+  {
+    "pokemon_species_id": 76,
+    "local_language_id": 9,
+    "name": "Golem",
+    "genus": "Megaton"
+  },
+  {
+    "pokemon_species_id": 77,
+    "local_language_id": 1,
+    "name": "ポニータ",
+    "genus": "ひのうま"
+  },
+  {
+    "pokemon_species_id": 77,
+    "local_language_id": 2,
+    "name": "Ponyta",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 77,
+    "local_language_id": 3,
+    "name": "포니타",
+    "genus": "불의말"
+  },
+  {
+    "pokemon_species_id": 77,
+    "local_language_id": 4,
+    "name": "小火馬",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 77,
+    "local_language_id": 5,
+    "name": "Ponyta",
+    "genus": "Cheval Feu"
+  },
+  {
+    "pokemon_species_id": 77,
+    "local_language_id": 6,
+    "name": "Ponita",
+    "genus": "Feuerpferd"
+  },
+  {
+    "pokemon_species_id": 77,
+    "local_language_id": 7,
+    "name": "Ponyta",
+    "genus": "Caballo F."
+  },
+  {
+    "pokemon_species_id": 77,
+    "local_language_id": 8,
+    "name": "Ponyta",
+    "genus": "Cavalfuoco"
+  },
+  {
+    "pokemon_species_id": 77,
+    "local_language_id": 9,
+    "name": "Ponyta",
+    "genus": "Fire Horse"
+  },
+  {
+    "pokemon_species_id": 78,
+    "local_language_id": 1,
+    "name": "ギャロップ",
+    "genus": "ひのうま"
+  },
+  {
+    "pokemon_species_id": 78,
+    "local_language_id": 2,
+    "name": "Gallop",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 78,
+    "local_language_id": 3,
+    "name": "날쌩마",
+    "genus": "불의말"
+  },
+  {
+    "pokemon_species_id": 78,
+    "local_language_id": 4,
+    "name": "烈焰馬",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 78,
+    "local_language_id": 5,
+    "name": "Galopa",
+    "genus": "Cheval Feu"
+  },
+  {
+    "pokemon_species_id": 78,
+    "local_language_id": 6,
+    "name": "Gallopa",
+    "genus": "Feuerpferd"
+  },
+  {
+    "pokemon_species_id": 78,
+    "local_language_id": 7,
+    "name": "Rapidash",
+    "genus": "Caballo F."
+  },
+  {
+    "pokemon_species_id": 78,
+    "local_language_id": 8,
+    "name": "Rapidash",
+    "genus": "Cavalfuoco"
+  },
+  {
+    "pokemon_species_id": 78,
+    "local_language_id": 9,
+    "name": "Rapidash",
+    "genus": "Fire Horse"
+  },
+  {
+    "pokemon_species_id": 79,
+    "local_language_id": 1,
+    "name": "ヤドン",
+    "genus": "まぬけ"
+  },
+  {
+    "pokemon_species_id": 79,
+    "local_language_id": 2,
+    "name": "Yadon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 79,
+    "local_language_id": 3,
+    "name": "야돈",
+    "genus": "얼간이"
+  },
+  {
+    "pokemon_species_id": 79,
+    "local_language_id": 4,
+    "name": "呆呆獸",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 79,
+    "local_language_id": 5,
+    "name": "Ramoloss",
+    "genus": "Crétin"
+  },
+  {
+    "pokemon_species_id": 79,
+    "local_language_id": 6,
+    "name": "Flegmon",
+    "genus": "Schnarcher"
+  },
+  {
+    "pokemon_species_id": 79,
+    "local_language_id": 7,
+    "name": "Slowpoke",
+    "genus": "Atontado"
+  },
+  {
+    "pokemon_species_id": 79,
+    "local_language_id": 8,
+    "name": "Slowpoke",
+    "genus": "Ronfone"
+  },
+  {
+    "pokemon_species_id": 79,
+    "local_language_id": 9,
+    "name": "Slowpoke",
+    "genus": "Dopey"
+  },
+  {
+    "pokemon_species_id": 80,
+    "local_language_id": 1,
+    "name": "ヤドラン",
+    "genus": "やどかり"
+  },
+  {
+    "pokemon_species_id": 80,
+    "local_language_id": 2,
+    "name": "Yadoran",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 80,
+    "local_language_id": 3,
+    "name": "야도란",
+    "genus": "기생"
+  },
+  {
+    "pokemon_species_id": 80,
+    "local_language_id": 4,
+    "name": "呆河馬",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 80,
+    "local_language_id": 5,
+    "name": "Flagadoss",
+    "genus": "Symbiose"
+  },
+  {
+    "pokemon_species_id": 80,
+    "local_language_id": 6,
+    "name": "Lahmus",
+    "genus": "Symbiose"
+  },
+  {
+    "pokemon_species_id": 80,
+    "local_language_id": 7,
+    "name": "Slowbro",
+    "genus": "Ermitaño"
+  },
+  {
+    "pokemon_species_id": 80,
+    "local_language_id": 8,
+    "name": "Slowbro",
+    "genus": "Paguro"
+  },
+  {
+    "pokemon_species_id": 80,
+    "local_language_id": 9,
+    "name": "Slowbro",
+    "genus": "Hermit Crab"
+  },
+  {
+    "pokemon_species_id": 81,
+    "local_language_id": 1,
+    "name": "コイル",
+    "genus": "じしゃく"
+  },
+  {
+    "pokemon_species_id": 81,
+    "local_language_id": 2,
+    "name": "Coil",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 81,
+    "local_language_id": 3,
+    "name": "코일",
+    "genus": "자석"
+  },
+  {
+    "pokemon_species_id": 81,
+    "local_language_id": 4,
+    "name": "小磁怪",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 81,
+    "local_language_id": 5,
+    "name": "Magnéti",
+    "genus": "Magnétique"
+  },
+  {
+    "pokemon_species_id": 81,
+    "local_language_id": 6,
+    "name": "Magnetilo",
+    "genus": "Magnet"
+  },
+  {
+    "pokemon_species_id": 81,
+    "local_language_id": 7,
+    "name": "Magnemite",
+    "genus": "Imán"
+  },
+  {
+    "pokemon_species_id": 81,
+    "local_language_id": 8,
+    "name": "Magnemite",
+    "genus": "Calamita"
+  },
+  {
+    "pokemon_species_id": 81,
+    "local_language_id": 9,
+    "name": "Magnemite",
+    "genus": "Magnet"
+  },
+  {
+    "pokemon_species_id": 82,
+    "local_language_id": 1,
+    "name": "レアコイル",
+    "genus": "じしゃく"
+  },
+  {
+    "pokemon_species_id": 82,
+    "local_language_id": 2,
+    "name": "Rarecoil",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 82,
+    "local_language_id": 3,
+    "name": "레어코일",
+    "genus": "자석"
+  },
+  {
+    "pokemon_species_id": 82,
+    "local_language_id": 4,
+    "name": "三合一磁怪",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 82,
+    "local_language_id": 5,
+    "name": "Magnéton",
+    "genus": "Magnétique"
+  },
+  {
+    "pokemon_species_id": 82,
+    "local_language_id": 6,
+    "name": "Magneton",
+    "genus": "Magnet"
+  },
+  {
+    "pokemon_species_id": 82,
+    "local_language_id": 7,
+    "name": "Magneton",
+    "genus": "Imán"
+  },
+  {
+    "pokemon_species_id": 82,
+    "local_language_id": 8,
+    "name": "Magneton",
+    "genus": "Calamita"
+  },
+  {
+    "pokemon_species_id": 82,
+    "local_language_id": 9,
+    "name": "Magneton",
+    "genus": "Magnet"
+  },
+  {
+    "pokemon_species_id": 83,
+    "local_language_id": 1,
+    "name": "カモネギ",
+    "genus": "かるがも"
+  },
+  {
+    "pokemon_species_id": 83,
+    "local_language_id": 2,
+    "name": "Kamonegi",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 83,
+    "local_language_id": 3,
+    "name": "파오리",
+    "genus": "천둥오리"
+  },
+  {
+    "pokemon_species_id": 83,
+    "local_language_id": 4,
+    "name": "大蔥鴨",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 83,
+    "local_language_id": 5,
+    "name": "Canarticho",
+    "genus": "Canard Fou"
+  },
+  {
+    "pokemon_species_id": 83,
+    "local_language_id": 6,
+    "name": "Porenta",
+    "genus": "Wildente"
+  },
+  {
+    "pokemon_species_id": 83,
+    "local_language_id": 7,
+    "name": "Farfetch'd",
+    "genus": "Pato Salvaje"
+  },
+  {
+    "pokemon_species_id": 83,
+    "local_language_id": 8,
+    "name": "Farfetch'd",
+    "genus": "Selvanatra"
+  },
+  {
+    "pokemon_species_id": 83,
+    "local_language_id": 9,
+    "name": "Farfetch'd",
+    "genus": "Wild Duck"
+  },
+  {
+    "pokemon_species_id": 84,
+    "local_language_id": 1,
+    "name": "ドードー",
+    "genus": "ふたごどり"
+  },
+  {
+    "pokemon_species_id": 84,
+    "local_language_id": 2,
+    "name": "Dodo",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 84,
+    "local_language_id": 3,
+    "name": "두두",
+    "genus": "쌍둥이새"
+  },
+  {
+    "pokemon_species_id": 84,
+    "local_language_id": 4,
+    "name": "嘟嘟",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 84,
+    "local_language_id": 5,
+    "name": "Doduo",
+    "genus": "Duoiseau"
+  },
+  {
+    "pokemon_species_id": 84,
+    "local_language_id": 6,
+    "name": "Dodu",
+    "genus": "Duovogel"
+  },
+  {
+    "pokemon_species_id": 84,
+    "local_language_id": 7,
+    "name": "Doduo",
+    "genus": "Ave Gemela"
+  },
+  {
+    "pokemon_species_id": 84,
+    "local_language_id": 8,
+    "name": "Doduo",
+    "genus": "Biuccello"
+  },
+  {
+    "pokemon_species_id": 84,
+    "local_language_id": 9,
+    "name": "Doduo",
+    "genus": "Twin Bird"
+  },
+  {
+    "pokemon_species_id": 85,
+    "local_language_id": 1,
+    "name": "ドードリオ",
+    "genus": "みつごどり"
+  },
+  {
+    "pokemon_species_id": 85,
+    "local_language_id": 2,
+    "name": "Dodorio",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 85,
+    "local_language_id": 3,
+    "name": "두트리오",
+    "genus": "세쌍둥이새"
+  },
+  {
+    "pokemon_species_id": 85,
+    "local_language_id": 4,
+    "name": "嘟嘟利",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 85,
+    "local_language_id": 5,
+    "name": "Dodrio",
+    "genus": "Trioiseau"
+  },
+  {
+    "pokemon_species_id": 85,
+    "local_language_id": 6,
+    "name": "Dodri",
+    "genus": "Trivogel"
+  },
+  {
+    "pokemon_species_id": 85,
+    "local_language_id": 7,
+    "name": "Dodrio",
+    "genus": "Ave Triple"
+  },
+  {
+    "pokemon_species_id": 85,
+    "local_language_id": 8,
+    "name": "Dodrio",
+    "genus": "Triuccello"
+  },
+  {
+    "pokemon_species_id": 85,
+    "local_language_id": 9,
+    "name": "Dodrio",
+    "genus": "Triple Bird"
+  },
+  {
+    "pokemon_species_id": 86,
+    "local_language_id": 1,
+    "name": "パウワウ",
+    "genus": "あしか"
+  },
+  {
+    "pokemon_species_id": 86,
+    "local_language_id": 2,
+    "name": "Pawou",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 86,
+    "local_language_id": 3,
+    "name": "쥬쥬",
+    "genus": "강치"
+  },
+  {
+    "pokemon_species_id": 86,
+    "local_language_id": 4,
+    "name": "小海獅",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 86,
+    "local_language_id": 5,
+    "name": "Otaria",
+    "genus": "Otarie"
+  },
+  {
+    "pokemon_species_id": 86,
+    "local_language_id": 6,
+    "name": "Jurob",
+    "genus": "Seehund"
+  },
+  {
+    "pokemon_species_id": 86,
+    "local_language_id": 7,
+    "name": "Seel",
+    "genus": "León Marino"
+  },
+  {
+    "pokemon_species_id": 86,
+    "local_language_id": 8,
+    "name": "Seel",
+    "genus": "Otaria"
+  },
+  {
+    "pokemon_species_id": 86,
+    "local_language_id": 9,
+    "name": "Seel",
+    "genus": "Sea Lion"
+  },
+  {
+    "pokemon_species_id": 87,
+    "local_language_id": 1,
+    "name": "ジュゴン",
+    "genus": "あしか"
+  },
+  {
+    "pokemon_species_id": 87,
+    "local_language_id": 2,
+    "name": "Jugon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 87,
+    "local_language_id": 3,
+    "name": "쥬레곤",
+    "genus": "강치"
+  },
+  {
+    "pokemon_species_id": 87,
+    "local_language_id": 4,
+    "name": "白海獅",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 87,
+    "local_language_id": 5,
+    "name": "Lamantine",
+    "genus": "Otarie"
+  },
+  {
+    "pokemon_species_id": 87,
+    "local_language_id": 6,
+    "name": "Jugong",
+    "genus": "Seehund"
+  },
+  {
+    "pokemon_species_id": 87,
+    "local_language_id": 7,
+    "name": "Dewgong",
+    "genus": "León Marino"
+  },
+  {
+    "pokemon_species_id": 87,
+    "local_language_id": 8,
+    "name": "Dewgong",
+    "genus": "Otaria"
+  },
+  {
+    "pokemon_species_id": 87,
+    "local_language_id": 9,
+    "name": "Dewgong",
+    "genus": "Sea Lion"
+  },
+  {
+    "pokemon_species_id": 88,
+    "local_language_id": 1,
+    "name": "ベトベター",
+    "genus": "ヘドロ"
+  },
+  {
+    "pokemon_species_id": 88,
+    "local_language_id": 2,
+    "name": "Betbeter",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 88,
+    "local_language_id": 3,
+    "name": "질퍽이",
+    "genus": "진흙"
+  },
+  {
+    "pokemon_species_id": 88,
+    "local_language_id": 4,
+    "name": "臭泥",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 88,
+    "local_language_id": 5,
+    "name": "Tadmorv",
+    "genus": "Dégueu"
+  },
+  {
+    "pokemon_species_id": 88,
+    "local_language_id": 6,
+    "name": "Sleima",
+    "genus": "Schlamm"
+  },
+  {
+    "pokemon_species_id": 88,
+    "local_language_id": 7,
+    "name": "Grimer",
+    "genus": "Lodo"
+  },
+  {
+    "pokemon_species_id": 88,
+    "local_language_id": 8,
+    "name": "Grimer",
+    "genus": "Melma"
+  },
+  {
+    "pokemon_species_id": 88,
+    "local_language_id": 9,
+    "name": "Grimer",
+    "genus": "Sludge"
+  },
+  {
+    "pokemon_species_id": 89,
+    "local_language_id": 1,
+    "name": "ベトベトン",
+    "genus": "ヘドロ"
+  },
+  {
+    "pokemon_species_id": 89,
+    "local_language_id": 2,
+    "name": "Betbeton",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 89,
+    "local_language_id": 3,
+    "name": "질뻐기",
+    "genus": "진흙"
+  },
+  {
+    "pokemon_species_id": 89,
+    "local_language_id": 4,
+    "name": "臭臭泥",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 89,
+    "local_language_id": 5,
+    "name": "Grotadmorv",
+    "genus": "Dégueu"
+  },
+  {
+    "pokemon_species_id": 89,
+    "local_language_id": 6,
+    "name": "Sleimok",
+    "genus": "Schlamm"
+  },
+  {
+    "pokemon_species_id": 89,
+    "local_language_id": 7,
+    "name": "Muk",
+    "genus": "Lodo"
+  },
+  {
+    "pokemon_species_id": 89,
+    "local_language_id": 8,
+    "name": "Muk",
+    "genus": "Melma"
+  },
+  {
+    "pokemon_species_id": 89,
+    "local_language_id": 9,
+    "name": "Muk",
+    "genus": "Sludge"
+  },
+  {
+    "pokemon_species_id": 90,
+    "local_language_id": 1,
+    "name": "シェルダー",
+    "genus": "２まいがい"
+  },
+  {
+    "pokemon_species_id": 90,
+    "local_language_id": 2,
+    "name": "Shellder",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 90,
+    "local_language_id": 3,
+    "name": "셀러",
+    "genus": "두조개"
+  },
+  {
+    "pokemon_species_id": 90,
+    "local_language_id": 4,
+    "name": "大舌貝",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 90,
+    "local_language_id": 5,
+    "name": "Kokiyas",
+    "genus": "Bivalve"
+  },
+  {
+    "pokemon_species_id": 90,
+    "local_language_id": 6,
+    "name": "Muschas",
+    "genus": "Muschel"
+  },
+  {
+    "pokemon_species_id": 90,
+    "local_language_id": 7,
+    "name": "Shellder",
+    "genus": "Bivalvo"
+  },
+  {
+    "pokemon_species_id": 90,
+    "local_language_id": 8,
+    "name": "Shellder",
+    "genus": "Bivalve"
+  },
+  {
+    "pokemon_species_id": 90,
+    "local_language_id": 9,
+    "name": "Shellder",
+    "genus": "Bivalve"
+  },
+  {
+    "pokemon_species_id": 91,
+    "local_language_id": 1,
+    "name": "パルシェン",
+    "genus": "２まいがい"
+  },
+  {
+    "pokemon_species_id": 91,
+    "local_language_id": 2,
+    "name": "Parshen",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 91,
+    "local_language_id": 3,
+    "name": "파르셀",
+    "genus": "두조개"
+  },
+  {
+    "pokemon_species_id": 91,
+    "local_language_id": 4,
+    "name": "鐵甲貝",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 91,
+    "local_language_id": 5,
+    "name": "Crustabri",
+    "genus": "Bivalve"
+  },
+  {
+    "pokemon_species_id": 91,
+    "local_language_id": 6,
+    "name": "Austos",
+    "genus": "Muschel"
+  },
+  {
+    "pokemon_species_id": 91,
+    "local_language_id": 7,
+    "name": "Cloyster",
+    "genus": "Bivalvo"
+  },
+  {
+    "pokemon_species_id": 91,
+    "local_language_id": 8,
+    "name": "Cloyster",
+    "genus": "Bivalve"
+  },
+  {
+    "pokemon_species_id": 91,
+    "local_language_id": 9,
+    "name": "Cloyster",
+    "genus": "Bivalve"
+  },
+  {
+    "pokemon_species_id": 92,
+    "local_language_id": 1,
+    "name": "ゴース",
+    "genus": "ガスじょう"
+  },
+  {
+    "pokemon_species_id": 92,
+    "local_language_id": 2,
+    "name": "Ghos",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 92,
+    "local_language_id": 3,
+    "name": "고오스",
+    "genus": "가스"
+  },
+  {
+    "pokemon_species_id": 92,
+    "local_language_id": 4,
+    "name": "鬼斯",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 92,
+    "local_language_id": 5,
+    "name": "Fantominus",
+    "genus": "Gaz"
+  },
+  {
+    "pokemon_species_id": 92,
+    "local_language_id": 6,
+    "name": "Nebulak",
+    "genus": "Gas"
+  },
+  {
+    "pokemon_species_id": 92,
+    "local_language_id": 7,
+    "name": "Gastly",
+    "genus": "Gas"
+  },
+  {
+    "pokemon_species_id": 92,
+    "local_language_id": 8,
+    "name": "Gastly",
+    "genus": "Gas"
+  },
+  {
+    "pokemon_species_id": 92,
+    "local_language_id": 9,
+    "name": "Gastly",
+    "genus": "Gas"
+  },
+  {
+    "pokemon_species_id": 93,
+    "local_language_id": 1,
+    "name": "ゴースト",
+    "genus": "ガスじょう"
+  },
+  {
+    "pokemon_species_id": 93,
+    "local_language_id": 2,
+    "name": "Ghost",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 93,
+    "local_language_id": 3,
+    "name": "고우스트",
+    "genus": "가스"
+  },
+  {
+    "pokemon_species_id": 93,
+    "local_language_id": 4,
+    "name": "鬼斯通",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 93,
+    "local_language_id": 5,
+    "name": "Spectrum",
+    "genus": "Gaz"
+  },
+  {
+    "pokemon_species_id": 93,
+    "local_language_id": 6,
+    "name": "Alpollo",
+    "genus": "Gas"
+  },
+  {
+    "pokemon_species_id": 93,
+    "local_language_id": 7,
+    "name": "Haunter",
+    "genus": "Gas"
+  },
+  {
+    "pokemon_species_id": 93,
+    "local_language_id": 8,
+    "name": "Haunter",
+    "genus": "Gas"
+  },
+  {
+    "pokemon_species_id": 93,
+    "local_language_id": 9,
+    "name": "Haunter",
+    "genus": "Gas"
+  },
+  {
+    "pokemon_species_id": 94,
+    "local_language_id": 1,
+    "name": "ゲンガー",
+    "genus": "シャドー"
+  },
+  {
+    "pokemon_species_id": 94,
+    "local_language_id": 2,
+    "name": "Gangar",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 94,
+    "local_language_id": 3,
+    "name": "팬텀",
+    "genus": "그림자"
+  },
+  {
+    "pokemon_species_id": 94,
+    "local_language_id": 4,
+    "name": "耿鬼",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 94,
+    "local_language_id": 5,
+    "name": "Ectoplasma",
+    "genus": "Ombre"
+  },
+  {
+    "pokemon_species_id": 94,
+    "local_language_id": 6,
+    "name": "Gengar",
+    "genus": "Schatten"
+  },
+  {
+    "pokemon_species_id": 94,
+    "local_language_id": 7,
+    "name": "Gengar",
+    "genus": "Sombra"
+  },
+  {
+    "pokemon_species_id": 94,
+    "local_language_id": 8,
+    "name": "Gengar",
+    "genus": "Ombra"
+  },
+  {
+    "pokemon_species_id": 94,
+    "local_language_id": 9,
+    "name": "Gengar",
+    "genus": "Shadow"
+  },
+  {
+    "pokemon_species_id": 95,
+    "local_language_id": 1,
+    "name": "イワーク",
+    "genus": "いわへび"
+  },
+  {
+    "pokemon_species_id": 95,
+    "local_language_id": 2,
+    "name": "Iwark",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 95,
+    "local_language_id": 3,
+    "name": "롱스톤",
+    "genus": "돌뱀"
+  },
+  {
+    "pokemon_species_id": 95,
+    "local_language_id": 4,
+    "name": "大岩蛇",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 95,
+    "local_language_id": 5,
+    "name": "Onix",
+    "genus": "Serpenroc"
+  },
+  {
+    "pokemon_species_id": 95,
+    "local_language_id": 6,
+    "name": "Onix",
+    "genus": "Felsnatter"
+  },
+  {
+    "pokemon_species_id": 95,
+    "local_language_id": 7,
+    "name": "Onix",
+    "genus": "Serp. Roca"
+  },
+  {
+    "pokemon_species_id": 95,
+    "local_language_id": 8,
+    "name": "Onix",
+    "genus": "Serpesasso"
+  },
+  {
+    "pokemon_species_id": 95,
+    "local_language_id": 9,
+    "name": "Onix",
+    "genus": "Rock Snake"
+  },
+  {
+    "pokemon_species_id": 96,
+    "local_language_id": 1,
+    "name": "スリープ",
+    "genus": "さいみん"
+  },
+  {
+    "pokemon_species_id": 96,
+    "local_language_id": 2,
+    "name": "Sleep",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 96,
+    "local_language_id": 3,
+    "name": "슬리프",
+    "genus": "최면"
+  },
+  {
+    "pokemon_species_id": 96,
+    "local_language_id": 4,
+    "name": "素利普",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 96,
+    "local_language_id": 5,
+    "name": "Soporifik",
+    "genus": "Hypnose"
+  },
+  {
+    "pokemon_species_id": 96,
+    "local_language_id": 6,
+    "name": "Traumato",
+    "genus": "Hypnose"
+  },
+  {
+    "pokemon_species_id": 96,
+    "local_language_id": 7,
+    "name": "Drowzee",
+    "genus": "Hipnosis"
+  },
+  {
+    "pokemon_species_id": 96,
+    "local_language_id": 8,
+    "name": "Drowzee",
+    "genus": "Ipnosi"
+  },
+  {
+    "pokemon_species_id": 96,
+    "local_language_id": 9,
+    "name": "Drowzee",
+    "genus": "Hypnosis"
+  },
+  {
+    "pokemon_species_id": 97,
+    "local_language_id": 1,
+    "name": "スリーパー",
+    "genus": "さいみん"
+  },
+  {
+    "pokemon_species_id": 97,
+    "local_language_id": 2,
+    "name": "Sleeper",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 97,
+    "local_language_id": 3,
+    "name": "슬리퍼",
+    "genus": "최면"
+  },
+  {
+    "pokemon_species_id": 97,
+    "local_language_id": 4,
+    "name": "素利拍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 97,
+    "local_language_id": 5,
+    "name": "Hypnomade",
+    "genus": "Hypnose"
+  },
+  {
+    "pokemon_species_id": 97,
+    "local_language_id": 6,
+    "name": "Hypno",
+    "genus": "Hypnose"
+  },
+  {
+    "pokemon_species_id": 97,
+    "local_language_id": 7,
+    "name": "Hypno",
+    "genus": "Hipnosis"
+  },
+  {
+    "pokemon_species_id": 97,
+    "local_language_id": 8,
+    "name": "Hypno",
+    "genus": "Ipnosi"
+  },
+  {
+    "pokemon_species_id": 97,
+    "local_language_id": 9,
+    "name": "Hypno",
+    "genus": "Hypnosis"
+  },
+  {
+    "pokemon_species_id": 98,
+    "local_language_id": 1,
+    "name": "クラブ",
+    "genus": "さわがに"
+  },
+  {
+    "pokemon_species_id": 98,
+    "local_language_id": 2,
+    "name": "Crab",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 98,
+    "local_language_id": 3,
+    "name": "크랩",
+    "genus": "게"
+  },
+  {
+    "pokemon_species_id": 98,
+    "local_language_id": 4,
+    "name": "大鉗蟹",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 98,
+    "local_language_id": 5,
+    "name": "Krabby",
+    "genus": "Doux Crabe"
+  },
+  {
+    "pokemon_species_id": 98,
+    "local_language_id": 6,
+    "name": "Krabby",
+    "genus": "Krabbe"
+  },
+  {
+    "pokemon_species_id": 98,
+    "local_language_id": 7,
+    "name": "Krabby",
+    "genus": "Cangrejo"
+  },
+  {
+    "pokemon_species_id": 98,
+    "local_language_id": 8,
+    "name": "Krabby",
+    "genus": "Granchio"
+  },
+  {
+    "pokemon_species_id": 98,
+    "local_language_id": 9,
+    "name": "Krabby",
+    "genus": "River Crab"
+  },
+  {
+    "pokemon_species_id": 99,
+    "local_language_id": 1,
+    "name": "キングラー",
+    "genus": "はさみ"
+  },
+  {
+    "pokemon_species_id": 99,
+    "local_language_id": 2,
+    "name": "Kingler",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 99,
+    "local_language_id": 3,
+    "name": "킹크랩",
+    "genus": "집게"
+  },
+  {
+    "pokemon_species_id": 99,
+    "local_language_id": 4,
+    "name": "巨鉗蟹",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 99,
+    "local_language_id": 5,
+    "name": "Krabboss",
+    "genus": "Pince"
+  },
+  {
+    "pokemon_species_id": 99,
+    "local_language_id": 6,
+    "name": "Kingler",
+    "genus": "Kneifer"
+  },
+  {
+    "pokemon_species_id": 99,
+    "local_language_id": 7,
+    "name": "Kingler",
+    "genus": "Tenaza"
+  },
+  {
+    "pokemon_species_id": 99,
+    "local_language_id": 8,
+    "name": "Kingler",
+    "genus": "Chela"
+  },
+  {
+    "pokemon_species_id": 99,
+    "local_language_id": 9,
+    "name": "Kingler",
+    "genus": "Pincer"
+  },
+  {
+    "pokemon_species_id": 100,
+    "local_language_id": 1,
+    "name": "ビリリダマ",
+    "genus": "ボール"
+  },
+  {
+    "pokemon_species_id": 100,
+    "local_language_id": 2,
+    "name": "Biriridama",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 100,
+    "local_language_id": 3,
+    "name": "찌리리공",
+    "genus": "볼"
+  },
+  {
+    "pokemon_species_id": 100,
+    "local_language_id": 4,
+    "name": "雷電球",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 100,
+    "local_language_id": 5,
+    "name": "Voltorbe",
+    "genus": "Balle"
+  },
+  {
+    "pokemon_species_id": 100,
+    "local_language_id": 6,
+    "name": "Voltobal",
+    "genus": "Ball"
+  },
+  {
+    "pokemon_species_id": 100,
+    "local_language_id": 7,
+    "name": "Voltorb",
+    "genus": "Bola"
+  },
+  {
+    "pokemon_species_id": 100,
+    "local_language_id": 8,
+    "name": "Voltorb",
+    "genus": "Ball"
+  },
+  {
+    "pokemon_species_id": 100,
+    "local_language_id": 9,
+    "name": "Voltorb",
+    "genus": "Ball"
+  },
+  {
+    "pokemon_species_id": 101,
+    "local_language_id": 1,
+    "name": "マルマイン",
+    "genus": "ボール"
+  },
+  {
+    "pokemon_species_id": 101,
+    "local_language_id": 2,
+    "name": "Marumine",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 101,
+    "local_language_id": 3,
+    "name": "붐볼",
+    "genus": "볼"
+  },
+  {
+    "pokemon_species_id": 101,
+    "local_language_id": 4,
+    "name": "頑皮彈",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 101,
+    "local_language_id": 5,
+    "name": "Électrode",
+    "genus": "Balle"
+  },
+  {
+    "pokemon_species_id": 101,
+    "local_language_id": 6,
+    "name": "Lektrobal",
+    "genus": "Ball"
+  },
+  {
+    "pokemon_species_id": 101,
+    "local_language_id": 7,
+    "name": "Electrode",
+    "genus": "Bola"
+  },
+  {
+    "pokemon_species_id": 101,
+    "local_language_id": 8,
+    "name": "Electrode",
+    "genus": "Ball"
+  },
+  {
+    "pokemon_species_id": 101,
+    "local_language_id": 9,
+    "name": "Electrode",
+    "genus": "Ball"
+  },
+  {
+    "pokemon_species_id": 102,
+    "local_language_id": 1,
+    "name": "タマタマ",
+    "genus": "たまご"
+  },
+  {
+    "pokemon_species_id": 102,
+    "local_language_id": 2,
+    "name": "Tamatama",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 102,
+    "local_language_id": 3,
+    "name": "아라리",
+    "genus": "알"
+  },
+  {
+    "pokemon_species_id": 102,
+    "local_language_id": 4,
+    "name": "蛋蛋",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 102,
+    "local_language_id": 5,
+    "name": "Noeunoeuf",
+    "genus": "Œuf"
+  },
+  {
+    "pokemon_species_id": 102,
+    "local_language_id": 6,
+    "name": "Owei",
+    "genus": "Ei"
+  },
+  {
+    "pokemon_species_id": 102,
+    "local_language_id": 7,
+    "name": "Exeggcute",
+    "genus": "Huevo"
+  },
+  {
+    "pokemon_species_id": 102,
+    "local_language_id": 8,
+    "name": "Exeggcute",
+    "genus": "Uovo"
+  },
+  {
+    "pokemon_species_id": 102,
+    "local_language_id": 9,
+    "name": "Exeggcute",
+    "genus": "Egg"
+  },
+  {
+    "pokemon_species_id": 103,
+    "local_language_id": 1,
+    "name": "ナッシー",
+    "genus": "やしのみ"
+  },
+  {
+    "pokemon_species_id": 103,
+    "local_language_id": 2,
+    "name": "Nassy",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 103,
+    "local_language_id": 3,
+    "name": "나시",
+    "genus": "야자열매"
+  },
+  {
+    "pokemon_species_id": 103,
+    "local_language_id": 4,
+    "name": "椰蛋樹",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 103,
+    "local_language_id": 5,
+    "name": "Noadkoko",
+    "genus": "Fruitpalme"
+  },
+  {
+    "pokemon_species_id": 103,
+    "local_language_id": 6,
+    "name": "Kokowei",
+    "genus": "Palmfrucht"
+  },
+  {
+    "pokemon_species_id": 103,
+    "local_language_id": 7,
+    "name": "Exeggutor",
+    "genus": "Coco"
+  },
+  {
+    "pokemon_species_id": 103,
+    "local_language_id": 8,
+    "name": "Exeggutor",
+    "genus": "Nocecocco"
+  },
+  {
+    "pokemon_species_id": 103,
+    "local_language_id": 9,
+    "name": "Exeggutor",
+    "genus": "Coconut"
+  },
+  {
+    "pokemon_species_id": 104,
+    "local_language_id": 1,
+    "name": "カラカラ",
+    "genus": "こどく"
+  },
+  {
+    "pokemon_species_id": 104,
+    "local_language_id": 2,
+    "name": "Karakara",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 104,
+    "local_language_id": 3,
+    "name": "탕구리",
+    "genus": "고독"
+  },
+  {
+    "pokemon_species_id": 104,
+    "local_language_id": 4,
+    "name": "可拉可拉",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 104,
+    "local_language_id": 5,
+    "name": "Osselait",
+    "genus": "Solitaire"
+  },
+  {
+    "pokemon_species_id": 104,
+    "local_language_id": 6,
+    "name": "Tragosso",
+    "genus": "Einsam"
+  },
+  {
+    "pokemon_species_id": 104,
+    "local_language_id": 7,
+    "name": "Cubone",
+    "genus": "Solitario"
+  },
+  {
+    "pokemon_species_id": 104,
+    "local_language_id": 8,
+    "name": "Cubone",
+    "genus": "Solitario"
+  },
+  {
+    "pokemon_species_id": 104,
+    "local_language_id": 9,
+    "name": "Cubone",
+    "genus": "Lonely"
+  },
+  {
+    "pokemon_species_id": 105,
+    "local_language_id": 1,
+    "name": "ガラガラ",
+    "genus": "ほねずき"
+  },
+  {
+    "pokemon_species_id": 105,
+    "local_language_id": 2,
+    "name": "Garagara",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 105,
+    "local_language_id": 3,
+    "name": "텅구리",
+    "genus": "뼈다귀"
+  },
+  {
+    "pokemon_species_id": 105,
+    "local_language_id": 4,
+    "name": "嘎啦嘎啦",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 105,
+    "local_language_id": 5,
+    "name": "Ossatueur",
+    "genus": "Gard'Os"
+  },
+  {
+    "pokemon_species_id": 105,
+    "local_language_id": 6,
+    "name": "Knogga",
+    "genus": "Knochenfan"
+  },
+  {
+    "pokemon_species_id": 105,
+    "local_language_id": 7,
+    "name": "Marowak",
+    "genus": "Apilahueso"
+  },
+  {
+    "pokemon_species_id": 105,
+    "local_language_id": 8,
+    "name": "Marowak",
+    "genus": "Guardaossi"
+  },
+  {
+    "pokemon_species_id": 105,
+    "local_language_id": 9,
+    "name": "Marowak",
+    "genus": "Bone Keeper"
+  },
+  {
+    "pokemon_species_id": 106,
+    "local_language_id": 1,
+    "name": "サワムラー",
+    "genus": "キック"
+  },
+  {
+    "pokemon_species_id": 106,
+    "local_language_id": 2,
+    "name": "Sawamular",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 106,
+    "local_language_id": 3,
+    "name": "시라소몬",
+    "genus": "킥"
+  },
+  {
+    "pokemon_species_id": 106,
+    "local_language_id": 4,
+    "name": "沙瓦郎",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 106,
+    "local_language_id": 5,
+    "name": "Kicklee",
+    "genus": "Latteur"
+  },
+  {
+    "pokemon_species_id": 106,
+    "local_language_id": 6,
+    "name": "Kicklee",
+    "genus": "Kicker"
+  },
+  {
+    "pokemon_species_id": 106,
+    "local_language_id": 7,
+    "name": "Hitmonlee",
+    "genus": "Patada"
+  },
+  {
+    "pokemon_species_id": 106,
+    "local_language_id": 8,
+    "name": "Hitmonlee",
+    "genus": "Tiracalci"
+  },
+  {
+    "pokemon_species_id": 106,
+    "local_language_id": 9,
+    "name": "Hitmonlee",
+    "genus": "Kicking"
+  },
+  {
+    "pokemon_species_id": 107,
+    "local_language_id": 1,
+    "name": "エビワラー",
+    "genus": "パンチ"
+  },
+  {
+    "pokemon_species_id": 107,
+    "local_language_id": 2,
+    "name": "Ebiwalar",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 107,
+    "local_language_id": 3,
+    "name": "홍수몬",
+    "genus": "펀치"
+  },
+  {
+    "pokemon_species_id": 107,
+    "local_language_id": 4,
+    "name": "艾比郎",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 107,
+    "local_language_id": 5,
+    "name": "Tygnon",
+    "genus": "Puncheur"
+  },
+  {
+    "pokemon_species_id": 107,
+    "local_language_id": 6,
+    "name": "Nockchan",
+    "genus": "Puncher"
+  },
+  {
+    "pokemon_species_id": 107,
+    "local_language_id": 7,
+    "name": "Hitmonchan",
+    "genus": "Puñetazo"
+  },
+  {
+    "pokemon_species_id": 107,
+    "local_language_id": 8,
+    "name": "Hitmonchan",
+    "genus": "Tirapugni"
+  },
+  {
+    "pokemon_species_id": 107,
+    "local_language_id": 9,
+    "name": "Hitmonchan",
+    "genus": "Punching"
+  },
+  {
+    "pokemon_species_id": 108,
+    "local_language_id": 1,
+    "name": "ベロリンガ",
+    "genus": "なめまわし"
+  },
+  {
+    "pokemon_species_id": 108,
+    "local_language_id": 2,
+    "name": "Beroringa",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 108,
+    "local_language_id": 3,
+    "name": "내루미",
+    "genus": "핥기"
+  },
+  {
+    "pokemon_species_id": 108,
+    "local_language_id": 4,
+    "name": "大舌頭",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 108,
+    "local_language_id": 5,
+    "name": "Excelangue",
+    "genus": "Lécheur"
+  },
+  {
+    "pokemon_species_id": 108,
+    "local_language_id": 6,
+    "name": "Schlurp",
+    "genus": "Schlecker"
+  },
+  {
+    "pokemon_species_id": 108,
+    "local_language_id": 7,
+    "name": "Lickitung",
+    "genus": "Lametazo"
+  },
+  {
+    "pokemon_species_id": 108,
+    "local_language_id": 8,
+    "name": "Lickitung",
+    "genus": "Linguaccia"
+  },
+  {
+    "pokemon_species_id": 108,
+    "local_language_id": 9,
+    "name": "Lickitung",
+    "genus": "Licking"
+  },
+  {
+    "pokemon_species_id": 109,
+    "local_language_id": 1,
+    "name": "ドガース",
+    "genus": "どくガス"
+  },
+  {
+    "pokemon_species_id": 109,
+    "local_language_id": 2,
+    "name": "Dogars",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 109,
+    "local_language_id": 3,
+    "name": "또가스",
+    "genus": "독가스"
+  },
+  {
+    "pokemon_species_id": 109,
+    "local_language_id": 4,
+    "name": "瓦斯彈",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 109,
+    "local_language_id": 5,
+    "name": "Smogo",
+    "genus": "Gaz Mortel"
+  },
+  {
+    "pokemon_species_id": 109,
+    "local_language_id": 6,
+    "name": "Smogon",
+    "genus": "Giftwolke"
+  },
+  {
+    "pokemon_species_id": 109,
+    "local_language_id": 7,
+    "name": "Koffing",
+    "genus": "Gas Venenoso"
+  },
+  {
+    "pokemon_species_id": 109,
+    "local_language_id": 8,
+    "name": "Koffing",
+    "genus": "Velenuvola"
+  },
+  {
+    "pokemon_species_id": 109,
+    "local_language_id": 9,
+    "name": "Koffing",
+    "genus": "Poison Gas"
+  },
+  {
+    "pokemon_species_id": 110,
+    "local_language_id": 1,
+    "name": "マタドガス",
+    "genus": "どくガス"
+  },
+  {
+    "pokemon_species_id": 110,
+    "local_language_id": 2,
+    "name": "Matadogas",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 110,
+    "local_language_id": 3,
+    "name": "또도가스",
+    "genus": "독가스"
+  },
+  {
+    "pokemon_species_id": 110,
+    "local_language_id": 4,
+    "name": "雙彈瓦斯",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 110,
+    "local_language_id": 5,
+    "name": "Smogogo",
+    "genus": "Gaz Mortel"
+  },
+  {
+    "pokemon_species_id": 110,
+    "local_language_id": 6,
+    "name": "Smogmog",
+    "genus": "Giftwolke"
+  },
+  {
+    "pokemon_species_id": 110,
+    "local_language_id": 7,
+    "name": "Weezing",
+    "genus": "Gas Venenoso"
+  },
+  {
+    "pokemon_species_id": 110,
+    "local_language_id": 8,
+    "name": "Weezing",
+    "genus": "Velenuvola"
+  },
+  {
+    "pokemon_species_id": 110,
+    "local_language_id": 9,
+    "name": "Weezing",
+    "genus": "Poison Gas"
+  },
+  {
+    "pokemon_species_id": 111,
+    "local_language_id": 1,
+    "name": "サイホーン",
+    "genus": "とげとげ"
+  },
+  {
+    "pokemon_species_id": 111,
+    "local_language_id": 2,
+    "name": "Sihorn",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 111,
+    "local_language_id": 3,
+    "name": "뿔카노",
+    "genus": "뿔"
+  },
+  {
+    "pokemon_species_id": 111,
+    "local_language_id": 4,
+    "name": "鐵甲犀牛",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 111,
+    "local_language_id": 5,
+    "name": "Rhinocorne",
+    "genus": "Piquant"
+  },
+  {
+    "pokemon_species_id": 111,
+    "local_language_id": 6,
+    "name": "Rihorn",
+    "genus": "Stachler"
+  },
+  {
+    "pokemon_species_id": 111,
+    "local_language_id": 7,
+    "name": "Rhyhorn",
+    "genus": "Clavos"
+  },
+  {
+    "pokemon_species_id": 111,
+    "local_language_id": 8,
+    "name": "Rhyhorn",
+    "genus": "Punzoni"
+  },
+  {
+    "pokemon_species_id": 111,
+    "local_language_id": 9,
+    "name": "Rhyhorn",
+    "genus": "Spikes"
+  },
+  {
+    "pokemon_species_id": 112,
+    "local_language_id": 1,
+    "name": "サイドン",
+    "genus": "ドリル"
+  },
+  {
+    "pokemon_species_id": 112,
+    "local_language_id": 2,
+    "name": "Sidon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 112,
+    "local_language_id": 3,
+    "name": "코뿌리",
+    "genus": "드릴"
+  },
+  {
+    "pokemon_species_id": 112,
+    "local_language_id": 4,
+    "name": "鐵甲暴龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 112,
+    "local_language_id": 5,
+    "name": "Rhinoféros",
+    "genus": "Perceur"
+  },
+  {
+    "pokemon_species_id": 112,
+    "local_language_id": 6,
+    "name": "Rizeros",
+    "genus": "Bohrer"
+  },
+  {
+    "pokemon_species_id": 112,
+    "local_language_id": 7,
+    "name": "Rhydon",
+    "genus": "Taladro"
+  },
+  {
+    "pokemon_species_id": 112,
+    "local_language_id": 8,
+    "name": "Rhydon",
+    "genus": "Trapano"
+  },
+  {
+    "pokemon_species_id": 112,
+    "local_language_id": 9,
+    "name": "Rhydon",
+    "genus": "Drill"
+  },
+  {
+    "pokemon_species_id": 113,
+    "local_language_id": 1,
+    "name": "ラッキー",
+    "genus": "たまご"
+  },
+  {
+    "pokemon_species_id": 113,
+    "local_language_id": 2,
+    "name": "Lucky",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 113,
+    "local_language_id": 3,
+    "name": "럭키",
+    "genus": "알"
+  },
+  {
+    "pokemon_species_id": 113,
+    "local_language_id": 4,
+    "name": "吉利蛋",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 113,
+    "local_language_id": 5,
+    "name": "Leveinard",
+    "genus": "Œuf"
+  },
+  {
+    "pokemon_species_id": 113,
+    "local_language_id": 6,
+    "name": "Chaneira",
+    "genus": "Ei"
+  },
+  {
+    "pokemon_species_id": 113,
+    "local_language_id": 7,
+    "name": "Chansey",
+    "genus": "Huevo"
+  },
+  {
+    "pokemon_species_id": 113,
+    "local_language_id": 8,
+    "name": "Chansey",
+    "genus": "Uovo"
+  },
+  {
+    "pokemon_species_id": 113,
+    "local_language_id": 9,
+    "name": "Chansey",
+    "genus": "Egg"
+  },
+  {
+    "pokemon_species_id": 114,
+    "local_language_id": 1,
+    "name": "モンジャラ",
+    "genus": "ツルじょう"
+  },
+  {
+    "pokemon_species_id": 114,
+    "local_language_id": 2,
+    "name": "Monjara",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 114,
+    "local_language_id": 3,
+    "name": "덩쿠리",
+    "genus": "넝쿨"
+  },
+  {
+    "pokemon_species_id": 114,
+    "local_language_id": 4,
+    "name": "蔓藤怪",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 114,
+    "local_language_id": 5,
+    "name": "Saquedeneu",
+    "genus": "Vigne"
+  },
+  {
+    "pokemon_species_id": 114,
+    "local_language_id": 6,
+    "name": "Tangela",
+    "genus": "Ranke"
+  },
+  {
+    "pokemon_species_id": 114,
+    "local_language_id": 7,
+    "name": "Tangela",
+    "genus": "Enredadera"
+  },
+  {
+    "pokemon_species_id": 114,
+    "local_language_id": 8,
+    "name": "Tangela",
+    "genus": "Liana"
+  },
+  {
+    "pokemon_species_id": 114,
+    "local_language_id": 9,
+    "name": "Tangela",
+    "genus": "Vine"
+  },
+  {
+    "pokemon_species_id": 115,
+    "local_language_id": 1,
+    "name": "ガルーラ",
+    "genus": "おやこ"
+  },
+  {
+    "pokemon_species_id": 115,
+    "local_language_id": 2,
+    "name": "Garura",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 115,
+    "local_language_id": 3,
+    "name": "캥카",
+    "genus": "가족"
+  },
+  {
+    "pokemon_species_id": 115,
+    "local_language_id": 4,
+    "name": "袋龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 115,
+    "local_language_id": 5,
+    "name": "Kangourex",
+    "genus": "Maternel"
+  },
+  {
+    "pokemon_species_id": 115,
+    "local_language_id": 6,
+    "name": "Kangama",
+    "genus": "Muttertier"
+  },
+  {
+    "pokemon_species_id": 115,
+    "local_language_id": 7,
+    "name": "Kangaskhan",
+    "genus": "Padres"
+  },
+  {
+    "pokemon_species_id": 115,
+    "local_language_id": 8,
+    "name": "Kangaskhan",
+    "genus": "Genitore"
+  },
+  {
+    "pokemon_species_id": 115,
+    "local_language_id": 9,
+    "name": "Kangaskhan",
+    "genus": "Parent"
+  },
+  {
+    "pokemon_species_id": 116,
+    "local_language_id": 1,
+    "name": "タッツー",
+    "genus": "ドラゴン"
+  },
+  {
+    "pokemon_species_id": 116,
+    "local_language_id": 2,
+    "name": "Tattu",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 116,
+    "local_language_id": 3,
+    "name": "쏘드라",
+    "genus": "드래곤"
+  },
+  {
+    "pokemon_species_id": 116,
+    "local_language_id": 4,
+    "name": "墨海馬",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 116,
+    "local_language_id": 5,
+    "name": "Hypotrempe",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 116,
+    "local_language_id": 6,
+    "name": "Seeper",
+    "genus": "Drache"
+  },
+  {
+    "pokemon_species_id": 116,
+    "local_language_id": 7,
+    "name": "Horsea",
+    "genus": "Dragón"
+  },
+  {
+    "pokemon_species_id": 116,
+    "local_language_id": 8,
+    "name": "Horsea",
+    "genus": "Drago"
+  },
+  {
+    "pokemon_species_id": 116,
+    "local_language_id": 9,
+    "name": "Horsea",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 117,
+    "local_language_id": 1,
+    "name": "シードラ",
+    "genus": "ドラゴン"
+  },
+  {
+    "pokemon_species_id": 117,
+    "local_language_id": 2,
+    "name": "Seadra",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 117,
+    "local_language_id": 3,
+    "name": "시드라",
+    "genus": "드래곤"
+  },
+  {
+    "pokemon_species_id": 117,
+    "local_language_id": 4,
+    "name": "海刺龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 117,
+    "local_language_id": 5,
+    "name": "Hypocéan",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 117,
+    "local_language_id": 6,
+    "name": "Seemon",
+    "genus": "Drache"
+  },
+  {
+    "pokemon_species_id": 117,
+    "local_language_id": 7,
+    "name": "Seadra",
+    "genus": "Dragón"
+  },
+  {
+    "pokemon_species_id": 117,
+    "local_language_id": 8,
+    "name": "Seadra",
+    "genus": "Drago"
+  },
+  {
+    "pokemon_species_id": 117,
+    "local_language_id": 9,
+    "name": "Seadra",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 118,
+    "local_language_id": 1,
+    "name": "トサキント",
+    "genus": "きんぎょ"
+  },
+  {
+    "pokemon_species_id": 118,
+    "local_language_id": 2,
+    "name": "Tosakinto",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 118,
+    "local_language_id": 3,
+    "name": "콘치",
+    "genus": "금붕어"
+  },
+  {
+    "pokemon_species_id": 118,
+    "local_language_id": 4,
+    "name": "角金魚",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 118,
+    "local_language_id": 5,
+    "name": "Poissirène",
+    "genus": "Poisson"
+  },
+  {
+    "pokemon_species_id": 118,
+    "local_language_id": 6,
+    "name": "Goldini",
+    "genus": "Goldfisch"
+  },
+  {
+    "pokemon_species_id": 118,
+    "local_language_id": 7,
+    "name": "Goldeen",
+    "genus": "Pez Color"
+  },
+  {
+    "pokemon_species_id": 118,
+    "local_language_id": 8,
+    "name": "Goldeen",
+    "genus": "Pescerosso"
+  },
+  {
+    "pokemon_species_id": 118,
+    "local_language_id": 9,
+    "name": "Goldeen",
+    "genus": "Goldfish"
+  },
+  {
+    "pokemon_species_id": 119,
+    "local_language_id": 1,
+    "name": "アズマオウ",
+    "genus": "きんぎょ"
+  },
+  {
+    "pokemon_species_id": 119,
+    "local_language_id": 2,
+    "name": "Azumao",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 119,
+    "local_language_id": 3,
+    "name": "왕콘치",
+    "genus": "금붕어"
+  },
+  {
+    "pokemon_species_id": 119,
+    "local_language_id": 4,
+    "name": "金魚王",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 119,
+    "local_language_id": 5,
+    "name": "Poissoroy",
+    "genus": "Poisson"
+  },
+  {
+    "pokemon_species_id": 119,
+    "local_language_id": 6,
+    "name": "Golking",
+    "genus": "Goldfisch"
+  },
+  {
+    "pokemon_species_id": 119,
+    "local_language_id": 7,
+    "name": "Seaking",
+    "genus": "Pez Color"
+  },
+  {
+    "pokemon_species_id": 119,
+    "local_language_id": 8,
+    "name": "Seaking",
+    "genus": "Pescerosso"
+  },
+  {
+    "pokemon_species_id": 119,
+    "local_language_id": 9,
+    "name": "Seaking",
+    "genus": "Goldfish"
+  },
+  {
+    "pokemon_species_id": 120,
+    "local_language_id": 1,
+    "name": "ヒトデマン",
+    "genus": "ほしがた"
+  },
+  {
+    "pokemon_species_id": 120,
+    "local_language_id": 2,
+    "name": "Hitodeman",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 120,
+    "local_language_id": 3,
+    "name": "별가사리",
+    "genus": "별"
+  },
+  {
+    "pokemon_species_id": 120,
+    "local_language_id": 4,
+    "name": "海星星",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 120,
+    "local_language_id": 5,
+    "name": "Stari",
+    "genus": "Étoile"
+  },
+  {
+    "pokemon_species_id": 120,
+    "local_language_id": 6,
+    "name": "Sterndu",
+    "genus": "Sternform"
+  },
+  {
+    "pokemon_species_id": 120,
+    "local_language_id": 7,
+    "name": "Staryu",
+    "genus": "Estrellada"
+  },
+  {
+    "pokemon_species_id": 120,
+    "local_language_id": 8,
+    "name": "Staryu",
+    "genus": "Stella"
+  },
+  {
+    "pokemon_species_id": 120,
+    "local_language_id": 9,
+    "name": "Staryu",
+    "genus": "Star Shape"
+  },
+  {
+    "pokemon_species_id": 121,
+    "local_language_id": 1,
+    "name": "スターミー",
+    "genus": "なぞの"
+  },
+  {
+    "pokemon_species_id": 121,
+    "local_language_id": 2,
+    "name": "Starmie",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 121,
+    "local_language_id": 3,
+    "name": "아쿠스타",
+    "genus": "수수께끼"
+  },
+  {
+    "pokemon_species_id": 121,
+    "local_language_id": 4,
+    "name": "寶石海星",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 121,
+    "local_language_id": 5,
+    "name": "Staross",
+    "genus": "Mystérieux"
+  },
+  {
+    "pokemon_species_id": 121,
+    "local_language_id": 6,
+    "name": "Starmie",
+    "genus": "Mysteriös"
+  },
+  {
+    "pokemon_species_id": 121,
+    "local_language_id": 7,
+    "name": "Starmie",
+    "genus": "Misterioso"
+  },
+  {
+    "pokemon_species_id": 121,
+    "local_language_id": 8,
+    "name": "Starmie",
+    "genus": "Misterioso"
+  },
+  {
+    "pokemon_species_id": 121,
+    "local_language_id": 9,
+    "name": "Starmie",
+    "genus": "Mysterious"
+  },
+  {
+    "pokemon_species_id": 122,
+    "local_language_id": 1,
+    "name": "バリヤード",
+    "genus": "バリアー"
+  },
+  {
+    "pokemon_species_id": 122,
+    "local_language_id": 2,
+    "name": "Barrierd",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 122,
+    "local_language_id": 3,
+    "name": "마임맨",
+    "genus": "배리어"
+  },
+  {
+    "pokemon_species_id": 122,
+    "local_language_id": 4,
+    "name": "吸盤魔偶",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 122,
+    "local_language_id": 5,
+    "name": "M. Mime",
+    "genus": "Bloqueur"
+  },
+  {
+    "pokemon_species_id": 122,
+    "local_language_id": 6,
+    "name": "Pantimos",
+    "genus": "Sperre"
+  },
+  {
+    "pokemon_species_id": 122,
+    "local_language_id": 7,
+    "name": "Mr. Mime",
+    "genus": "Barrera"
+  },
+  {
+    "pokemon_species_id": 122,
+    "local_language_id": 8,
+    "name": "Mr. Mime",
+    "genus": "Barriera"
+  },
+  {
+    "pokemon_species_id": 122,
+    "local_language_id": 9,
+    "name": "Mr. Mime",
+    "genus": "Barrier"
+  },
+  {
+    "pokemon_species_id": 123,
+    "local_language_id": 1,
+    "name": "ストライク",
+    "genus": "かまきり"
+  },
+  {
+    "pokemon_species_id": 123,
+    "local_language_id": 2,
+    "name": "Strike",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 123,
+    "local_language_id": 3,
+    "name": "스라크",
+    "genus": "버마재비"
+  },
+  {
+    "pokemon_species_id": 123,
+    "local_language_id": 4,
+    "name": "飛天螳螂",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 123,
+    "local_language_id": 5,
+    "name": "Insécateur",
+    "genus": "Mante"
+  },
+  {
+    "pokemon_species_id": 123,
+    "local_language_id": 6,
+    "name": "Sichlor",
+    "genus": "Mantis"
+  },
+  {
+    "pokemon_species_id": 123,
+    "local_language_id": 7,
+    "name": "Scyther",
+    "genus": "Mantis"
+  },
+  {
+    "pokemon_species_id": 123,
+    "local_language_id": 8,
+    "name": "Scyther",
+    "genus": "Mantide"
+  },
+  {
+    "pokemon_species_id": 123,
+    "local_language_id": 9,
+    "name": "Scyther",
+    "genus": "Mantis"
+  },
+  {
+    "pokemon_species_id": 124,
+    "local_language_id": 1,
+    "name": "ルージュラ",
+    "genus": "ひとがた"
+  },
+  {
+    "pokemon_species_id": 124,
+    "local_language_id": 2,
+    "name": "Rougela",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 124,
+    "local_language_id": 3,
+    "name": "루주라",
+    "genus": "인간형태"
+  },
+  {
+    "pokemon_species_id": 124,
+    "local_language_id": 4,
+    "name": "迷唇姐",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 124,
+    "local_language_id": 5,
+    "name": "Lippoutou",
+    "genus": "Humanoïde"
+  },
+  {
+    "pokemon_species_id": 124,
+    "local_language_id": 6,
+    "name": "Rossana",
+    "genus": "Humanotyp"
+  },
+  {
+    "pokemon_species_id": 124,
+    "local_language_id": 7,
+    "name": "Jynx",
+    "genus": "Forma Humana"
+  },
+  {
+    "pokemon_species_id": 124,
+    "local_language_id": 8,
+    "name": "Jynx",
+    "genus": "Umanoide"
+  },
+  {
+    "pokemon_species_id": 124,
+    "local_language_id": 9,
+    "name": "Jynx",
+    "genus": "Human Shape"
+  },
+  {
+    "pokemon_species_id": 125,
+    "local_language_id": 1,
+    "name": "エレブー",
+    "genus": "でんげき"
+  },
+  {
+    "pokemon_species_id": 125,
+    "local_language_id": 2,
+    "name": "Eleboo",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 125,
+    "local_language_id": 3,
+    "name": "에레브",
+    "genus": "전기"
+  },
+  {
+    "pokemon_species_id": 125,
+    "local_language_id": 4,
+    "name": "電擊獸",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 125,
+    "local_language_id": 5,
+    "name": "Élektek",
+    "genus": "Électrique"
+  },
+  {
+    "pokemon_species_id": 125,
+    "local_language_id": 6,
+    "name": "Elektek",
+    "genus": "Elektro"
+  },
+  {
+    "pokemon_species_id": 125,
+    "local_language_id": 7,
+    "name": "Electabuzz",
+    "genus": "Eléctrico"
+  },
+  {
+    "pokemon_species_id": 125,
+    "local_language_id": 8,
+    "name": "Electabuzz",
+    "genus": "Elettrico"
+  },
+  {
+    "pokemon_species_id": 125,
+    "local_language_id": 9,
+    "name": "Electabuzz",
+    "genus": "Electric"
+  },
+  {
+    "pokemon_species_id": 126,
+    "local_language_id": 1,
+    "name": "ブーバー",
+    "genus": "ひふき"
+  },
+  {
+    "pokemon_species_id": 126,
+    "local_language_id": 2,
+    "name": "Boober",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 126,
+    "local_language_id": 3,
+    "name": "마그마",
+    "genus": "불뿜기"
+  },
+  {
+    "pokemon_species_id": 126,
+    "local_language_id": 4,
+    "name": "鴨嘴火龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 126,
+    "local_language_id": 5,
+    "name": "Magmar",
+    "genus": "Crache-Feu"
+  },
+  {
+    "pokemon_species_id": 126,
+    "local_language_id": 6,
+    "name": "Magmar",
+    "genus": "Brenner"
+  },
+  {
+    "pokemon_species_id": 126,
+    "local_language_id": 7,
+    "name": "Magmar",
+    "genus": "Escupefuego"
+  },
+  {
+    "pokemon_species_id": 126,
+    "local_language_id": 8,
+    "name": "Magmar",
+    "genus": "Sputafuoco"
+  },
+  {
+    "pokemon_species_id": 126,
+    "local_language_id": 9,
+    "name": "Magmar",
+    "genus": "Spitfire"
+  },
+  {
+    "pokemon_species_id": 127,
+    "local_language_id": 1,
+    "name": "カイロス",
+    "genus": "くわがた"
+  },
+  {
+    "pokemon_species_id": 127,
+    "local_language_id": 2,
+    "name": "Kailios",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 127,
+    "local_language_id": 3,
+    "name": "쁘사이저",
+    "genus": "뿔집게"
+  },
+  {
+    "pokemon_species_id": 127,
+    "local_language_id": 4,
+    "name": "大甲",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 127,
+    "local_language_id": 5,
+    "name": "Scarabrute",
+    "genus": "Scarabée"
+  },
+  {
+    "pokemon_species_id": 127,
+    "local_language_id": 6,
+    "name": "Pinsir",
+    "genus": "Kneifkäfer"
+  },
+  {
+    "pokemon_species_id": 127,
+    "local_language_id": 7,
+    "name": "Pinsir",
+    "genus": "Escarabajo"
+  },
+  {
+    "pokemon_species_id": 127,
+    "local_language_id": 8,
+    "name": "Pinsir",
+    "genus": "Cervolante"
+  },
+  {
+    "pokemon_species_id": 127,
+    "local_language_id": 9,
+    "name": "Pinsir",
+    "genus": "Stag Beetle"
+  },
+  {
+    "pokemon_species_id": 128,
+    "local_language_id": 1,
+    "name": "ケンタロス",
+    "genus": "あばれうし"
+  },
+  {
+    "pokemon_species_id": 128,
+    "local_language_id": 2,
+    "name": "Kentauros",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 128,
+    "local_language_id": 3,
+    "name": "켄타로스",
+    "genus": "성난소"
+  },
+  {
+    "pokemon_species_id": 128,
+    "local_language_id": 4,
+    "name": "肯泰羅",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 128,
+    "local_language_id": 5,
+    "name": "Tauros",
+    "genus": "Buffle"
+  },
+  {
+    "pokemon_species_id": 128,
+    "local_language_id": 6,
+    "name": "Tauros",
+    "genus": "Wildbulle"
+  },
+  {
+    "pokemon_species_id": 128,
+    "local_language_id": 7,
+    "name": "Tauros",
+    "genus": "Toro Bravo"
+  },
+  {
+    "pokemon_species_id": 128,
+    "local_language_id": 8,
+    "name": "Tauros",
+    "genus": "Torobrado"
+  },
+  {
+    "pokemon_species_id": 128,
+    "local_language_id": 9,
+    "name": "Tauros",
+    "genus": "Wild Bull"
+  },
+  {
+    "pokemon_species_id": 129,
+    "local_language_id": 1,
+    "name": "コイキング",
+    "genus": "さかな"
+  },
+  {
+    "pokemon_species_id": 129,
+    "local_language_id": 2,
+    "name": "Koiking",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 129,
+    "local_language_id": 3,
+    "name": "잉어킹",
+    "genus": "물고기"
+  },
+  {
+    "pokemon_species_id": 129,
+    "local_language_id": 4,
+    "name": "鯉魚王",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 129,
+    "local_language_id": 5,
+    "name": "Magicarpe",
+    "genus": "Poisson"
+  },
+  {
+    "pokemon_species_id": 129,
+    "local_language_id": 6,
+    "name": "Karpador",
+    "genus": "Fisch"
+  },
+  {
+    "pokemon_species_id": 129,
+    "local_language_id": 7,
+    "name": "Magikarp",
+    "genus": "Pez"
+  },
+  {
+    "pokemon_species_id": 129,
+    "local_language_id": 8,
+    "name": "Magikarp",
+    "genus": "Pesce"
+  },
+  {
+    "pokemon_species_id": 129,
+    "local_language_id": 9,
+    "name": "Magikarp",
+    "genus": "Fish"
+  },
+  {
+    "pokemon_species_id": 130,
+    "local_language_id": 1,
+    "name": "ギャラドス",
+    "genus": "きょうあく"
+  },
+  {
+    "pokemon_species_id": 130,
+    "local_language_id": 2,
+    "name": "Gyarados",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 130,
+    "local_language_id": 3,
+    "name": "갸라도스",
+    "genus": "흉악"
+  },
+  {
+    "pokemon_species_id": 130,
+    "local_language_id": 4,
+    "name": "暴鯉龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 130,
+    "local_language_id": 5,
+    "name": "Léviator",
+    "genus": "Terrifiant"
+  },
+  {
+    "pokemon_species_id": 130,
+    "local_language_id": 6,
+    "name": "Garados",
+    "genus": "Grausam"
+  },
+  {
+    "pokemon_species_id": 130,
+    "local_language_id": 7,
+    "name": "Gyarados",
+    "genus": "Atrocidad"
+  },
+  {
+    "pokemon_species_id": 130,
+    "local_language_id": 8,
+    "name": "Gyarados",
+    "genus": "Atroce"
+  },
+  {
+    "pokemon_species_id": 130,
+    "local_language_id": 9,
+    "name": "Gyarados",
+    "genus": "Atrocious"
+  },
+  {
+    "pokemon_species_id": 131,
+    "local_language_id": 1,
+    "name": "ラプラス",
+    "genus": "のりもの"
+  },
+  {
+    "pokemon_species_id": 131,
+    "local_language_id": 2,
+    "name": "Laplace",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 131,
+    "local_language_id": 3,
+    "name": "라프라스",
+    "genus": "탈것"
+  },
+  {
+    "pokemon_species_id": 131,
+    "local_language_id": 4,
+    "name": "乘龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 131,
+    "local_language_id": 5,
+    "name": "Lokhlass",
+    "genus": "Transport"
+  },
+  {
+    "pokemon_species_id": 131,
+    "local_language_id": 6,
+    "name": "Lapras",
+    "genus": "Transport"
+  },
+  {
+    "pokemon_species_id": 131,
+    "local_language_id": 7,
+    "name": "Lapras",
+    "genus": "Transporte"
+  },
+  {
+    "pokemon_species_id": 131,
+    "local_language_id": 8,
+    "name": "Lapras",
+    "genus": "Trasporto"
+  },
+  {
+    "pokemon_species_id": 131,
+    "local_language_id": 9,
+    "name": "Lapras",
+    "genus": "Transport"
+  },
+  {
+    "pokemon_species_id": 132,
+    "local_language_id": 1,
+    "name": "メタモン",
+    "genus": "へんしん"
+  },
+  {
+    "pokemon_species_id": 132,
+    "local_language_id": 2,
+    "name": "Metamon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 132,
+    "local_language_id": 3,
+    "name": "메타몽",
+    "genus": "변신"
+  },
+  {
+    "pokemon_species_id": 132,
+    "local_language_id": 4,
+    "name": "百變怪",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 132,
+    "local_language_id": 5,
+    "name": "Métamorph",
+    "genus": "Morphing"
+  },
+  {
+    "pokemon_species_id": 132,
+    "local_language_id": 6,
+    "name": "Ditto",
+    "genus": "Transform"
+  },
+  {
+    "pokemon_species_id": 132,
+    "local_language_id": 7,
+    "name": "Ditto",
+    "genus": "Transform."
+  },
+  {
+    "pokemon_species_id": 132,
+    "local_language_id": 8,
+    "name": "Ditto",
+    "genus": "Mutante"
+  },
+  {
+    "pokemon_species_id": 132,
+    "local_language_id": 9,
+    "name": "Ditto",
+    "genus": "Transform"
+  },
+  {
+    "pokemon_species_id": 133,
+    "local_language_id": 1,
+    "name": "イーブイ",
+    "genus": "しんか"
+  },
+  {
+    "pokemon_species_id": 133,
+    "local_language_id": 2,
+    "name": "Eievui",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 133,
+    "local_language_id": 3,
+    "name": "이브이",
+    "genus": "진화"
+  },
+  {
+    "pokemon_species_id": 133,
+    "local_language_id": 4,
+    "name": "伊布",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 133,
+    "local_language_id": 5,
+    "name": "Évoli",
+    "genus": "Évolutif"
+  },
+  {
+    "pokemon_species_id": 133,
+    "local_language_id": 6,
+    "name": "Evoli",
+    "genus": "Evolution"
+  },
+  {
+    "pokemon_species_id": 133,
+    "local_language_id": 7,
+    "name": "Eevee",
+    "genus": "Evolución"
+  },
+  {
+    "pokemon_species_id": 133,
+    "local_language_id": 8,
+    "name": "Eevee",
+    "genus": "Evoluzione"
+  },
+  {
+    "pokemon_species_id": 133,
+    "local_language_id": 9,
+    "name": "Eevee",
+    "genus": "Evolution"
+  },
+  {
+    "pokemon_species_id": 134,
+    "local_language_id": 1,
+    "name": "シャワーズ",
+    "genus": "あわはき"
+  },
+  {
+    "pokemon_species_id": 134,
+    "local_language_id": 2,
+    "name": "Showers",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 134,
+    "local_language_id": 3,
+    "name": "샤미드",
+    "genus": "거품뿜기"
+  },
+  {
+    "pokemon_species_id": 134,
+    "local_language_id": 4,
+    "name": "水精靈",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 134,
+    "local_language_id": 5,
+    "name": "Aquali",
+    "genus": "Bulleur"
+  },
+  {
+    "pokemon_species_id": 134,
+    "local_language_id": 6,
+    "name": "Aquana",
+    "genus": "Blubblase"
+  },
+  {
+    "pokemon_species_id": 134,
+    "local_language_id": 7,
+    "name": "Vaporeon",
+    "genus": "Burbuja"
+  },
+  {
+    "pokemon_species_id": 134,
+    "local_language_id": 8,
+    "name": "Vaporeon",
+    "genus": "Bollajet"
+  },
+  {
+    "pokemon_species_id": 134,
+    "local_language_id": 9,
+    "name": "Vaporeon",
+    "genus": "Bubble Jet"
+  },
+  {
+    "pokemon_species_id": 135,
+    "local_language_id": 1,
+    "name": "サンダース",
+    "genus": "かみなり"
+  },
+  {
+    "pokemon_species_id": 135,
+    "local_language_id": 2,
+    "name": "Thunders",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 135,
+    "local_language_id": 3,
+    "name": "쥬피썬더",
+    "genus": "번개"
+  },
+  {
+    "pokemon_species_id": 135,
+    "local_language_id": 4,
+    "name": "雷精靈",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 135,
+    "local_language_id": 5,
+    "name": "Voltali",
+    "genus": "Orage"
+  },
+  {
+    "pokemon_species_id": 135,
+    "local_language_id": 6,
+    "name": "Blitza",
+    "genus": "Blitz"
+  },
+  {
+    "pokemon_species_id": 135,
+    "local_language_id": 7,
+    "name": "Jolteon",
+    "genus": "Relámpago"
+  },
+  {
+    "pokemon_species_id": 135,
+    "local_language_id": 8,
+    "name": "Jolteon",
+    "genus": "Luminoso"
+  },
+  {
+    "pokemon_species_id": 135,
+    "local_language_id": 9,
+    "name": "Jolteon",
+    "genus": "Lightning"
+  },
+  {
+    "pokemon_species_id": 136,
+    "local_language_id": 1,
+    "name": "ブースター",
+    "genus": "ほのお"
+  },
+  {
+    "pokemon_species_id": 136,
+    "local_language_id": 2,
+    "name": "Booster",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 136,
+    "local_language_id": 3,
+    "name": "부스터",
+    "genus": "불꽃"
+  },
+  {
+    "pokemon_species_id": 136,
+    "local_language_id": 4,
+    "name": "火精靈",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 136,
+    "local_language_id": 5,
+    "name": "Pyroli",
+    "genus": "Flamme"
+  },
+  {
+    "pokemon_species_id": 136,
+    "local_language_id": 6,
+    "name": "Flamara",
+    "genus": "Feuer"
+  },
+  {
+    "pokemon_species_id": 136,
+    "local_language_id": 7,
+    "name": "Flareon",
+    "genus": "Llama"
+  },
+  {
+    "pokemon_species_id": 136,
+    "local_language_id": 8,
+    "name": "Flareon",
+    "genus": "Fiamma"
+  },
+  {
+    "pokemon_species_id": 136,
+    "local_language_id": 9,
+    "name": "Flareon",
+    "genus": "Flame"
+  },
+  {
+    "pokemon_species_id": 137,
+    "local_language_id": 1,
+    "name": "ポリゴン",
+    "genus": "バーチャル"
+  },
+  {
+    "pokemon_species_id": 137,
+    "local_language_id": 2,
+    "name": "Porygon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 137,
+    "local_language_id": 3,
+    "name": "폴리곤",
+    "genus": "가상"
+  },
+  {
+    "pokemon_species_id": 137,
+    "local_language_id": 4,
+    "name": "3D龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 137,
+    "local_language_id": 5,
+    "name": "Porygon",
+    "genus": "Virtuel"
+  },
+  {
+    "pokemon_species_id": 137,
+    "local_language_id": 6,
+    "name": "Porygon",
+    "genus": "Virtuell"
+  },
+  {
+    "pokemon_species_id": 137,
+    "local_language_id": 7,
+    "name": "Porygon",
+    "genus": "Virtual"
+  },
+  {
+    "pokemon_species_id": 137,
+    "local_language_id": 8,
+    "name": "Porygon",
+    "genus": "Virtuale"
+  },
+  {
+    "pokemon_species_id": 137,
+    "local_language_id": 9,
+    "name": "Porygon",
+    "genus": "Virtual"
+  },
+  {
+    "pokemon_species_id": 138,
+    "local_language_id": 1,
+    "name": "オムナイト",
+    "genus": "うずまき"
+  },
+  {
+    "pokemon_species_id": 138,
+    "local_language_id": 2,
+    "name": "Omnite",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 138,
+    "local_language_id": 3,
+    "name": "암나이트",
+    "genus": "소용돌이"
+  },
+  {
+    "pokemon_species_id": 138,
+    "local_language_id": 4,
+    "name": "菊石獸",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 138,
+    "local_language_id": 5,
+    "name": "Amonita",
+    "genus": "Spirale"
+  },
+  {
+    "pokemon_species_id": 138,
+    "local_language_id": 6,
+    "name": "Amonitas",
+    "genus": "Spirale"
+  },
+  {
+    "pokemon_species_id": 138,
+    "local_language_id": 7,
+    "name": "Omanyte",
+    "genus": "Espiral"
+  },
+  {
+    "pokemon_species_id": 138,
+    "local_language_id": 8,
+    "name": "Omanyte",
+    "genus": "Spirale"
+  },
+  {
+    "pokemon_species_id": 138,
+    "local_language_id": 9,
+    "name": "Omanyte",
+    "genus": "Spiral"
+  },
+  {
+    "pokemon_species_id": 139,
+    "local_language_id": 1,
+    "name": "オムスター",
+    "genus": "うずまき"
+  },
+  {
+    "pokemon_species_id": 139,
+    "local_language_id": 2,
+    "name": "Omstar",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 139,
+    "local_language_id": 3,
+    "name": "암스타",
+    "genus": "소용돌이"
+  },
+  {
+    "pokemon_species_id": 139,
+    "local_language_id": 4,
+    "name": "多刺菊石獸",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 139,
+    "local_language_id": 5,
+    "name": "Amonistar",
+    "genus": "Spirale"
+  },
+  {
+    "pokemon_species_id": 139,
+    "local_language_id": 6,
+    "name": "Amoroso",
+    "genus": "Spirale"
+  },
+  {
+    "pokemon_species_id": 139,
+    "local_language_id": 7,
+    "name": "Omastar",
+    "genus": "Espiral"
+  },
+  {
+    "pokemon_species_id": 139,
+    "local_language_id": 8,
+    "name": "Omastar",
+    "genus": "Spirale"
+  },
+  {
+    "pokemon_species_id": 139,
+    "local_language_id": 9,
+    "name": "Omastar",
+    "genus": "Spiral"
+  },
+  {
+    "pokemon_species_id": 140,
+    "local_language_id": 1,
+    "name": "カブト",
+    "genus": "こうら"
+  },
+  {
+    "pokemon_species_id": 140,
+    "local_language_id": 2,
+    "name": "Kabuto",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 140,
+    "local_language_id": 3,
+    "name": "투구",
+    "genus": "껍질"
+  },
+  {
+    "pokemon_species_id": 140,
+    "local_language_id": 4,
+    "name": "化石盔",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 140,
+    "local_language_id": 5,
+    "name": "Kabuto",
+    "genus": "Carapace"
+  },
+  {
+    "pokemon_species_id": 140,
+    "local_language_id": 6,
+    "name": "Kabuto",
+    "genus": "Schaltier"
+  },
+  {
+    "pokemon_species_id": 140,
+    "local_language_id": 7,
+    "name": "Kabuto",
+    "genus": "Marisco"
+  },
+  {
+    "pokemon_species_id": 140,
+    "local_language_id": 8,
+    "name": "Kabuto",
+    "genus": "Crostaceo"
+  },
+  {
+    "pokemon_species_id": 140,
+    "local_language_id": 9,
+    "name": "Kabuto",
+    "genus": "Shellfish"
+  },
+  {
+    "pokemon_species_id": 141,
+    "local_language_id": 1,
+    "name": "カブトプス",
+    "genus": "こうら"
+  },
+  {
+    "pokemon_species_id": 141,
+    "local_language_id": 2,
+    "name": "Kabutops",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 141,
+    "local_language_id": 3,
+    "name": "투구푸스",
+    "genus": "껍질"
+  },
+  {
+    "pokemon_species_id": 141,
+    "local_language_id": 4,
+    "name": "鐮刀盔",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 141,
+    "local_language_id": 5,
+    "name": "Kabutops",
+    "genus": "Carapace"
+  },
+  {
+    "pokemon_species_id": 141,
+    "local_language_id": 6,
+    "name": "Kabutops",
+    "genus": "Schaltier"
+  },
+  {
+    "pokemon_species_id": 141,
+    "local_language_id": 7,
+    "name": "Kabutops",
+    "genus": "Marisco"
+  },
+  {
+    "pokemon_species_id": 141,
+    "local_language_id": 8,
+    "name": "Kabutops",
+    "genus": "Crostaceo"
+  },
+  {
+    "pokemon_species_id": 141,
+    "local_language_id": 9,
+    "name": "Kabutops",
+    "genus": "Shellfish"
+  },
+  {
+    "pokemon_species_id": 142,
+    "local_language_id": 1,
+    "name": "プテラ",
+    "genus": "かせき"
+  },
+  {
+    "pokemon_species_id": 142,
+    "local_language_id": 2,
+    "name": "Ptera",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 142,
+    "local_language_id": 3,
+    "name": "프테라",
+    "genus": "화석"
+  },
+  {
+    "pokemon_species_id": 142,
+    "local_language_id": 4,
+    "name": "化石翼龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 142,
+    "local_language_id": 5,
+    "name": "Ptéra",
+    "genus": "Fossile"
+  },
+  {
+    "pokemon_species_id": 142,
+    "local_language_id": 6,
+    "name": "Aerodactyl",
+    "genus": "Fossil"
+  },
+  {
+    "pokemon_species_id": 142,
+    "local_language_id": 7,
+    "name": "Aerodactyl",
+    "genus": "Fósil"
+  },
+  {
+    "pokemon_species_id": 142,
+    "local_language_id": 8,
+    "name": "Aerodactyl",
+    "genus": "Fossile"
+  },
+  {
+    "pokemon_species_id": 142,
+    "local_language_id": 9,
+    "name": "Aerodactyl",
+    "genus": "Fossil"
+  },
+  {
+    "pokemon_species_id": 143,
+    "local_language_id": 1,
+    "name": "カビゴン",
+    "genus": "いねむり"
+  },
+  {
+    "pokemon_species_id": 143,
+    "local_language_id": 2,
+    "name": "Kabigon",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 143,
+    "local_language_id": 3,
+    "name": "잠만보",
+    "genus": "졸음"
+  },
+  {
+    "pokemon_species_id": 143,
+    "local_language_id": 4,
+    "name": "卡比獸",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 143,
+    "local_language_id": 5,
+    "name": "Ronflex",
+    "genus": "Pionceur"
+  },
+  {
+    "pokemon_species_id": 143,
+    "local_language_id": 6,
+    "name": "Relaxo",
+    "genus": "Tagträumer"
+  },
+  {
+    "pokemon_species_id": 143,
+    "local_language_id": 7,
+    "name": "Snorlax",
+    "genus": "Dormir"
+  },
+  {
+    "pokemon_species_id": 143,
+    "local_language_id": 8,
+    "name": "Snorlax",
+    "genus": "Sonno"
+  },
+  {
+    "pokemon_species_id": 143,
+    "local_language_id": 9,
+    "name": "Snorlax",
+    "genus": "Sleeping"
+  },
+  {
+    "pokemon_species_id": 144,
+    "local_language_id": 1,
+    "name": "フリーザー",
+    "genus": "れいとう"
+  },
+  {
+    "pokemon_species_id": 144,
+    "local_language_id": 2,
+    "name": "Freezer",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 144,
+    "local_language_id": 3,
+    "name": "프리져",
+    "genus": "냉동"
+  },
+  {
+    "pokemon_species_id": 144,
+    "local_language_id": 4,
+    "name": "急凍鳥",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 144,
+    "local_language_id": 5,
+    "name": "Artikodin",
+    "genus": "Glaciaire"
+  },
+  {
+    "pokemon_species_id": 144,
+    "local_language_id": 6,
+    "name": "Arktos",
+    "genus": "Eis"
+  },
+  {
+    "pokemon_species_id": 144,
+    "local_language_id": 7,
+    "name": "Articuno",
+    "genus": "Congelar"
+  },
+  {
+    "pokemon_species_id": 144,
+    "local_language_id": 8,
+    "name": "Articuno",
+    "genus": "Gelo"
+  },
+  {
+    "pokemon_species_id": 144,
+    "local_language_id": 9,
+    "name": "Articuno",
+    "genus": "Freeze"
+  },
+  {
+    "pokemon_species_id": 145,
+    "local_language_id": 1,
+    "name": "サンダー",
+    "genus": "でんげき"
+  },
+  {
+    "pokemon_species_id": 145,
+    "local_language_id": 2,
+    "name": "Thunder",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 145,
+    "local_language_id": 3,
+    "name": "썬더",
+    "genus": "전기"
+  },
+  {
+    "pokemon_species_id": 145,
+    "local_language_id": 4,
+    "name": "閃電鳥",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 145,
+    "local_language_id": 5,
+    "name": "Électhor",
+    "genus": "Électrique"
+  },
+  {
+    "pokemon_species_id": 145,
+    "local_language_id": 6,
+    "name": "Zapdos",
+    "genus": "Elektro"
+  },
+  {
+    "pokemon_species_id": 145,
+    "local_language_id": 7,
+    "name": "Zapdos",
+    "genus": "Eléctrico"
+  },
+  {
+    "pokemon_species_id": 145,
+    "local_language_id": 8,
+    "name": "Zapdos",
+    "genus": "Elettrico"
+  },
+  {
+    "pokemon_species_id": 145,
+    "local_language_id": 9,
+    "name": "Zapdos",
+    "genus": "Electric"
+  },
+  {
+    "pokemon_species_id": 146,
+    "local_language_id": 1,
+    "name": "ファイヤー",
+    "genus": "かえん"
+  },
+  {
+    "pokemon_species_id": 146,
+    "local_language_id": 2,
+    "name": "Fire",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 146,
+    "local_language_id": 3,
+    "name": "파이어",
+    "genus": "화염"
+  },
+  {
+    "pokemon_species_id": 146,
+    "local_language_id": 4,
+    "name": "火焰鳥",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 146,
+    "local_language_id": 5,
+    "name": "Sulfura",
+    "genus": "Flamme"
+  },
+  {
+    "pokemon_species_id": 146,
+    "local_language_id": 6,
+    "name": "Lavados",
+    "genus": "Flamme"
+  },
+  {
+    "pokemon_species_id": 146,
+    "local_language_id": 7,
+    "name": "Moltres",
+    "genus": "Llama"
+  },
+  {
+    "pokemon_species_id": 146,
+    "local_language_id": 8,
+    "name": "Moltres",
+    "genus": "Fiamma"
+  },
+  {
+    "pokemon_species_id": 146,
+    "local_language_id": 9,
+    "name": "Moltres",
+    "genus": "Flame"
+  },
+  {
+    "pokemon_species_id": 147,
+    "local_language_id": 1,
+    "name": "ミニリュウ",
+    "genus": "ドラゴン"
+  },
+  {
+    "pokemon_species_id": 147,
+    "local_language_id": 2,
+    "name": "Miniryu",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 147,
+    "local_language_id": 3,
+    "name": "미뇽",
+    "genus": "드래곤"
+  },
+  {
+    "pokemon_species_id": 147,
+    "local_language_id": 4,
+    "name": "迷你龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 147,
+    "local_language_id": 5,
+    "name": "Minidraco",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 147,
+    "local_language_id": 6,
+    "name": "Dratini",
+    "genus": "Drache"
+  },
+  {
+    "pokemon_species_id": 147,
+    "local_language_id": 7,
+    "name": "Dratini",
+    "genus": "Dragón"
+  },
+  {
+    "pokemon_species_id": 147,
+    "local_language_id": 8,
+    "name": "Dratini",
+    "genus": "Drago"
+  },
+  {
+    "pokemon_species_id": 147,
+    "local_language_id": 9,
+    "name": "Dratini",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 148,
+    "local_language_id": 1,
+    "name": "ハクリュー",
+    "genus": "ドラゴン"
+  },
+  {
+    "pokemon_species_id": 148,
+    "local_language_id": 2,
+    "name": "Hakuryu",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 148,
+    "local_language_id": 3,
+    "name": "신뇽",
+    "genus": "드래곤"
+  },
+  {
+    "pokemon_species_id": 148,
+    "local_language_id": 4,
+    "name": "哈克龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 148,
+    "local_language_id": 5,
+    "name": "Draco",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 148,
+    "local_language_id": 6,
+    "name": "Dragonir",
+    "genus": "Drache"
+  },
+  {
+    "pokemon_species_id": 148,
+    "local_language_id": 7,
+    "name": "Dragonair",
+    "genus": "Dragón"
+  },
+  {
+    "pokemon_species_id": 148,
+    "local_language_id": 8,
+    "name": "Dragonair",
+    "genus": "Drago"
+  },
+  {
+    "pokemon_species_id": 148,
+    "local_language_id": 9,
+    "name": "Dragonair",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 149,
+    "local_language_id": 1,
+    "name": "カイリュー",
+    "genus": "ドラゴン"
+  },
+  {
+    "pokemon_species_id": 149,
+    "local_language_id": 2,
+    "name": "Kairyu",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 149,
+    "local_language_id": 3,
+    "name": "망나뇽",
+    "genus": "드래곤"
+  },
+  {
+    "pokemon_species_id": 149,
+    "local_language_id": 4,
+    "name": "快龍",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 149,
+    "local_language_id": 5,
+    "name": "Dracolosse",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 149,
+    "local_language_id": 6,
+    "name": "Dragoran",
+    "genus": "Drache"
+  },
+  {
+    "pokemon_species_id": 149,
+    "local_language_id": 7,
+    "name": "Dragonite",
+    "genus": "Dragón"
+  },
+  {
+    "pokemon_species_id": 149,
+    "local_language_id": 8,
+    "name": "Dragonite",
+    "genus": "Drago"
+  },
+  {
+    "pokemon_species_id": 149,
+    "local_language_id": 9,
+    "name": "Dragonite",
+    "genus": "Dragon"
+  },
+  {
+    "pokemon_species_id": 150,
+    "local_language_id": 1,
+    "name": "ミュウツー",
+    "genus": "いでんし"
+  },
+  {
+    "pokemon_species_id": 150,
+    "local_language_id": 2,
+    "name": "Mewtwo",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 150,
+    "local_language_id": 3,
+    "name": "뮤츠",
+    "genus": "유전"
+  },
+  {
+    "pokemon_species_id": 150,
+    "local_language_id": 4,
+    "name": "超夢",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 150,
+    "local_language_id": 5,
+    "name": "Mewtwo",
+    "genus": "Génétique"
+  },
+  {
+    "pokemon_species_id": 150,
+    "local_language_id": 6,
+    "name": "Mewtu",
+    "genus": "Genmutant"
+  },
+  {
+    "pokemon_species_id": 150,
+    "local_language_id": 7,
+    "name": "Mewtwo",
+    "genus": "Genético"
+  },
+  {
+    "pokemon_species_id": 150,
+    "local_language_id": 8,
+    "name": "Mewtwo",
+    "genus": "Genetico"
+  },
+  {
+    "pokemon_species_id": 150,
+    "local_language_id": 9,
+    "name": "Mewtwo",
+    "genus": "Genetic"
+  },
+  {
+    "pokemon_species_id": 151,
+    "local_language_id": 1,
+    "name": "ミュウ",
+    "genus": "しんしゅ"
+  },
+  {
+    "pokemon_species_id": 151,
+    "local_language_id": 2,
+    "name": "Mew",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 151,
+    "local_language_id": 3,
+    "name": "뮤",
+    "genus": "신종"
+  },
+  {
+    "pokemon_species_id": 151,
+    "local_language_id": 4,
+    "name": "夢幻",
+    "genus": ""
+  },
+  {
+    "pokemon_species_id": 151,
+    "local_language_id": 5,
+    "name": "Mew",
+    "genus": "Nouveau"
+  },
+  {
+    "pokemon_species_id": 151,
+    "local_language_id": 6,
+    "name": "Mew",
+    "genus": "Neue Art"
+  },
+  {
+    "pokemon_species_id": 151,
+    "local_language_id": 7,
+    "name": "Mew",
+    "genus": "N. Especie"
+  },
+  {
+    "pokemon_species_id": 151,
+    "local_language_id": 8,
+    "name": "Mew",
+    "genus": "Novaspecie"
+  },
+  {
+    "pokemon_species_id": 151,
+    "local_language_id": 9,
+    "name": "Mew",
+    "genus": "New Species"
+  }
+]
