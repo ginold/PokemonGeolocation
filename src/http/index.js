@@ -32,3 +32,9 @@ export function postLogin ({email, password}) {
     email, password
   })
 }
+
+export function postRegister ({name, email, password}) {
+  return t0m.post('/registration', {
+    name, email, password
+  })
+}

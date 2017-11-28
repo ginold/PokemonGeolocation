@@ -2,7 +2,7 @@ import * as types from './mutation-types'
 import * as http from '../http'
 import * as pokemonNames from '../../static/pokemon-names.json'
 import * as pokedex from '../../static/pokedex.json'
-import router from '../router'
+import {router} from '../router'
 import store from '.'
 
 export const setPosition = ({commit}, payload) => {
@@ -100,10 +100,20 @@ export const submitSighting = ({commit}, payload) => {
 }
 
 export const submitLogin = ({commit}, payload) => {
+  console.log(router)
   http.postLogin({email: payload.email, password: payload.password})
   .then(response => {
     console.log('logging in!')
-    router.replace({name: 'Map'})
+    router.replace({name: 'map'})
+  })
+  .catch(error => console.log(error, error.response))
+}
+
+export const submitRegister = ({commit}, payload) => {
+  http.postRegister({name: payload.name, email: payload.email, password: payload.password})
+  .then(response => {
+    console.log('registered!')
+    router.replace({name: 'map'})
   })
   .catch(error => console.log(error, error.response))
 }
