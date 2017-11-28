@@ -1,6 +1,7 @@
 
 
 <template>
+
   <gmap-map :center="getPosition"
             :zoom="18" map-type-id="terrain"
             style="width:100%; height: 200px;"
@@ -31,6 +32,7 @@
 
 import * as VueGoogleMaps from 'vue2-google-maps'
 import Vue from 'vue'
+import debounce from 'lodash.debounce'
 let styles = require('../assets/mapsStyle.json')
 // export default -> import xxx, export var = {} -> import {xxx}
 
@@ -73,8 +75,9 @@ export default {
   },
   created () {
     this.setPosition()
-
-    window.addEventListener('resize', this.recenter)
+    window.addEventListener('resize', debounce(() => {
+      this.recenter
+    }, 100))
   }
 }
 
