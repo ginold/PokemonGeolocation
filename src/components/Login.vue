@@ -26,18 +26,6 @@
 
       </md-input-container>
 
-      <md-input-container
-        :class="{'md-input-invalid': $v.repeatPassword.$error}"
-      >
-        <label>Repeat Password</label>
-        <md-input v-model.trim="repeatPassword" @input="!$v.repeatPassword.$touch()"></md-input>
-        <span class="md-error" v-if="!$v.repeatPassword.required"
-        >password is a required field.</span>
-        <span class="md-error" v-else-if="!$v.repeatPassword.sameAsPassword"
-        >The passwords must match.</span>
-
-      </md-input-container>
-
       <div class="buttons">
         <router-link tag="md-button"
           :to="{name: 'register'}">Register</router-link>
@@ -56,7 +44,7 @@ import {
   required,
   and, // Passes when all of provided validators passes.
   email,
-  sameAs, minLength
+  minLength
 } from 'vuelidate/lib/validators'
 import {mapActions} from 'vuex'
 
@@ -65,8 +53,7 @@ export default {
   data () {
     return {
       email: undefined,
-      password: undefined,
-      repeatPassword: undefined
+      password: undefined
     }
   },
   validations: {
@@ -79,11 +66,6 @@ export default {
       required,
       and,
       minLength: minLength(6)
-    },
-    repeatPassword: {
-      required,
-      and,
-      sameAsPassword: sameAs('password')
     }
   },
   methods: {
@@ -95,7 +77,6 @@ export default {
       this.$v.$touch()
       // $v model represents the current state of validation
       if (this.$v.$invalid) return
-
       this.submitLogin({email: this.email, password: this.password})
     }
   }
