@@ -35,6 +35,7 @@ export default {
 <style scoped>
 	#list {
 		background-color: white;
+		width: 100%;
 	}
 	#list table {
 			width: 100%;
