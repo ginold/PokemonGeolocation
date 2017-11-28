@@ -7,11 +7,13 @@ import 'vue-material/dist/vue-material.css'
 import VueRouter from 'vue-router'
 import { router } from './router/'
 import store from './store'
+import Vuelidate from 'vuelidate'
 
 Vue.config.productionTip = false
 
 Vue.use(VueMaterial)
 Vue.use(VueRouter)
+Vue.use(Vuelidate)
 
 /* eslint-disable no-new */
 new Vue({
