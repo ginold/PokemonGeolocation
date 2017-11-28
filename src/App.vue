@@ -48,11 +48,12 @@
   import List from './components/List'
   import Add from './components/Add'
   import Login from './components/Login'
+  import Register from './components/Register'
 
   export default {
     name: 'app',
     components: {
-      List, PokemonMap, NotFound, Add, Login
+      List, PokemonMap, NotFound, Add, Login, Register
     }
   }
 </script>
