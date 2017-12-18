@@ -49,16 +49,17 @@
   import Add from './components/Add'
   import Login from './components/Login'
   import Register from './components/Register'
+  import PokemonDialog from './components/PokemonDialog'
 
   export default {
     name: 'app',
     components: {
-      List, PokemonMap, NotFound, Add, Login, Register
+      List, PokemonMap, NotFound, Add, Login, Register, PokemonDialog
     }
   }
 </script>
 
-<style>
+<style lang="scss">
   main {
     margin: 0 !important;
     height: 100%;
@@ -86,6 +87,19 @@
     height: 8vh;
     min-height: auto !important;
     position: relative !important;
+    background-color: #e6b408 !important;
+
+    i.md-icon {
+      font-size: 2em;
+    }
+
+    a:hover {
+        text-decoration: none !important;
+    }
+
+    h1, i.md-icon {
+      color: sienna;
+    }
   }
 
 
@@ -105,9 +119,19 @@
     top: 72px;
     right: 0px;
   }
-  .map-list-switch button{
+  .map-list-switch button.md-button {
     right: 20px;
+    width: 50px;
+    height: 50px;
     background-color: white;
+
+    &:hover {
+      background-color: #eee !important;
+    }
+  }
+  .md-fab.md-button {
+    right: inherit;
+    left: 40px;
   }
   .add {
     position: fixed;
