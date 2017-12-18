@@ -19,6 +19,7 @@ const state = {
   },
   pokeDex: [],
   pokeList: [],
+  authtoken: null,
   loginPassed: null
 }
 

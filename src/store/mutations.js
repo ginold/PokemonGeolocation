@@ -15,5 +15,8 @@ export default {
   },
   [types.LOGIN_PASSED] (state, payload) {
     state.loginPassed = payload
+  },
+  [types.AUTHTOKEN] (state, payload) {
+    state.authtoken = payload
   }
 }

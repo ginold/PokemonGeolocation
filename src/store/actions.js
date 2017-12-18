@@ -108,6 +108,7 @@ export const submitLogin = ({commit}, payload) => {
   .then(response => {
     console.log('logging in!')
     router.replace({name: 'map'})
+    commit(types.AUTHTOKEN, response.data.auth_token)
     commit(types.LOGIN_PASSED, 1)
   })
   .catch(error => {
@@ -116,11 +117,16 @@ export const submitLogin = ({commit}, payload) => {
   })
 }
 
+export const submitLogout = ({commit}, payload) => {
+  commit(types.AUTHTOKEN, null)
+}
+
 export const submitRegister = ({commit}, payload) => {
   http.postRegister({name: payload.name, email: payload.email, password: payload.password})
   .then(response => {
     console.log('registered!')
     router.replace({name: 'map'})
+    commit(types.AUTHTOKEN, response.data.auth_token)
   })
   .catch(error => {
     console.log(error, error.response)
