@@ -2,6 +2,8 @@
   <md-whiteframe md-elevation="1" class="form">
     <h1 class="md-headline">Login</h1>
     <form novalidate @submit.stop.prevent="submit">
+<!--     we need to call the function -> commit returns a value
+ -->    <b class="error" v-show="getLoginPassed === 2">Something went wrong, please retry!</b>
       <md-input-container
         :class="{'md-input-invalid': $v.email.$error}"
       >
@@ -32,7 +34,7 @@
 
         <router-link tag="md-button"
           :to="{name: 'map'}">Back to Map</router-link>
-        <md-button class="md-raised md-primary" type="submit" >Login</md-button>
+        <md-button class="md-raised md-primary" type="submit">Login</md-button>
       </div>
     </form>
   </md-whiteframe>
@@ -46,14 +48,15 @@ import {
   email,
   minLength
 } from 'vuelidate/lib/validators'
-import {mapActions} from 'vuex'
+import {mapActions, mapGetters} from 'vuex'
 
 export default {
   name: 'login',
   data () {
     return {
       email: undefined,
-      password: undefined
+      password: undefined,
+      loginPassed: 0
     }
   },
   validations: {
@@ -67,6 +70,11 @@ export default {
       and,
       minLength: minLength(6)
     }
+  },
+  computed: {
+    ...mapGetters([
+      'getLoginPassed'
+    ])
   },
   methods: {
     ...mapActions([
@@ -86,6 +94,9 @@ export default {
 <style style="scss" scoped>
 .md-whiteframe {
   background-color: white;
+}
+.error {
+  color: red;
 }
 .form {
   padding: 30px;

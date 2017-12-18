@@ -2,6 +2,8 @@ export const getPosition = state => state.position
 export const getBounds = state => state.bounds
 export const getPokeList = state => state.pokeList
 export const getPokeDex = state => state.pokeDex
+export const getLoginPassed = state => state.loginPassed
+
 // return the object properties from the state global const value
 
 // getPokedex  = function (state) {

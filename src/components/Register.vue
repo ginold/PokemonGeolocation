@@ -97,7 +97,7 @@ export default {
     repeatPassword: {
       required,
       and,
-      sameAsPassword: sameAs('password')
+      sameAsPassword: sameAs('password') // sameAsPassword is just a variable name. So is 'and' -> and()
     }
   },
   methods: {

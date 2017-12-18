@@ -18,7 +18,8 @@ const state = {
     west: 0
   },
   pokeDex: [],
-  pokeList: []
+  pokeList: [],
+  loginPassed: null
 }
 
 const debug = process.env.NODE_ENV !== 'production'

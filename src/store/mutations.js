@@ -12,5 +12,8 @@ export default {
   },
   [types.POKEDEX] (state, payload) {
     state.pokeDex = payload
+  },
+  [types.LOGIN_PASSED] (state, payload) {
+    state.loginPassed = payload
   }
 }

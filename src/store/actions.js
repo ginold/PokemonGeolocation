@@ -9,10 +9,13 @@ export const setPosition = ({commit}, payload) => {
   if (navigator.geolocation) {
     navigator.geolocation.watchPosition(payload => {
       const position = {
-        lat: payload.coords.latitude,
-        lng: payload.coords.longitude
+      //  lat: payload.coords.latitude,
+       // lng: payload.coords.longitude
+        lat: 48.21375,
+        lng: 15.632370000000037
       }
       console.log(position)
+      commit(types.POSITION, position)
     }, () => {
       console.log('The Geolocation service failed')
     }, {
@@ -105,8 +108,12 @@ export const submitLogin = ({commit}, payload) => {
   .then(response => {
     console.log('logging in!')
     router.replace({name: 'map'})
+    commit(types.LOGIN_PASSED, 1)
   })
-  .catch(error => console.log(error, error.response))
+  .catch(error => {
+    console.log(error, error.response)
+    commit(types.LOGIN_PASSED, 2)
+  })
 }
 
 export const submitRegister = ({commit}, payload) => {
@@ -115,5 +122,7 @@ export const submitRegister = ({commit}, payload) => {
     console.log('registered!')
     router.replace({name: 'map'})
   })
-  .catch(error => console.log(error, error.response))
+  .catch(error => {
+    console.log(error, error.response)
+  })
 }
