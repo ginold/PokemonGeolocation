@@ -1,10 +1,27 @@
 <template>
   <div id="pokemon-app">
     <header class="md-toolbar md-theme-default">
-        <h1>PGMon+ 17</h1>
-        <router-link :to="{name: 'login'}">
+      <h1>PGMon+ 17</h1>
+      
+      <md-menu md-align-trigger md-size="small"
+      md-direction="bottom-start" 
+        v-if="getAuthtoken">
+      <md-button
+          md-menu-trigger
+          class="md-icon-button">
+        <md-icon class="logged">account_circle</md-icon>
+      </md-button>
+      <md-menu-content>
+          <md-menu-item @click="submitLogout">
+            Logout</md-menu-item>
+      </md-menu-content>
+    </md-menu>
+      <router-link tag="md-button" 
+          class="md-icon-button"
+          v-else
+          :to="{name:'login'}">
           <md-icon>account_circle</md-icon>
-        </router-link>
+      </router-link>
     </header>
 
     <main>
@@ -51,10 +68,25 @@
   import Register from './components/Register'
   import PokemonDialog from './components/PokemonDialog'
 
+  import {
+    mapActions,
+    mapGetters
+  } from 'vuex'
+
   export default {
     name: 'app',
     components: {
       List, PokemonMap, NotFound, Add, Login, Register, PokemonDialog
+    },
+    computed: {
+      ...mapGetters([
+        'getAuthtoken'
+      ])
+    },
+    methods: {
+      ...mapActions([
+        'submitLogout'
+      ])
     }
   }
 </script>
@@ -70,7 +102,9 @@
     width: 100%;
     height: 100%;
   }
-
+  .logged { 
+    color: lightgreen !important;
+  }
   #pokemon-app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
