@@ -101,14 +101,24 @@ export const submitSighting = ({commit}, payload) => {
   })
   .catch(error => console.log(error, error.response))
 }
+export const chromeStoreCreditentials = (email, password) => {
+  let cred = new PasswordCredential({
+    id: email,
+    password: password
+  })
+  navigator.credentials.store(cred)
+}
 
 export const submitLogin = ({commit}, payload) => {
-  console.log(router)
   http.postLogin({email: payload.email, password: payload.password})
   .then(response => {
     console.log('logging in!')
+
     router.replace({name: 'map'})
-    commit(types.AUTHTOKEN, response.data.auth_token)
+
+    setAuthtoken(response.data.auth_token, commit)
+    chromeStoreCreditentials(payload.email, payload.password)
+
     commit(types.LOGIN_PASSED, 1)
   })
   .catch(error => {
@@ -117,8 +127,17 @@ export const submitLogin = ({commit}, payload) => {
   })
 }
 
+export const setAuthtoken = (token, commit) => {
+  if (!token) {
+    localStorage.removeItem('xauth')
+  } else {
+    localStorage.setItem('xauth', token)
+  }
+  commit(types.AUTHTOKEN, token)
+}
+
 export const submitLogout = ({commit}, payload) => {
-  commit(types.AUTHTOKEN, null)
+  setAuthtoken(undefined, commit)
 }
 
 export const submitRegister = ({commit}, payload) => {
@@ -126,6 +145,7 @@ export const submitRegister = ({commit}, payload) => {
   .then(response => {
     console.log('registered!')
     router.replace({name: 'map'})
+    localStorage.setItem('xauth', response.data.auth_token)
     commit(types.AUTHTOKEN, response.data.auth_token)
   })
   .catch(error => {

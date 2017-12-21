@@ -79,7 +79,6 @@ export default {
       }
     },
     getPixelFromMarker ($event) {
-      console.log(this.$refs.googleMap.$mapObject)
       let map = this.$refs.googleMap.$mapObject
       let scale = Math.pow(2, map.getZoom())
       let proj = map.getProjection()
@@ -126,5 +125,8 @@ Vue.use(VueGoogleMaps, {
   }
   .map-container {
     width: 100%;
+  }
+  .md-menu-content ul {
+    background-color: white !important;
   }
 </style>

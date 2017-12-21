@@ -19,7 +19,7 @@ const state = {
   },
   pokeDex: [],
   pokeList: [],
-  authtoken: null,
+  authtoken: localStorage.getItem('xauth'),
   loginPassed: null
 }
 

@@ -1,14 +1,14 @@
 <template>
   <md-whiteframe md-elevation="1" class="form">
     <h1 class="md-headline">Login</h1>
-    <form novalidate @submit.stop.prevent="submit">
+    <form novalidate @submit.stop.prevent="submit" id="loginForm">
 <!--     we need to call the function -> commit returns a value
  -->    <b class="error" v-show="getLoginPassed === 2">Something went wrong, please retry!</b>
       <md-input-container
         :class="{'md-input-invalid': $v.email.$error}"
       >
         <label>E-mail</label>
-        <md-input v-model.trim="email" @input="!$v.email.$touch()"></md-input>
+        <md-input autocomplete="email" name="id" v-model.trim="email" @input="!$v.email.$touch()"></md-input>
         <span class="md-error" v-if="!$v.email.required"
         >Email is a required field.</span>
         <span class="md-error" v-else-if="!$v.email.email"
@@ -20,7 +20,7 @@
         :class="{'md-input-invalid': $v.password.$error}"
       >
         <label>Password</label>
-        <md-input v-model.trim="password" @input="!$v.password.$touch()"></md-input>
+        <md-input autocomplete="password" name="password" v-model.trim="password" @input="!$v.password.$touch()"></md-input>
         <span class="md-error" v-if="!$v.password.required"
         >password is a required field.</span>
         <span class="md-error" v-else-if="!$v.password.minLength"
@@ -86,7 +86,18 @@ export default {
       // $v model represents the current state of validation
       if (this.$v.$invalid) return
       this.submitLogin({email: this.email, password: this.password})
+    },
+    autologin () {
+      navigator.credentials.get({
+        password: true, // Obtain password credentials or not
+        unmediated: true // autologin
+      }).then(cred => {
+        if (cred) this.submitLogin({email: cred.id, password: cred.password})
+      })
     }
+  },
+  created () {
+    if (navigator.credentials) this.autologin()
   }
 }
 </script>

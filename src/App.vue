@@ -11,11 +11,11 @@
           class="md-icon-button">
         <md-icon class="logged">account_circle</md-icon>
       </md-button>
-      <md-menu-content>
-          <md-menu-item @click="submitLogout">
-            Logout</md-menu-item>
-      </md-menu-content>
-    </md-menu>
+        <md-menu-content>
+            <md-menu-item @click="submitLogout">
+              Logout</md-menu-item>
+        </md-menu-content>
+      </md-menu>
       <router-link tag="md-button" 
           class="md-icon-button"
           v-else

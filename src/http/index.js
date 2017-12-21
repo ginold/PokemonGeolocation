@@ -1,4 +1,5 @@
 import axios from 'axios'
+import store from '../store'
 
 const t0m = axios.create({
   baseURL: 'https://out.t0m.at/'
@@ -6,6 +7,19 @@ const t0m = axios.create({
 
 const local = axios.create({
   baseURL: '//'
+})
+
+t0m.interceptors.request.use(function (config) {
+  // Do something before request is sent
+  if (store.getters.getAuthtoken) {
+    config.headers = {
+      'X-Auth-Token': store.getters.getAuthtoken
+    }
+  }
+  return config
+}, function (error) {
+  // Do something with request error
+  return Promise.reject(error)
 })
 
 export function getPokemonList ({north, east, south, west}) {
