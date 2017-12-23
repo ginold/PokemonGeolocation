@@ -28,6 +28,9 @@
 
       </md-input-container>
 
+      <md-checkbox v-model="remember">Remember me</md-checkbox>
+
+
       <div class="buttons">
         <router-link tag="md-button"
           :to="{name: 'register'}">Register</router-link>
@@ -56,7 +59,8 @@ export default {
     return {
       email: undefined,
       password: undefined,
-      loginPassed: 0
+      loginPassed: 0,
+      remember: false
     }
   },
   validations: {
@@ -85,19 +89,19 @@ export default {
       this.$v.$touch()
       // $v model represents the current state of validation
       if (this.$v.$invalid) return
-      this.submitLogin({email: this.email, password: this.password})
+      this.submitLogin({email: this.email, password: this.password, remember: this.remember})
     },
     autologin () {
       navigator.credentials.get({
         password: true, // Obtain password credentials or not
-        unmediated: true // autologin
+        unmediated: false // autologin -> false = account chooser
       }).then(cred => {
         if (cred) this.submitLogin({email: cred.id, password: cred.password})
       })
     }
   },
   created () {
-    if (navigator.credentials) this.autologin()
+    if (navigator.credentials && navigator.credentials.preventSilentAccess) this.autologin()
   }
 }
 </script>

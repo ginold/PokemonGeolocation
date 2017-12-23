@@ -117,7 +117,7 @@ export const submitLogin = ({commit}, payload) => {
     router.replace({name: 'map'})
 
     setAuthtoken(response.data.auth_token, commit)
-    chromeStoreCreditentials(payload.email, payload.password)
+    if (payload.remember) chromeStoreCreditentials(payload.email, payload.password)
 
     commit(types.LOGIN_PASSED, 1)
   })
@@ -136,8 +136,13 @@ export const setAuthtoken = (token, commit) => {
   commit(types.AUTHTOKEN, token)
 }
 
+export const setRemember = (commit) => {
+
+}
+
 export const submitLogout = ({commit}, payload) => {
   setAuthtoken(undefined, commit)
+  navigator.credentials.preventSilentAccess()
 }
 
 export const submitRegister = ({commit}, payload) => {
