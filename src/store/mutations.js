@@ -18,5 +18,8 @@ export default {
   },
   [types.AUTHTOKEN] (state, payload) {
     state.authtoken = payload
+  },
+  [types.SNACKBAR_MESSAGE] (state, payload) {
+    state.snackbarMessage = payload
   }
 }

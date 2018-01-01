@@ -3,18 +3,18 @@
   <md-dialog-title>Pokemon Details</md-dialog-title>
   	 <section class="dialog-content">
   	 	<div>
-  	 		  	 	<div>
-  	 		<b>Name</b>
-  	 		<p>{{pokemon.name}}</p>
-  	 	</div>
-  	 	<div>
-  	 		<b>Pokedex ID</b>
-  	 		<p>{{pokemon.pokedex_id}}</p>
-  	 	</div>
-  	 	<div>
-  	 		<b>Sighting ID</b>
-  	 		<p>{{pokemon.sighting_id}}</p>
-  	 	</div>
+    	 	<div>
+    	 		<b>Name</b>
+    	 		<p>{{pokemon.name}}</p>
+    	 	</div>
+    	 	<div>
+    	 		<b>Pokedex ID</b>
+    	 		<p>{{pokemon.pokedex_id}}</p>
+    	 	</div>
+    	 	<div>
+    	 		<b>Sighting ID</b>
+    	 		<p>{{pokemon.sighting_id}}</p>
+    	 	</div>
   	 	</div>
   	 	<div>
   	 		<img :ref="pokemonImgRef" class="pokemon-image" v-bind:src="imgUrl">

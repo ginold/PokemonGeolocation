@@ -20,7 +20,8 @@ const state = {
   pokeDex: [],
   pokeList: [],
   authtoken: localStorage.getItem('xauth'),
-  loginPassed: null
+  loginPassed: null,
+  snackbarMessage: ''
 }
 
 const debug = process.env.NODE_ENV !== 'production'

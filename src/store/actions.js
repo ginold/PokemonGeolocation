@@ -120,11 +120,17 @@ export const submitLogin = ({commit}, payload) => {
     if (payload.remember) chromeStoreCreditentials(payload.email, payload.password)
 
     commit(types.LOGIN_PASSED, 1)
+    setSnackbarMessage('Login successful!', {commit})
   })
   .catch(error => {
     console.log(error, error.response)
     commit(types.LOGIN_PASSED, 2)
+    setSnackbarMessage('Login failed!', {commit})
   })
+}
+
+export const setSnackbarMessage = (message, {commit}) => {
+  commit(types.SNACKBAR_MESSAGE, message)
 }
 
 export const setAuthtoken = (token, commit) => {
@@ -134,10 +140,6 @@ export const setAuthtoken = (token, commit) => {
     localStorage.setItem('xauth', token)
   }
   commit(types.AUTHTOKEN, token)
-}
-
-export const setRemember = (commit) => {
-
 }
 
 export const submitLogout = ({commit}, payload) => {
@@ -152,8 +154,10 @@ export const submitRegister = ({commit}, payload) => {
     router.replace({name: 'map'})
     localStorage.setItem('xauth', response.data.auth_token)
     commit(types.AUTHTOKEN, response.data.auth_token)
+    setSnackbarMessage('Registration successful!', {commit})
   })
   .catch(error => {
+    setSnackbarMessage('Registration failed!', {commit})
     console.log(error, error.response)
   })
 }

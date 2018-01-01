@@ -4,6 +4,7 @@ export const getPokeList = state => state.pokeList
 export const getPokeDex = state => state.pokeDex
 export const getLoginPassed = state => state.loginPassed
 export const getAuthtoken = state => state.authtoken
+export const getSnackbarMessage = state => state.snackbarMessage
 
 // return the object properties from the state global const value
 

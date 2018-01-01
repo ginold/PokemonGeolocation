@@ -55,6 +55,7 @@
       </router-link>
 
     </main>
+    <snackbar ref="snackbar"></snackbar>
 
   </div>
 </template>
@@ -67,6 +68,7 @@
   import Login from './components/Login'
   import Register from './components/Register'
   import PokemonDialog from './components/PokemonDialog'
+  import Snackbar from './components/Snackbar'
 
   import {
     mapActions,
@@ -76,11 +78,17 @@
   export default {
     name: 'app',
     components: {
-      List, PokemonMap, NotFound, Add, Login, Register, PokemonDialog
+      List, PokemonMap, NotFound, Add, Login, Register, PokemonDialog, Snackbar
+    },
+    watch: {
+      'getSnackbarMessage': function (message, oldVal) {
+        this.$refs.snackbar.open(message)
+      }
     },
     computed: {
       ...mapGetters([
-        'getAuthtoken'
+        'getAuthtoken',
+        'getSnackbarMessage'
       ])
     },
     methods: {
