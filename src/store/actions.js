@@ -7,21 +7,24 @@ import store from '.'
 
 export const setPosition = ({commit}, payload) => {
   if (navigator.geolocation) {
-    navigator.geolocation.watchPosition(payload => {
-      const position = {
-      //  lat: payload.coords.latitude,
-       // lng: payload.coords.longitude
-        lat: 48.21375,
-        lng: 15.632370000000037
-      }
-      console.log(position)
-      commit(types.POSITION, position)
-    }, () => {
-      console.log('The Geolocation service failed')
-    }, {
-      enableHighAccuracy: true,
-      maximumAge: 30000,
-      timeout: 27000
+    return new Promise(resolve => {
+      navigator.geolocation.watchPosition(payload => {
+        const position = {
+        //  lat: payload.coords.latitude,
+         // lng: payload.coords.longitude
+          lat: 48.21375,
+          lng: 15.632370000000037
+        }
+        console.log(position)
+        commit(types.POSITION, position)
+        resolve()
+      }, () => {
+        console.log('The Geolocation service failed')
+      }, {
+        enableHighAccuracy: true,
+        maximumAge: 30000,
+        timeout: 27000
+      })
     })
   } else {
     console.log('Your browser doesn\'t support geolocation.')
@@ -68,7 +71,9 @@ export const setPokeList = ({commit}, bounds) => {
         sighting_id: 2
       }
     ]
-    let pokemonSight = response.data.location.pokemon
+    let pokemonSight = response.data.location.pokemon // RIA
+ //   let pokemonSight = response.data.areaResponse.pokemonList // BAD
+    console.log(pokemonSight)
     // we need to get the english name to show the appropriate sprite
     // local language 6 = deutsch, 7 = english
     for (let p of pokemonSight) {
