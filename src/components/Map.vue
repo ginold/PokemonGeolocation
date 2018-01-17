@@ -1,5 +1,8 @@
 <template>
 <div class="map-container">
+  <transition name="bounce" mode="out-in">
+    <router-view></router-view>
+  </transition>
   <pokemon-dialog ref="pokemonDialog"></pokemon-dialog>  
   <gmap-map 
     :center="getPosition"
@@ -125,11 +128,40 @@ Vue.use(VueGoogleMaps, {
 <style>
   .vue-map-container {
     height: 92vh !important;
+    transition: .1s;
+    overflow: hidden;
   }
   .map-container {
+    display: flex;
+    justify-content: center;
     width: 100%;
+  }
+
+  .map-container .md-whiteframe {
+    position: absolute;
+    margin: auto;
+  }
+  .md-whiteframe + .vue-map-container {
+    filter: blur(2px);
   }
   .md-menu-content ul {
     background-color: white !important;
+  }
+  .bounce-enter-active {
+  animation: bounce-in .3s;
+  }
+  .bounce-leave-active {
+    animation: bounce-in .3s reverse;
+  }
+  @keyframes bounce-in {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 </style>

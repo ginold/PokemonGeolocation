@@ -37,7 +37,7 @@
       <div class="map-list-switch">
         <router-link tag="md-button" class="md-icon-button md-raised"
           v-if="$route.name === 'map'"
-          :to="{name: 'list'}">
+          :to="{name: 'map/add'}">
           <md-icon>list</md-icon>
         </router-link>
 
@@ -50,7 +50,7 @@
 
       <router-link tag="md-button" class="add md-fab md-fab-bottom-right"
         v-if="$route.name === 'map' || $route.name === 'list'"
-        :to="{name: 'add'}">
+        :to="{name: 'map/add'}">
         <md-icon>add</md-icon>
       </router-link>
 
