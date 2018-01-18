@@ -37,7 +37,7 @@
       <div class="map-list-switch">
         <router-link tag="md-button" class="md-icon-button md-raised"
           v-if="$route.name === 'map'"
-          :to="{name: 'map/add'}">
+          :to="{name: 'list'}">
           <md-icon>list</md-icon>
         </router-link>
 
@@ -93,8 +93,15 @@
     },
     methods: {
       ...mapActions([
+        'setPosition',
+        'setIsNight',
         'submitLogout'
       ])
+    },
+    created () {
+      this.setPosition().then((position) => {
+        this.setIsNight(position)
+      })
     }
   }
 </script>

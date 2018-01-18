@@ -4,6 +4,7 @@ import * as pokemonNames from '../../static/pokemon-names.json'
 import * as pokedex from '../../static/pokedex.json'
 import {router} from '../router'
 import store from '.'
+import Suncalc from 'suncalc'
 
 export const setPosition = ({commit}, payload) => {
   if (navigator.geolocation) {
@@ -17,7 +18,7 @@ export const setPosition = ({commit}, payload) => {
         }
         console.log(position)
         commit(types.POSITION, position)
-        resolve()
+        resolve(position)
       }, () => {
         console.log('The Geolocation service failed')
       }, {
@@ -47,6 +48,17 @@ export const setBounds = ({commit}, payload) => {
 export const setPokeDex = ({commit}, payload) => {
   console.log(pokedex)
   commit(types.POKEDEX, pokedex)
+}
+
+export const setIsNight = ({commit}, position) => {
+  let sun = Suncalc.getTimes(new Date(), position.lat, position.lng)
+
+  let diffSunrise = sun.sunrise - new Date() // negative val =  sunrise already passed
+  let diffSunset = sun.sunset - new Date()
+  console.log('diff sunrise ' + diffSunrise + ' diff sunset ' + diffSunset)
+
+  setTimeout(() => { commit(types.IS_NIGHT, false) }, diffSunrise)
+  setTimeout(() => { commit(types.IS_NIGHT, true) }, diffSunset)
 }
 
 export const setPokeList = ({commit}, bounds) => {
@@ -102,10 +114,11 @@ export const submitSighting = ({commit}, payload) => {
   .then(response => {
     console.log('Sighting stored.')
     setPokeList({commit}, store.getters.getBounds)
-    router.replace({name: 'Map'})
+    router.replace({name: 'map'})
   })
   .catch(error => console.log(error, error.response))
 }
+
 export const chromeStoreCreditentials = (email, password) => {
   let cred = new PasswordCredential({
     id: email,
@@ -166,3 +179,4 @@ export const submitRegister = ({commit}, payload) => {
     console.log(error, error.response)
   })
 }
+

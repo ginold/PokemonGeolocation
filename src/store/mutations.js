@@ -21,5 +21,8 @@ export default {
   },
   [types.SNACKBAR_MESSAGE] (state, payload) {
     state.snackbarMessage = payload
+  },
+  [types.IS_NIGHT] (state, payload) {
+    state.isNight = payload
   }
 }

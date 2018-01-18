@@ -17,6 +17,7 @@ const state = {
     south: 0,
     west: 0
   },
+  isNight: false,
   pokeDex: [],
   pokeList: [],
   authtoken: localStorage.getItem('xauth'),

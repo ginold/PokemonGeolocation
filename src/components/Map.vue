@@ -37,7 +37,6 @@
 import * as VueGoogleMaps from 'vue2-google-maps'
 import Vue from 'vue'
 import debounce from 'lodash.debounce'
-import Suncalc from 'suncalc'
 import PokemonDialog from './PokemonDialog'
 // export default -> import xxx, export var = {} -> import {xxx}
 
@@ -60,27 +59,30 @@ export default {
       }
     }
   },
+  watch: {
+    'getIsNight': function (isNight, oldVal) {
+      this.setMapStyle(isNight)
+    }
+  },
   components: {
     pokemonDialog: PokemonDialog
   },
   computed: {
     ...mapGetters([
       'getPokeList',
-      'getPosition'
+      'getPosition',
+      'getIsNight'
     ])
   },
   methods: {
     ...mapActions([
-      'setBounds',
-      'setPosition'
+      'setBounds'
     ]),
-    setMapStyle () {
-      let sun = Suncalc.getTimes(new Date(), this.getPosition.lat, this.getPosition.lng)
-      // if it's before sunset
-      if (sun.sunset > new Date()) {
-        this.$data.options.styles = require('../assets/mapStyleDay.json')
-      } else { // after sunset
+    setMapStyle (isNight) {
+      if (isNight) {
         this.$data.options.styles = require('../assets/mapStyleNight.json')
+      } else {
+        this.$data.options.styles = require('../assets/mapStyleDay.json')
       }
     },
     getPixelFromMarker ($event) {
@@ -109,9 +111,7 @@ export default {
     this.$refs.googleMap.resizePreserveCenter()
   },
   created () {
-    this.setPosition().then(() => {
-      this.setMapStyle()
-    })
+    this.setMapStyle(this.getIsNight)
     window.addEventListener('resize', debounce(() => {
       this.recenter
     }, 100))
