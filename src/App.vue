@@ -37,19 +37,19 @@
       <div class="map-list-switch">
         <router-link tag="md-button" class="md-icon-button md-raised"
           v-if="$route.name === 'map'"
-          :to="{name: 'list'}">
+          :to="{name: 'map/list'}">
           <md-icon>list</md-icon>
         </router-link>
 
         <router-link tag="md-button" class="md-icon-button md-raised"
-          v-if="$route.name === 'list'"
+          v-if="$route.name === 'map/list'"
           :to="{name: 'map'}">
           <md-icon>map</md-icon>
         </router-link>
       </div>
 
       <router-link tag="md-button" class="add md-fab md-fab-bottom-right"
-        v-if="$route.name === 'map' || $route.name === 'list'"
+        v-if="$route.name === 'map' || $route.name === 'map/list' || $route.name === ''"
         :to="{name: 'map/add'}">
         <md-icon>add</md-icon>
       </router-link>
@@ -110,7 +110,7 @@
   }
 </script>
 
-<style lang="scss">
+<style style="scss">
   main {
     margin: 0 !important;
     height: 100%;
@@ -169,18 +169,17 @@
 
   .map-list-switch {
     position: fixed;
-    top: 72px;
-    right: 0px;
+    top: 100px;
+    right: 10px;
   }
   .map-list-switch button.md-button {
     right: 20px;
     width: 50px;
     height: 50px;
     background-color: white;
-
-    &:hover {
-      background-color: #eee !important;
-    }
+  }
+  .md-button.md-icon-button:not([disabled]):hover {
+    background-color: #eee !important;
   }
   .md-fab.md-button {
     right: inherit;

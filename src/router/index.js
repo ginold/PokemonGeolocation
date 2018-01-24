@@ -14,12 +14,14 @@ export const router = new VueRouter({
     { path: '/register', component: Register, name: 'register', meta: {requires: 'visitor'} },
     { path: '/login', component: Login, name: 'login', meta: {requires: 'visitor'} },
     { path: '/', component: PokemonMap, name: 'home' },
-    { path: '/list', component: List, name: 'list', meta: {requires: 'auth'} },
     { path: '/map',
       component: PokemonMap,
       name: 'map',
       meta: {requires: 'visitor'},
-      children: [{name: 'map/add', path: 'add', component: Add, meta: {requires: 'auth'}}]
+      children: [
+        { name: 'map/add', path: 'add', component: Add, meta: {requires: 'auth'} },
+        { name: 'map/list', path: 'list', component: List, meta: {requires: 'auth'} }
+      ]
     },
     { path: '*', component: NotFound } // * for not found routes
   ]

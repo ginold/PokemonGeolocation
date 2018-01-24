@@ -147,6 +147,20 @@ Vue.use(VueGoogleMaps, {
   .md-menu-content ul {
     background-color: white !important;
   }
+  .md-whiteframe {
+    background-color: white;
+  }
+  .form.map-modal {
+    padding: 30px;
+    margin: 16px;
+    width: 400px;
+    align-self: center;
+  }
+  .map-modal .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -8px;
+  }
   .bounce-enter-active {
   animation: bounce-in .3s;
   }

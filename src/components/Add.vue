@@ -1,5 +1,5 @@
 <template>
-  <md-whiteframe md-elevation="1" class="form">
+  <md-whiteframe md-elevation="1" class="form map-modal">
     <h1 class="md-headline">Add Pokémon</h1>
     <form novalidate @submit.stop.prevent="submit">
       <md-input-container
@@ -75,20 +75,3 @@ export default {
   }
 }
 </script>
-
-<style style="scss" scoped>
-.md-whiteframe {
-  background-color: white;
-}
-.form {
-  padding: 30px;
-  margin: 16px;
-  width: 400px;
-  align-self: center;
-}
-.buttons {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: -8px;
-}
-</style>
