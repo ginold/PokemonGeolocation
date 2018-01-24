@@ -11,10 +11,10 @@ export const setPosition = ({commit}, payload) => {
     return new Promise(resolve => {
       navigator.geolocation.watchPosition(payload => {
         const position = {
-        //  lat: payload.coords.latitude,
-         // lng: payload.coords.longitude
-          lat: 48.21375,
-          lng: 15.632370000000037
+          lat: payload.coords.latitude,
+          lng: payload.coords.longitude
+          //  lat: 48.21375,
+          // lng: 15.632370000000037
         }
         console.log(position)
         commit(types.POSITION, position)
