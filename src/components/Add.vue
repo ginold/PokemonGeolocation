@@ -3,14 +3,17 @@
     <h1 class="md-headline">Add Pokémon</h1>
     <form novalidate @submit.stop.prevent="submit">
       <md-input-container
-        :class="{'md-input-invalid': !$v.pokemon.isValid}"
+        :class="{'md-input-invalid': $v.pokemon.$error}"
       >
-        <label>Pokédex Id or Name</label>
+        <label>Pokédex Name</label>
         <md-autocomplete @input="!$v.pokemon.$touch()" v-model.trim="pokemon" :fetch="fetchPokemons" md-dense>
         </md-autocomplete>
-        <span class="md-error" v-if="!$v.pokemon.isValid"
-        >Invalid pokemon name.</span>
-
+        <span class="md-error" v-if="!$v.pokemon.minLength"
+        >Type at least {{$v.pokemon.$params.minLength.min}} characters</span>
+        <span class="md-error" v-else-if="!$v.pokemon.isValid"
+        >Pokemon name should be a string.</span>        
+        <span class="md-error" v-else-if="!$v.pokemon.notFound"
+        >Pokemon not found.</span>
       </md-input-container>
       <div class="buttons">
         <router-link tag="md-button":to="{name: 'map'}">Back to Map</router-link>
@@ -23,21 +26,26 @@
 <script>
 
 import {mapActions, mapGetters} from 'vuex'
-
+import {minLength, and} from 'vuelidate/lib/validators'
 export default {
   name: 'add',
   data () {
     return {
-      pokemon: undefined
+      pokemon: null
     }
   },
   validations: {
     pokemon: {
-      isValid: function (value) {
+      notFound: function (value) {
         console.log(this.getPokeList, value)
         // cast to boolean
         return !!this.getPokeList.find(item => String(item.name).includes(value))
-      }
+      },
+      isValid: function (val) {
+        return isNaN(val)
+      },
+      minLength: minLength(3),
+      and
     }
   },
   computed: {
