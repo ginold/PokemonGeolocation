@@ -9,6 +9,7 @@ import store from '../store'
 
 // can be a JS file, just write 'export'
 export const router = new VueRouter({
+  mode: 'history',
   routes: [
     { path: '/register', component: Register, name: 'register', meta: {requires: 'visitor'} },
     { path: '/login', component: Login, name: 'login', meta: {requires: 'visitor'} },
@@ -18,7 +19,7 @@ export const router = new VueRouter({
       component: PokemonMap,
       name: 'map',
       meta: {requires: 'visitor'},
-      children: [{name: 'map/add', path: 'add', component: Add, meta: {requires: 'visitor'}}]
+      children: [{name: 'map/add', path: 'add', component: Add, meta: {requires: 'auth'}}]
     },
     { path: '*', component: NotFound } // * for not found routes
   ]
@@ -27,10 +28,12 @@ export const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   if (to.matched.some(record => record.meta.requires === 'auth')) {
     if (!store.getters.getAuthtoken) {
-      next('/login')
-    } else {
-      next()
+      router.push({ name: 'login', query: { redirect: to.name } })
     }
+    next()
+  } else if (from.query.redirect && !to.query.redirect) {
+    next({name: to.name, query: from.query})
+  } else {
+    next()
   }
-  next()
 })

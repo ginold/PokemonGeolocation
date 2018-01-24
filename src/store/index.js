@@ -17,12 +17,14 @@ const state = {
     south: 0,
     west: 0
   },
+  transitionDuration: 500,
   isNight: false,
   pokeDex: [],
   pokeList: [],
   authtoken: localStorage.getItem('xauth'),
   loginPassed: null,
-  snackbarMessage: ''
+  snackbarMessage: '',
+  history: {previous: '', preprevious: ''}
 }
 
 const debug = process.env.NODE_ENV !== 'production'

@@ -25,11 +25,11 @@
     </header>
 
     <main>
-      <transition name="component-fade" mode="out-in">
+      <transition :duration="duration" name="component-fade" mode="out-in">
       <!-- keep the switched-out components in memory so that you can preserve their state or avoid re-rendering -->
 
       <!-- to always show a "fresh" Add.vue, exclude it from keep-alive-->
-        <keep-alive exclude="add">
+        <keep-alive>
           <router-view></router-view>
         </keep-alive>
       </transition>
@@ -85,10 +85,14 @@
         this.$refs.snackbar.open(message)
       }
     },
+    data () {
+      return { duration: this.getTransitionDuration }
+    },
     computed: {
       ...mapGetters([
         'getAuthtoken',
-        'getSnackbarMessage'
+        'getSnackbarMessage',
+        'getTransitionDuration'
       ])
     },
     methods: {

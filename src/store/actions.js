@@ -127,24 +127,44 @@ export const chromeStoreCreditentials = (email, password) => {
   navigator.credentials.store(cred)
 }
 
+export const saveURLHistory = ({commit}, payload) => {
+  var history = Object.assign({}, store.getters.getHistory)
+  history.preprevious = history.previous
+  history.previous = payload
+  commit(types.HISTORY, history)
+}
+
 export const submitLogin = ({commit}, payload) => {
   http.postLogin({email: payload.email, password: payload.password})
   .then(response => {
-    console.log('logging in!')
-
-    router.replace({name: 'map'})
-
     setAuthtoken(response.data.auth_token, commit)
     if (payload.remember) chromeStoreCreditentials(payload.email, payload.password)
 
     commit(types.LOGIN_PASSED, 1)
     setSnackbarMessage('Login successful!', {commit})
+    console.log('login!')
+    redirect()
   })
   .catch(error => {
     console.log(error, error.response)
     commit(types.LOGIN_PASSED, 2)
     setSnackbarMessage('Login failed!', {commit})
   })
+}
+
+const redirect = () => {
+  let re = getQueryParams(window.location.search)
+  console.log(re)
+  if (re) {
+    console.log('redirecting!')
+    // filthy workaround due to transition
+    router.replace({name: 'map'})
+    setTimeout(() => {
+      router.replace(re.redirect)
+    }, store.getters.getTransitionDuration + 100)
+  } else {
+    router.replace({name: 'map'})
+  }
 }
 
 export const setSnackbarMessage = (message, {commit}) => {
@@ -169,10 +189,10 @@ export const submitRegister = ({commit}, payload) => {
   http.postRegister({name: payload.name, email: payload.email, password: payload.password})
   .then(response => {
     console.log('registered!')
-    router.replace({name: 'map'})
     localStorage.setItem('xauth', response.data.auth_token)
     commit(types.AUTHTOKEN, response.data.auth_token)
     setSnackbarMessage('Registration successful!', {commit})
+    redirect()
   })
   .catch(error => {
     setSnackbarMessage('Registration failed!', {commit})
@@ -180,3 +200,12 @@ export const submitRegister = ({commit}, payload) => {
   })
 }
 
+export const getQueryParams = query => {
+  return (/^[?#]/.test(query) ? query.slice(1) : query)
+    .split('&')
+    .reduce((params, param) => {
+      let [ key, value ] = param.split('=')
+      params[key] = value ? decodeURIComponent(value.replace(/\+/g, ' ')) : ''
+      return params
+    }, { })
+}

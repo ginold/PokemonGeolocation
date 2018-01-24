@@ -24,5 +24,8 @@ export default {
   },
   [types.IS_NIGHT] (state, payload) {
     state.isNight = payload
+  },
+  [types.HISTORY] (state, payload) {
+    state.history = payload
   }
 }

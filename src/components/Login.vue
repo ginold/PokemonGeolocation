@@ -25,11 +25,9 @@
         >password is a required field.</span>
         <span class="md-error" v-else-if="!$v.password.minLength"
         >password must be at least 6 characters long.</span>
-
       </md-input-container>
 
       <md-checkbox v-model="remember">Remember me</md-checkbox>
-
 
       <div class="buttons">
         <router-link tag="md-button"
@@ -100,7 +98,7 @@ export default {
       })
     }
   },
-  created () {
+  activated () { // for keep-alive tag
     if (navigator.credentials && navigator.credentials.preventSilentAccess) this.autologin()
   }
 }
