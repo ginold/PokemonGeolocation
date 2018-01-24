@@ -3,26 +3,18 @@
     <h1 class="md-headline">Add Pokémon</h1>
     <form novalidate @submit.stop.prevent="submit">
       <md-input-container
-        :class="{'md-input-invalid': $v.pokedexId.$error}"
+        :class="{'md-input-invalid': !$v.pokemon.isValid}"
       >
-        <label>Pokédex Id</label>
-        <md-input
-          v-model.trim="pokedexId"
-          @input="!$v.pokedexId.$touch()"
-        ></md-input>
-        <span class="md-error"
-          v-if="!$v.pokedexId.required"
-        >Pokédex Id is a required field.</span>
-        <span class="md-error"
-          v-else-if="!$v.pokedexId.numeric"
-        >Pokédex Id must be numeric.</span>
+        <label>Pokédex Id or Name</label>
+        <md-autocomplete @input="!$v.pokemon.$touch()" v-model.trim="pokemon" :fetch="fetchPokemons" md-dense>
+        </md-autocomplete>
+        <span class="md-error" v-if="!$v.pokemon.isValid"
+        >Invalid pokemon name.</span>
 
       </md-input-container>
       <div class="buttons">
-        <router-link tag="md-button"
-          :to="{name: 'map'}"
-        >Back to Map</router-link>
-        <md-button class="md-raised md-primary" type="submit" >Add</md-button>
+        <router-link tag="md-button":to="{name: 'map'}">Back to Map</router-link>
+        <md-button class="md-raised md-primary" type="submit">Add</md-button>
       </div>
     </form>
   </md-whiteframe>
@@ -30,26 +22,28 @@
 
 <script>
 
-import {
-  required,
-  and, // Passes when all of provided validators passes.
-  numeric
-} from 'vuelidate/lib/validators'
-import {mapActions} from 'vuex'
+import {mapActions, mapGetters} from 'vuex'
 
 export default {
   name: 'add',
   data () {
     return {
-      pokedexId: undefined
+      pokemon: undefined
     }
   },
   validations: {
-    pokedexId: {
-      required,
-      and,
-      numeric
+    pokemon: {
+      isValid: function (value) {
+        console.log(this.getPokeList, value)
+        // cast to boolean
+        return !!this.getPokeList.find(item => String(item.name).includes(value))
+      }
     }
+  },
+  computed: {
+    ...mapGetters([
+      'getPokeList'
+    ])
   },
   methods: {
     ...mapActions([
@@ -60,7 +54,23 @@ export default {
       this.$v.$touch()
       // $v model represents the current state of validation
       if (this.$v.$invalid) return
-      this.submitSighting(this.pokedexId)
+      this.submitSighting(this.getIdFromName(this.pokemon))
+    },
+    fetchPokemons (param) {
+      return new Promise((resolve, reject) => {
+        resolve(this.getPokeList.filter(item => {
+          let returnValue = false
+          if (/\d+/.test(param.q)) {
+            returnValue = String(item.species_id).includes(param.q)
+          } else {
+            returnValue = item.name.toLowerCase().includes(param.q.toLowerCase())
+          }
+          return returnValue
+        }))
+      })
+    },
+    getIdFromName (name) {
+      console.log(this.getPokeList.find(item => item.name === name))
     }
   }
 }
