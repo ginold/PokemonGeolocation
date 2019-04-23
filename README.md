@@ -1,7 +1,7 @@
 # pgmon17
 
 > Pokemon Go Monitor 17
-http://flock-1231.students.fhstp.ac.at/index.html
+http://flock-1231.students.fhstp.ac.at
 
 ## Build Setup
 

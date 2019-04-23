@@ -47,7 +47,6 @@
     methods: {
       open (pokemon, click) {
         console.log(click)
-        console.log()
         let url = require('../assets/img/pokemon-thumbnails/' + pokemon.name.toLowerCase() + '.png')
         let img = this.$refs.pokemonImgRef.cloneNode(false)
         img.src = url

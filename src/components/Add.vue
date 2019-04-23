@@ -68,7 +68,7 @@ export default {
       return new Promise((resolve, reject) => {
         resolve(this.getPokeList.filter(item => {
           let returnValue = false
-          if (/\d+/.test(param.q)) {
+          if (/\d+/.test(param.q)) { // loof is its a number [0-9]
             returnValue = String(item.species_id).includes(param.q)
           } else {
             returnValue = item.name.toLowerCase().includes(param.q.toLowerCase())
